@@ -1,0 +1,14 @@
+body {
+  font-family: Lato, 'Source Sans Pro', 'Saira Extra Condensed', sans-serif;
+  font-weight: 400;
+  font-size: small;
+}
+h1, h2, h3, h4, div {
+  line-height: 1em; margin: 0px; font-size: 100%;
+}
+/* main {
+  min-width: 198em;
+}*/
+header, footer h2 {
+  text-align: center;
+}
