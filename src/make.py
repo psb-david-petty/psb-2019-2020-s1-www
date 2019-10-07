@@ -93,6 +93,7 @@ _webpage_format = """
         <h2>{filename} &mdash; {date_time}</h2>
         <article>
           <p>This file is available on <a href="https://github.com/psb-david-petty/psb-2019-2020-s1-www">Github</a>&hellip;</p>
+{extra}
         </article>
       </section>
     </footer>
@@ -110,7 +111,7 @@ _ul_format = """
 """
 
 
-def collect(start=".", top='..', html='index.html'):
+def collect(start=".", top=['..', 'www'], html='index.html'):
     """Return list of links below top containing html whose top component
     is start, instead of top."""
     links = list()
@@ -118,7 +119,7 @@ def collect(start=".", top='..', html='index.html'):
         path = root.split(os.sep)
         if html in files:
             links.append(os.path.join(
-                os.sep.join([start] + [d for d in path if d != top])))
+                os.sep.join([start] + [d for d in path if d not in top])))
     return links
 
 
@@ -132,10 +133,10 @@ def format_main(files,
     comment = ''
     links = _ul_format.format(items=items.rstrip())
     main = _main_format.format(text=text.rstrip(), links=links.rstrip())
-    extra = ''
+    extra = 10 * ' ' + '<p>The main documentation is <a href="..">here</a>'
     return _webpage_format.format(
-        comment=comment, heading=heading, main=main.rstrip(),
-        filename='pages.html', date_time=datetime.datetime.now().strftime('%c')
+        comment=comment, heading=heading, main=main.rstrip(), extra=extra,
+        filename='students.html', date_time=datetime.datetime.now().strftime('%c')
     )
 
 
@@ -157,4 +158,4 @@ if __name__ == '__main__':
         '__file__' not in globals()
         )
     if is_idle or is_pycharm or is_jupyter:
-        write(format_main(collect()), '../www/pages.html')
+        write(format_main(collect()), '../www/students.html')
