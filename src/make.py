@@ -105,44 +105,75 @@ _main_format = """
 {links}
 """
 _ul_format = """
-      <ul>
+{indent}<ul>
 {items}
-      </ul>
+{indent}</ul>
 """
+_li_format = """
+{indent}<li>{text}</li>
+"""
+_default_text = """      <p>These are links to student websites:</p>"""
 
 
-def collect(start=".", top=['..', 'www'], html='index.html'):
+def collect(start="..", top='..', html='index.html'):
     """Return list of links below top containing html whose top component
     is start, instead of top."""
     links = list()
-    for root, dirs, files in os.walk('..'):
+    for root, dirs, files in os.walk(top):
         path = root.split(os.sep)
         if html in files:
-            links.append(os.path.join(
-                os.sep.join([start] + [d for d in path if d not in top])))
-    return links
+            links.append(os.path.normpath(os.path.join(
+                os.sep.join([start] + [d for d in path if d != top]), '')))
+    return sorted(links)
 
 
-def format_main(files,
-                heading='',
-                text='      <p>These are links to student websites:</p>'):
-    """Return html for links as an unordered list."""
-    items = ''
-    for link in files:
-        items += f'        <li><a href="{link}">{link}</a></li>\n'
-    comment = ''
-    links = _ul_format.format(items=items.rstrip())
-    main = _main_format.format(text=text.rstrip(), links=links.rstrip())
+def _nest(path, dictionary):
+    """Return nested dictionaries of components of path list."""
+    if path:
+        dictionary[path[0]] = _nest(path[1:], dictionary.get(path[0], dict()))
+    return dictionary
+
+
+def _create(links):
+    """Create nested dict made up of components of links paths."""
+    nested = dict()
+    for link in links:
+        nested = _nest(link.split(os.sep), nested)
+    return nested
+
+
+def _lists(nested, link=list(), indent=3):
+    """Return formatted, nested, HTML unordered lists matching nested dicts."""
+    if nested:
+        items = ''
+        for key in sorted(nested):
+            nest = nested[key]
+            items += _li_format.format(
+                text=(key if nest else '') + _lists(
+                    nest, link + [key], indent + 1),
+                indent=(indent + 1) * 2 * ' ')
+        return _ul_format.format(items=items, indent=indent * 2 * ' ').strip()
+    else:
+        uri = os.sep.join(link + [''])
+        return f'<a href="{uri}">{link[-1]}</a>'
+
+
+def format_main(files, heading='', text=_default_text):
+    """Return html for links as formatted, nested, unordered lists."""
+    comment, filename = '', 'students.html'
+    links = _lists(_create(files))
+    main = _main_format.format(text=text, links=3 * 2 * ' ' + links) \
+        .replace('\n\n', '\n')
     extra = 10 * ' ' + '<p>The main documentation is <a href="..">here</a>'
     return _webpage_format.format(
-        comment=comment, heading=heading, main=main.rstrip(), extra=extra,
-        filename='students.html', date_time=datetime.datetime.now().strftime('%c')
+        comment=comment, heading=heading,
+        main=main.rstrip(), extra=extra, filename=filename,
+        date_time=datetime.datetime.now().strftime('%c')
     )
 
 
 def write(page, outpath=None):
     """Write page to outpath, or print if outpath is None."""
-    # Write or print self.code.
     if outpath:
         with open(outpath, 'w') as outfile:
             outfile.write(page)
@@ -158,4 +189,5 @@ if __name__ == '__main__':
         '__file__' not in globals()
         )
     if is_idle or is_pycharm or is_jupyter:
-        write(format_main(collect()), '../www/students.html')
+        # Write formatted student webpage links to ../www/students.html
+        write(format_main(collect()).lstrip(), '../www/students.html')
