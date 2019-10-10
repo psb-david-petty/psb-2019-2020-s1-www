@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>Dustin</title>
+        <script>
+function getVote(int) {
+  if (window.XMLHttpRequest) {
+    xmlhttp=new XMLHttpRequest();
+  } else {  // code for IE6, IE5
+    xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+  xmlhttp.onreadystatechange=function() {
+    if (this.readyState==4 && this.status==200) {
+      document.getElementById("poll").innerHTML=this.responseText;
+    }
+  }
+  xmlhttp.open("GET","poll_vote.php?vote="+int,true);
+  xmlhttp.send();
+}
+</script>
+<style>
+p.solid {border-style: solid;}
+body {
+  max-width: 800px;
+}
+table {
+  border: 1px solid black;
+}
+th {
+  border: 1px solid black;
+}
+td {
+  border: 1px solid black;
+}
+</style>
+    </head>
+    
+        <h1>Who I Am</h1>
+        <p class="solid"> Hi, i'm Dustin and I making a website about my self for my Website design class. I was born in Boston Mass, and have stayed nearby every since. I was raised with two amazing siblings, a brother and a sister. Now I'm a sophomore at <a href="http://bhs.brookline.k12.ma.us/">Brookline High School</a> . I spend most of my time at school or rowing for the <a href="https://brooklinerowing.org/">Brookline High School Crew Team</a>. When i'm not rowing or at school, you would most likely find me sitting in front of a computer or with friends. Later in life I want to go to school for Biomedical engineering specialising in genetics, becuase It interests me, and I believe it’s the future. That's just a basic idea of who I am</p>
+   <h1>Recommendations</h1>
+        <p>Some Video Games I would recommend are:</p>
+        <ul>
+            <li>Ark Survival Evolved</li>
+            <li>Rust</li>
+            <li>Minecraft</li>
+            <li>Cod Modern Warfare 2</li>
+            <li>Breath Of The Wild</li>
+            <li>Super Smash Bros 5 and Brawl</li>
+        </ul>
+<h1>Recipe</h1>
+    <p>Today I am going to teach you how to make a crafting table in Minecraft.</p>
+        <ol> 
+
+            <li>Get one piece of wood</li>
+            <li>Turn one wood into four wooden planks</li>
+            <li>Put one piece of wooden plank in each slot of you inventory crafting menu</li>
+            <li>You now have a crafting table </li>
+        </ol>
+        <img src=https://vignette.wikia.nocookie.net/ultimate-gaming-galaxy/images/1/17/Crafting_table_recipe.jpg/revision/latest?cb20140302035245 alt=Crafting_table>
+<a href="https://ultimate-gaming-galaxy.fandom.com/wiki/Crafting_Table_(Minecraft)">Source</a> 
+
+<div id="poll">
+<h2>Do you like this website so far?</h2>
+<form>
+Yes:
+<input type="radio" name="vote" value="0" onclick="getVote(this.value)">
+<br>No:
+<input type="radio" name="vote" value="1" onclick="getVote(this.value)">
+</form>
+</div>
+    </body>
+</html>

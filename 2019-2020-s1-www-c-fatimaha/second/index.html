@@ -1,0 +1,223 @@
+<!--My Schedule-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title> My Second Webpage!</title>
+    
+    <style>
+    .content-table {
+        border-collapse:collapse;
+        margin:25px;
+        font-size:0.9em;
+        min-width:400px;
+        border-radius:5px 5px 0 0;
+        overflow:hidden;
+        box-shadow:0 0 20px rgba(0, 0, 0, 0.15);
+    }
+    
+    .content-table th {
+        background-color:#383838;
+        color: #ffffff;
+        text-align:left;
+        font-weight:bold;
+        
+    }    
+        
+        .content-table th,
+        .content-table td{
+            padding:12px 15px;
+        }
+        
+        .content-table tbody tr{
+            border-bottom:1px solid #cccccc;
+            
+        }
+        
+        .content-table tbody tr:nth-of-type(even){
+            background-color:#e6e6e6;
+        }
+        
+        .content-table tbody tr:last-of-type{
+            border-bottom:2px solid #383838;
+        }
+        
+        .content-table tbody tr.active-row{
+            font-weight: bold;
+            color:#606060;
+        }
+    </style>
+  </head>
+    
+    <body>
+  
+      <h1><u> Brookline HS Student/Time Table </u> </h1>
+   
+      <h2> Week A </h2> 
+      
+      <table class="content-table">
+       
+       <tr> 
+       <th> Monday A</th> 
+       <th> Tuesday A</th> 
+       <th> Wednesday A</th>
+       <th> Thusday A</th>
+       <th> Friday A</th>
+       </tr> 
+  
+       <tr class="active-row">
+         <td> Z 7:30-8:15</td>
+         <td> Z 7:30-8:15</td>
+         <td> Z 7:30-8:15</td>
+         <td> Z 7:30-8:15</td>
+         <td> Z 7:30-8:15</td>
+       </tr>
+       
+       
+     
+       <tr>
+         <td> A1 8:20-9:20</td>
+         <td> C1 8:20-9:25</td>
+         <td> A2 8:20-9:15</td> 
+         <td> B3 8:20-9:25</td>
+         <td> B4 8:30-9:35</td>
+       </tr>
+    
+       <tr>
+         <td> B1 9:25-10:25</td>
+         <td> <u>E2 9:30-10:35</u></td>
+         <td> B2 9:20-10:15</td>
+         <td> A3 9:30-10:35</td>
+         <td> C3 9:40-10:40</td>
+       </tr>
+     
+       <tr>
+         <td> T 10:30-11:00</td>
+         <td> D2 10:40-12:15</td>
+         <td> C2 10:20-11:15</td>
+         <td> T 10:40-11:15</td>
+         <td> <u>E4 10:45-11:50</u></td>
+       </tr>
+        
+       <tr>
+         <td> D1 11:05-12:35</td>
+         <td> F1 12:20-1:25</td>
+         <td> <u>E3 11:20-12:45</u></td>
+         <td> G4 12:00-1:35</td>
+         <td> D4 11:55-1:30</td>
+       </tr>
+ 
+       <tr>
+         <td> <u>E1 12:40-1:40</u></td>
+         <td> G2 1:30-2:35</td>
+         <td> D3 12:50-1:45</td>
+         <td> F2 1:40-2:45</td>
+         <td> F3 1:35-2:40</td>
+       </tr>
+       
+       <tr class="active-row">
+         <td> G1 1:45-2:50</td>
+         <td> -</td>
+         <td> G3 1:50-2:45</td>
+         <td> -</td>
+         <td> -</td>
+       </tr>
+    
+      </table>  
+        
+        <h2> Week B </h2>
+        
+      <table class="content-table">
+        
+       <tr> 
+        <th> Monday B</th> 
+        <th> Tuesday B</th> 
+        <th> Wednesday B</th>
+        <th> Thusday B</th>
+        <th> Friday B</th>
+       </tr> 
+       
+       <tr class="active-row">
+         <td> Z 7:30-8:15</td>
+         <td> Z 7:30-8:15</td>
+         <td> Z 7:30-8:15</td>
+         <td rowspan="2"> Faculty Collab</td>
+         <td> Z 7:30-8:15</td>
+       </tr>
+       
+       <tr>
+         <td> A4 8:20-9:25</td>
+         <td> A5 8:20-9:25</td>
+         <td> A6 8:20-9:20</td> 
+         <td> </td>
+         <tdc> A7 8:30-9:35</td>
+       </tr>
+       
+       <tr>
+         <td> T 9:30-10:00</td>
+         <td> B5 9:30-10:35</td>
+         <td> B6 9:25-10:25</td>
+         <td> C6 9:40-10:45</td>
+         <td> B7 9:40-10:45</td>
+       </tr>
+       
+       <tr>
+         <td> C4 10:05-11:05</td>
+         <td> C5 10:40-12:15</td>
+         <td> <u>X 10:30-11:00</u></td>
+         <td> D6 10:50-11:55</td>
+         <td> C7 10:50-11:55</td>
+       </tr>
+       
+       <tr>
+         <td> <u>E5 11:10-12:45</u></td>
+         <td> D5 12:20-1:25</td>
+         <td> <u>E6 11:05-12:35</u></td>
+         <td> F7 12:00-1:40</td>
+         <td> D7 12:00-1:35</td>
+       </tr>
+       
+       <tr>
+         <td> F4 12:50-1:45</td>
+         <td> F5 1:30-2:30</td>
+         <td> F6 12:40-1:40</td>
+         <td> G7 1:45-2:50</td>
+         <td> <u>E7 1:40-2:40</u></td>
+       </tr>
+       
+       <tr class="active-row">
+         <td> G5 1:50-2:50</td>
+         <td> -</td>
+         <td> G6 1:45-2:45</td>
+         <td> -</td>
+         <td> -</td>
+       </tr>
+       
+      </table>  
+     <br> <hr />
+        <br> <br> 
+        
+       <dl>
+          <dt style="background-color:#e6e6e6"> <u> Block A</u> </dt>
+          <dd> - Algebra II H </dd> 
+          
+          <dt style="background-color:#e6e6e6"> <u>Block B</u> </dt>
+          <dd> - Chemistry I</dd> 
+          
+          <dt style="background-color:#e6e6e6"> <u> Block C</u> </dt>
+          <dd> - Web Site Design</dd> 
+          
+          <dt style="background-color:#e6e6e6"> <u> Block D</u> </dt>
+          <dd> - French IIr</dd> 
+          
+          <dt style="background-color:#e6e6e6">  <u> Block F</u></dt>
+          <dd> - US History H</dd> 
+          
+          <dt style="background-color:#e6e6e6"> <u> Block G</u> </dt>
+          <dd> - American Literature H</dd> 
+          
+          <dt style="background-color:#e6e6e6">  <u> Block T</u> </dt>
+          <dd> - Advisory JR18</dd> 
+       </dl>
+
+    </body>
+</html>
