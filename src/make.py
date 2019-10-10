@@ -31,8 +31,8 @@ _webpage_format = """
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:200,400&display=swap" rel="stylesheet">
-    <link href="./styles/pages.css" rel="stylesheet">
-    <script src="./scripts/schedule.js"></script>
+    <link href="./styles/students.css" rel="stylesheet">
+    <script src="./scripts/students.js"></script>
   </head>
   <!-- http://patorjk.com/software/taag/    # ASCII art generator
   
