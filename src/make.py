@@ -3,7 +3,7 @@
 # make.py
 #
 
-"""Create 2019-2020 BHS schedule webpage."""
+"""Used in 2019-2020 WWW class to create students.html & files.txt."""
 
 import collections
 import csv
@@ -116,7 +116,7 @@ _li_format = """
 _default_text = """      <p>These are links to student websites:</p>"""
 
 
-def collect(top='..', start="..", html='index.html'):
+def _collect_paths(top='..', start="..", html=r'index.html'):
     """Return list of paths below top containing html with top replaced
     by start."""
     norm_top, norm_start = map(os.path.normpath, (top, start))
@@ -126,7 +126,7 @@ def collect(top='..', start="..", html='index.html'):
     return paths
 
 
-def file_list(paths, exts=['.html', '.css', '.js', 'jpg', '.png', ]):
+def _collect_files(paths, exts=['.html', '.css', '.js', 'jpg', '.png', ]):
     """Return list of files below each of paths w/ extensions from exts."""
     files = list()
     for ext in exts:
@@ -151,26 +151,30 @@ def _create(links):
     return nested
 
 
-def _lists(nested, link=list(), indent=3):
+def _lists(nested, link=list(), indent=3, html=r'index.html'):
     """Return formatted, nested, HTML ULs matching nested dicts. link is a list
-    of directory components up until nested. indent is UL indent level."""
+    of directory components up until nested. indent is UL indent level. index
+    is default HTML filename."""
     if nested:
         items = ''
         for key in sorted(nested):
             nest = nested[key]
-            uri = uri = os.sep.join(link + [key] + [''])
-            has_index = os.path.isfile(os.path.join(uri, r'index.html'))
-            text = f'<a href="{uri}">{key}</a>' if has_index else key
+            uri = os.sep.join(link + [key] + [''])
+            # Branch URI is link if has html or key if more nested, else blank.
+            has_index = os.path.isfile(os.path.join(uri, html))
+            text = (f'<a href="{uri}">{key}</a>' if has_index else key) \
+                if nest else ''
             items += _li_format.format(
-                text=(text if nest else '') + _lists(nest, link + [key], indent + 1),
+                text=text + _lists(nest, link + [key], indent + 1),
                 indent=(indent + 1) * 2 * ' ')
         return _ul_format.format(items=items, indent=indent * 2 * ' ').strip()
     else:
+        # Leaf URI guaranteed to have html.
         uri = os.sep.join(link + [''])
         return f'<a href="{uri}">{link[-1]}</a>'
 
 
-def format_main(files, heading='', text=_default_text):
+def _format_main(files, heading='', text=_default_text):
     """Return html for links as formatted, nested, unordered lists."""
     comment, filename = '', 'students.html'
     links = _lists(_create(files))
@@ -202,13 +206,14 @@ if __name__ == '__main__':
     )
     if is_idle or is_pycharm or is_jupyter:
         # Write formatted student webpage links to ../www/students.html
-        path = r'/Volumes/dcp/Users/dcp/Google Drive File Stream/My Drive/BHS/2019-2020/2019-2020-s1-www/psb-2019-2020-s1-www/'
+        path = '../'
         htmlfile = os.path.normpath(os.path.join(path, r'./www/students.html'))
         txtfile = os.path.normpath(os.path.join(path, r'./src/files.txt'))
-        dirs = collect()
-        write(format_main(dirs).lstrip(), htmlfile)
+        paths = _collect_paths()
+        write(_format_main(paths).lstrip(), htmlfile)
 
-        files = file_list(dirs)
+        # Create and write txtfile.
+        files = _collect_files(paths)
         with open(txtfile, 'w') as outfile:
             outfile.write('\n'.join(files + ['']))
         print(txtfile)
