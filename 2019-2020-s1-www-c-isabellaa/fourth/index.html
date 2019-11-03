@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<!-- SEMANTIC -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>index</title>
+    <style>
+      body {
+        font-family: Arial;
+        margin: 0;
+      }
+      header {
+        background-color: white;
+        padding-top: 10px;
+      }
+      header img {
+        height: 70px;
+      }
+      nav ul {
+        list-style-type: none;
+        padding: 0px 0px;
+        background-color: #39ac39;
+        box-shadow:  0px 2px 5px 3px lightgray;
+        margin: 0;
+        overflow: hidden;
+      }
+      nav li {
+        color: white;
+        padding: 15px 15px;
+        float: left;
+      }
+      nav li:hover {
+        background: white;
+        color: black;
+      }
+      aside {
+        margin: 0;
+        background-color: white;
+        overflow: auto;
+        position: absolute;
+        width: 200px;
+        position: fixed;
+        height: 100%;
+        overflow: auto;
+      }
+      aside ul {
+        list-style-type: none;
+        padding: 0px 0px;
+      }
+      aside li {
+        display: block;
+        background: white;
+        padding: 2px 5px;
+      }
+      aside li:hover {
+        background: lightgray;
+      }
+      aside li a {
+        text-decoration: none;
+        color: black;
+        display: block;
+        padding: 0px 10px;
+      }
+      main {
+        margin-left: 200px;
+        padding: 0px;
+        height: 100%;
+      }
+      section article h2 {
+        font-size: 40px;
+        padding-top: 30px;
+      }
+      section article p {
+        font-size: 25px;
+      }
+      .container {
+        display: flex;
+        flex-direction: row;
+      }
+      .container article {
+        width: 50%;
+        text-align: center;
+      }
+      .container article:nth-child(2) {
+        margin: 50px;
+        background: lightgray;
+        box-shadow: 0px 0px 8px gray;
+        padding-top: 10px;
+        padding-bottom: 30px;
+      }
+      .container article:nth-child(2) a {
+        text-decoration: none;
+        color: white;
+        background: #39ac39;
+        padding: 10px;
+      }
+      .container2 {
+        display: flex;
+        flex-direction: row-reverse;
+        background: lightgray;
+      }
+      .container2 article{
+        width: 50%;
+        text-align: center;
+      }
+      .container2 article:nth-child(2) {
+        margin: 50px;
+        background: white;
+        box-shadow: 0px 0px 8px gray;
+        padding-top: 10px;
+        padding-bottom: 30px;
+      }
+      .container2 article:nth-child(2) a {
+        text-decoration: none;
+        color: white;
+        background: #39ac39;
+        padding: 10px;
+      }
+      .container article a:hover {
+        box-shadow: 0px 0px 8px gray;
+      }
+      .container2 article a:hover {
+        box-shadow: 0px 0px 8px gray;
+      }
+      mark {
+        font-weight: bold;
+        background: transparent;
+      }
+      .pythonjava {
+        background: gray;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+      .pythonjava details {
+        background: white;
+        padding: 20px;
+        box-shadow: 0px 0px 8px #333333;
+        margin: 70px;
+        margin-left: 150px;
+        margin-right: 150px;
+      }
+      .pythonjava details a {
+        background: gray;
+        padding: 10px;
+        text-decoration: none;
+        color: white;
+      }
+      .pythonjava details a:hover {
+        background: lightgray;
+        color: black;
+      }
+      figcaption {
+        text-align: center;
+      }
+      figure {
+        text-align: center;
+        height: 100%;
+      }
+      .exercises {
+        background: gray;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        padding-bottom: 35px;
+      }
+      .exercises p {
+        padding-bottom: 10px;
+      }
+      .exercises article {
+        background: #39ac39;
+        display: inline;
+        padding: 10px 0px;
+        margin: 10px;
+      }
+      .exercises article a {
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+      }
+      main .exercises article a:hover {
+        box-shadow:  0px 4px 8px #333333;
+      }
+      footer {
+        background: gray;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        margin-left: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="https://www.w3schools.com/default.asp" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/W3Schools_logo.png" alt="w3schools"></a>
+    </header>
+    <nav>
+      <ul>
+        <li>Tutorials</li>
+        <li>References</li>
+        <li>Examples</li>
+        <li>Exercises</li>
+      </ul>
+    </nav>
+    <aside>
+      <p>HTML and CSS</p>
+      <ul>
+        <li><a href="https://www.w3schools.com/html/default.asp" target="_blank">Learn HTML</a></li>
+        <li><a href="https://www.w3schools.com/css/default.asp" target="_blank">Learn CSS</a></li>
+      </ul>
+      <p>JavaScript</p>
+      <ul>
+        <li><a href="https://www.w3schools.com/js/default.asp" target="_blank">Learn JavaScript</a></li>
+      </ul>
+      <p>References</p>
+      <ul>
+        <li><a href="https://www.w3schools.com/tags/default.asp" target="_blank">HTML References</a></li>
+        <li><a href="https://www.w3schools.com/cssref/default.asp" target="_blank">CSS References</a></li>
+        <li><a href="https://www.w3schools.com/jsref/default.asp" target="_blank">JS References</a></li>
+      </ul>
+      <p>Exercises</p>
+      <ul>
+        <li><a href="https://www.w3schools.com/html/html_exercises.asp" target="_blank">HTML Exercises</a></li>
+        <li><a href="https://www.w3schools.com/css/css_exercises.asp" target="_blank">CSS Exercises</a></li>
+        <li><a href="https://www.w3schools.com/js/js_exercises.asp" target="_blank">JavaScript Exercises</a></li>
+      </ul>
+    </aside>
+    <main>
+      <section class="container">
+        <article>
+          <h2>HTML</h2>
+          <p>The language for building web pages</p>
+        </article>
+        <article>
+          <p><mark>HTML Example</mark></p>
+          <br>
+          <a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default" target="_blank">See Example</a>
+        </article>
+      </section>
+      <section class="container2">
+        <article>
+          <h2>CSS</h2>
+          <p>The language for styling web pages</p>
+        </article>
+        <article>
+          <p><mark>CSS Example</mark></p>
+          <br>
+          <a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_default" target="_blank">See Example</a>
+        </article>
+      </section>
+      <section class="container">
+        <article>
+          <h2>JavaScript</h2>
+          <p>The language for programming web pages</p>
+        </article>
+        <article>
+          <p><mark>JS Example</mark></p>
+          <br>
+          <a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_default" target="_blank">See Example</a>
+        </article>
+      </section>
+      
+      <section class="pythonjava">
+        <details>
+          <summary>Python</summary>
+          <p>A programming language</p>
+          <br>
+          <a href="https://www.w3schools.com/python/default.asp" target="_blank">LEARN PYTHON</a>
+        </details>
+        <details>
+          <summary>Java</summary>
+          <p>A programming language</p>
+          <br>
+          <a href="https://www.w3schools.com/java/default.asp" target="_blank">LEARN JAVA</a>
+        </details>
+      </section>
+      <section>
+        <figure>
+          <figcaption><h3>Color Picker</h3></figcaption>
+          <a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank"><img src="https://www.w3schools.com/colors/img_colormap.gif" alt="color picker" height="150"></a>
+        </figure>
+      </section>
+      <section class="exercises">
+        <h3>Exercises</h3>
+        <p>Test yourself with exercises</p>
+        <article><a href="https://www.w3schools.com/html/html_exercises.asp" target="_blank">HTML Exercises</a></article>
+        <article><a href="https://www.w3schools.com/css/css_exercises.asp" target="_blank">CSS Exercises</a></article>
+        <article><a href="https://www.w3schools.com/js/js_exercises.asp" target="_blank">JavaScript Exercises</a></article>
+      </section>
+      <br><br><br>
+    </main>
+    <footer>
+      <p>Last edited: <time datetime="2019-10-23 08:00">TODAY</time></p>
+    </footer>
+  </body>
+</html>
+4CAF50

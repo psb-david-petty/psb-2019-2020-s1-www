@@ -11,118 +11,193 @@
 
 
   <style>
-    header ul {
+    body {
+      min-width: 10%;
+    }
+
+    header {
+
       background-color: black;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      font-size: 7;
+    }
+
+    header ul {
+
+      margin: .5%;
+      display: inline-flex;
+      width: 49%;
+
+    }
+
+    ul+ul {
+      justify-content: flex-end;
+      background-color: black
+    }
+
+    header ul {
+      list-style: none;
+      padding: 02;
     }
 
     header li {
-      display: inline;
+
+      min-width: 25%;
+      padding: 0 1%;
+    }
+
+    header ul+ul li {
+      min-width: 4%;
+    }
+
+    /* END CODEPEN */
+
+    .tab-1,
+    header a:link,
+    header a:visited,
+    footer a:link,
+    footer a:visited {
       color: white;
-      margin: 20px;
-      font-family: Courier;
-      letter-spacing: .9px;
-      font-size: 12px;
-      justify-content: ;
+      text-decoration: none;
     }
 
     nav ul {
       background-color: white;
     }
 
+    nav ul {}
+
     nav li {
       display: inline;
+      padding: 20px;
+
     }
 
     footer li {
-      display: flex;
-      justify-content:center;
-      padding: 15px;
+      display: inline;
+      width: 100%;
       font-size: 10px;
-      float:left;
-      background-color:black;
 
+      background-color: black;
+      color: white;
       letter-spacing: .9px;
-      
-      
-          }
 
-   logo {
-      width
+
+
+    }
+
+    .logo {
+      width: 100%;
+      display: flex;
+
+    }
+
+    main .read-more {
+      background-color: black;
+      color: white;
+      padding: 10px;
+
+
+    }
+
+
+    main h3 {
+      padding-top: 23%;
+      text-align: center;
+      word-spacing: 10px;
+      color: white;
+
+
+    }
+
+    main {
+      background-image: url("https://drive.google.com/uc?id=1Tr-mwNpV-CKD_JXyCc9ZU1a2hd-U2iLH");
+      background-repeat: no-repeat;
+      position: relative;
+      text-align: center;
+      vertical-align: middle;
+      padding: 0px;
+      background-size: cover;
+
+    }
+
+    main h2 {
+      position: absolute;
+      padding-bottom: 50%;
     }
   </style>
 </head>
 
 <body>
   <header>
+    <ul>
+      <li class="tab-1">GET TO KNOW US:</li>
+      <li class="tab-2"><a href="https://scoutthecity.com/about/">ABOUT</a></li>
+      <li><a href="https://scoutthecity.com/contact/">CONTACT</a></li>
+      <li><a href="https://scoutthecity.com/press/">PRESS</a></li>
+    </ul>
+    <ul>
+      <li class="facebook"><a href="https://www.facebook.com/londonscout"><img src="https://drive.google.com/uc?id=1o_UuFWTzK2JSogh7Y-eKOUXz4pgPQtYp"></a></li>
+      <li class="twitter"><a href="https://twitter.com/scoutthecity"><img src="https://drive.google.com/uc?id=1DCXZARBNYl_jIGTIo5BrJP2DBAViCUKF"></a></li>
+      <li class="snapchat"><a href="https://www.snapchat.com/add/scoutthecity"><img src="https://drive.google.com/uc?id=1eeFh6i-b6Z58XbjSHtfI14U-PY9d-P6o"></a></li>
+      <li class="instagram"><a href="https://www.instagram.com/scoutthecity/"><img src="https://drive.google.com/uc?id=1Q6U6bFRpIcpoWKMyAMo7RrdKKTQYCxBk"></a></li>
+      <li class="youtube"><a href="https://www.youtube.com/channel/UCcwcWvOq0qEsFucvjxJeXeA"><img src="https://drive.google.com/uc?id=1yTBgpKPxPs4-mtLOd0uT6hnfnICnGGFz"></a></li>
+      <li class="pinterest"><a href="https://www.pinterest.com/scoutthecity/"><img src="https://drive.google.com/uc?id=1iFf305iiNXFTcMuprMRuKkUMj8r2X5eF"></a></li>
+      <li class="bloglovin"><a href="https://www.bloglovin.com/blogs/scout-city-12291879"><img src="https://drive.google.com/uc?id=1ZsZ_OIlA2b6Qq5Cs1yWrpgvUcc4jKGx6"></a></li>
+
+    </ul>
+  </header>
+
+  <nav>
     <section>
-      <h1>
+      <article>
         <ul>
-          <li class="tab-1">GET TO KNOW US:</li>
-          <li class="tab-2"><a href="https://scoutthecity.com/about/">ABOUT</a></li>
-          <li><a href="https://scoutthecity.com/contact/">CONTACT</a></li>
-          <li><a href="https://scoutthecity.com/press/">PRESS</a></li>
-          <li><a href="https://www.facebook.com/londonscout"><img src="https://drive.google.com/uc?1o_UuFWTzK2JSogh7Y-eKOUXz4pgPQtYp"></a></li>
-          
-a href="
-
-
-
-
+          <li class="logo"><a href="https://scoutthecity.com/"><img src="data:image/png;base64,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" alt="Scout the City" style="width:300px; float:left;"></a></li>
+        </ul>
+        <br>
+        <ul>
+          <li class="logo"><a href="https://scoutthecity.com/"><img src="data:image/png;base64,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" alt="Scout the City" style="width:300px; float:left;"></a></li>
+          <li class="tab-1"><a href="https://scoutthecity.com/category/fashion/">Fashion</a></li>
+          <li class="tab-2"><a href="https://scoutthecity.com/category/beauty/">Beauty</a></li>
+          <li><a href="https://scoutthecity.com/category/lifestyle/">Lifestyle</a></li>
+          <li class="tab-4"><a href="https://scoutthecity.com/category/videos/">Videos</a></li>
+          <li class="tab-5"><a href="https://scoutthecity.com/shop/">Shop</a></li>
+          <!-- Search Bar?-->
+          <li class="magnifying glass"><img src="https://cdn1.iconfinder.com/data/icons/web-and-mobile-ui-outline-icon-kit/512/UI_Icons_2-01-512.png" width="20" height="20"></li>
 
         </ul>
-      </h1>
+      </article>
     </section>
-  </header>
-  <header>
-    <nav>
-      <section>
-        <article>
-          <ul>
-            <li class="logo"><a href="https://scoutthecity.com/"><img src="data:image/png;base64,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" alt="Scout the City" style="width:300px; float:left;"></a></li>
-            <li class="tab-1"><a href="https://scoutthecity.com/category/fashion/">Fashion</a></li>
-            <li class="tab-2"><a href="https://scoutthecity.com/category/beauty/">Beauty</a></li>
-            <li><a href="https://scoutthecity.com/category/lifestyle/">Lifestyle</a></li>
-            <li class="tab-4"><a href="https://scoutthecity.com/category/videos/">Videos</a></li>
-            <li class="tab-5"><a href="https://scoutthecity.com/shop/">Shop</a></li>
-            <!-- Search Bar?-->
-            <li class="magnifying glass"><img src="https://cdn1.iconfinder.com/data/icons/web-and-mobile-ui-outline-icon-kit/512/UI_Icons_2-01-512.png" width="20" height="20"></li>
+  </nav>
 
-          </ul>
-        </article>
-      </section>
-    </nav>
-  </header>
   <main>
     <section>
       <article>
+        <h3>INSPIRATION LIFESTYLE</h3>
+        <h2>HOW TO FEEL MORE IN TUNE WITH YOUR LIFE</h2>
+
+        <button class="read-more">Read More</button>
+
 
       </article>
     </section>
   </main>
-<br>  <footer>
-  <li><a href="https://scoutthecity.com/about/">ABOUT</a></li>
-  <li><a href="https://scoutthecity.com/contact/">CONTACT</a></li>
-  <li><a href="https://scoutthecity.com/press/">PRESS</a></li>
-  <li><a href="https://scoutthecity.com/category/fashion/">FASHION</a></li>
-  <li><a href="https://scoutthecity.com/category/beauty/">BEAUTY</a></li>
-  <li><a href="https://scoutthecity.com/category/lifestyle/">LIFESTYLE</a></li>
-  <li><a href="https://scoutthecity.com/category/videos/">VIDEOS</a></li>
-  <li class="tab-5"><a href="https://scoutthecity.com/shop/">SHOP</a></li>
-  <li><span style="float:right;">COPYRIGHT&copy; 2019 SCOUT THELL RIGHTS RESERVED.</span></li>
-</footer>
+
+  <footer>
+    <ul>
+      <li><a href="https://scoutthecity.com/about/">ABOUT</a></li>
+      <li><a href="https://scoutthecity.com/contact/">CONTACT</a></li>
+      <li><a href="https://scoutthecity.com/press/">PRESS</a></li>
+      <li><a href="https://scoutthecity.com/category/fashion/">FASHION</a></li>
+      <li><a href="https://scoutthecity.com/category/beauty/">BEAUTY</a></li>
+      <li><a href="https://scoutthecity.com/category/lifestyle/">LIFESTYLE</a></li>
+      <li><a href="https://scoutthecity.com/category/videos/">VIDEOS</a></li>
+      <li><a href="https://scoutthecity.com/shop/">SHOP</a></li>
+      <li><span style="float:right;">COPYRIGHT&copy; 2019 SCOUT THE CITY. ALL RIGHTS RESERVED.</span></li>
+    </ul>
+  </footer>
 </body>
 
- 2:27
-
-
-</html>   
-       
-         nav.              
-       
-     
-
-                                                                                                                             <li>
- 
-
-
-
+</html>

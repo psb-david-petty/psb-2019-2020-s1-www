@@ -9,13 +9,14 @@ import collections
 import csv
 import datetime
 import os
+import pathlib
 import re
 import sys
 
 __author__ = "David C. Petty & 2019-2020 S1 WWW"
 __copyright__ = "Copyright 2019, David C. Petty"
 __license__ = "https://creativecommons.org/licenses/by-nc-sa/4.0/"
-__version__ = "0.0.1"
+__version__ = "0.0.2"
 __maintainer__ = "David C. Petty"
 __email__ = "david_petty@psbma.org"
 __status__ = "Hack"
@@ -35,7 +36,7 @@ _webpage_format = """
     <script src="./scripts/students.js"></script>
   </head>
   <!-- http://patorjk.com/software/taag/    # ASCII art generator
-  
+
  /$$$$$$$  /$$   /$$  /$$$$$$        /$$      /$$ /$$      /$$ /$$      /$$                                  
 | $$__  $$| $$  | $$ /$$__  $$      | $$  /$ | $$| $$  /$ | $$| $$  /$ | $$                                  
 | $$  \ $$| $$  | $$| $$  \__/      | $$ /$$$| $$| $$ /$$$| $$| $$ /$$$| $$                                  
@@ -44,9 +45,9 @@ _webpage_format = """
 | $$  \ $$| $$  | $$ /$$  \ $$      | $$$/ \  $$$| $$$/ \  $$$| $$$/ \  $$$                                  
 | $$$$$$$/| $$  | $$|  $$$$$$/      | $$/   \  $$| $$/   \  $$| $$/   \  $$                                  
 |_______/ |__/  |__/ \______/       |__/     \__/|__/     \__/|__/     \__/                                  
-                                                                                                             
-                                                                                                             
-                                                                                                             
+
+
+
   /$$$$$$   /$$$$$$    /$$    /$$$$$$          /$$$$$$   /$$$$$$   /$$$$$$   /$$$$$$         /$$$$$$    /$$  
  /$$__  $$ /$$$_  $$ /$$$$   /$$__  $$        /$$__  $$ /$$$_  $$ /$$__  $$ /$$$_  $$       /$$__  $$ /$$$$  
 |__/  \ $$| $$$$\ $$|_  $$  | $$  \ $$       |__/  \ $$| $$$$\ $$|__/  \ $$| $$$$\ $$      | $$  \__/|_  $$  
@@ -115,16 +116,24 @@ _li_format = """
 _default_text = """      <p>These are links to student websites:</p>"""
 
 
-def collect(start="..", top='..', html='index.html'):
-    """Return list of links below top containing html whose top component
-    is start, instead of top."""
-    links = list()
-    for root, dirs, files in os.walk(top):
-        path = root.split(os.sep)
-        if html in files:
-            links.append(os.path.normpath(os.path.join(
-                os.sep.join([start] + [d for d in path if d != top]), '')))
-    return sorted(links)
+def collect(top='..', start="..", html='index.html'):
+    """Return list of paths below top containing html with top replaced
+    by start."""
+    norm_top, norm_start = map(os.path.normpath, (top, start))
+    top_path, glob = pathlib.Path(norm_top), os.path.join(r'**/', html)
+    paths = list(sorted(os.path.dirname(p).replace(norm_top, norm_start)
+        for p in top_path.glob(glob)))
+    return paths
+
+
+def file_list(paths, exts=['.html', '.css', '.js', 'jpg', '.png', ]):
+    """Return list of files below each of paths w/ extensions from exts."""
+    files = list()
+    for ext in exts:
+        for path in paths:
+            index_path, glob = pathlib.Path(path), r'**/*' + ext
+            files += index_path.glob(glob)
+    return [str(f) for f in sorted(set(files))]
 
 
 def _nest(path, dictionary):
@@ -143,14 +152,17 @@ def _create(links):
 
 
 def _lists(nested, link=list(), indent=3):
-    """Return formatted, nested, HTML unordered lists matching nested dicts."""
+    """Return formatted, nested, HTML ULs matching nested dicts. link is a list
+    of directory components up until nested. indent is UL indent level."""
     if nested:
         items = ''
         for key in sorted(nested):
             nest = nested[key]
+            uri = uri = os.sep.join(link + [key] + [''])
+            has_index = os.path.isfile(os.path.join(uri, r'index.html'))
+            text = f'<a href="{uri}">{key}</a>' if has_index else key
             items += _li_format.format(
-                text=(key if nest else '') + _lists(
-                    nest, link + [key], indent + 1),
+                text=(text if nest else '') + _lists(nest, link + [key], indent + 1),
                 indent=(indent + 1) * 2 * ' ')
         return _ul_format.format(items=items, indent=indent * 2 * ' ').strip()
     else:
@@ -187,7 +199,16 @@ if __name__ == '__main__':
         'idlelib' in sys.modules,
         int(os.getenv('PYCHARM', 0)),
         '__file__' not in globals()
-        )
+    )
     if is_idle or is_pycharm or is_jupyter:
         # Write formatted student webpage links to ../www/students.html
-        write(format_main(collect()).lstrip(), '../www/students.html')
+        path = r'/Volumes/dcp/Users/dcp/Google Drive File Stream/My Drive/BHS/2019-2020/2019-2020-s1-www/psb-2019-2020-s1-www/'
+        htmlfile = os.path.normpath(os.path.join(path, r'./www/students.html'))
+        txtfile = os.path.normpath(os.path.join(path, r'./src/files.txt'))
+        dirs = collect()
+        write(format_main(dirs).lstrip(), htmlfile)
+
+        files = file_list(dirs)
+        with open(txtfile, 'w') as outfile:
+            outfile.write('\n'.join(files + ['']))
+        print(txtfile)
