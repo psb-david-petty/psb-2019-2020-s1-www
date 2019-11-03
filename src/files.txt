@@ -4,12 +4,12 @@
 ../2019-2020-s1-www-c-avinr/3rd/index.html
 ../2019-2020-s1-www-c-avinr/3rd/style.css
 ../2019-2020-s1-www-c-avinr/news/index.html
-../2019-2020-s1-www-c-brendanc/Index.html
 ../2019-2020-s1-www-c-brendanc/fifth/code.js
 ../2019-2020-s1-www-c-brendanc/fifth/index.html
 ../2019-2020-s1-www-c-brendanc/fifth/style.css
 ../2019-2020-s1-www-c-brendanc/first/index.html
 ../2019-2020-s1-www-c-brendanc/fourth/index.html
+../2019-2020-s1-www-c-brendanc/index.html
 ../2019-2020-s1-www-c-brendanc/second/index.html
 ../2019-2020-s1-www-c-brendanc/third/index.html
 ../2019-2020-s1-www-c-dusting/Bad Table/code.js
