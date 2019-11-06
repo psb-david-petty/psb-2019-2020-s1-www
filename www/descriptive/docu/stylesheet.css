@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Docu';
+    src: url('Docu-Regular.woff2') format('woff2'),
+        url('Docu-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Docu';
+    src: url('Docu-Thin.woff2') format('woff2'),
+        url('Docu-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Docu-LightOblique';
+    src: url('Docu-LightOblique.woff2') format('woff2'),
+        url('Docu-LightOblique.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Docu-RegularOblique';
+    src: url('Docu-RegularOblique.woff2') format('woff2'),
+        url('Docu-RegularOblique.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Docu-MediumOblique';
+    src: url('Docu-MediumOblique.woff2') format('woff2'),
+        url('Docu-MediumOblique.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Docu';
+    src: url('Docu-Medium.woff2') format('woff2'),
+        url('Docu-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Docu';
+    src: url('Docu-Light.woff2') format('woff2'),
+        url('Docu-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Docu-BoldOblique';
+    src: url('Docu-BoldOblique.woff2') format('woff2'),
+        url('Docu-BoldOblique.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Docu-ThinOblique';
+    src: url('Docu-ThinOblique.woff2') format('woff2'),
+        url('Docu-ThinOblique.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Docu-XboldOblique';
+    src: url('Docu-XboldOblique.woff2') format('woff2'),
+        url('Docu-XboldOblique.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Docu';
+    src: url('Docu-Bold.woff2') format('woff2'),
+        url('Docu-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Docu-Xbold';
+    src: url('Docu-Xbold.woff2') format('woff2'),
+        url('Docu-Xbold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+

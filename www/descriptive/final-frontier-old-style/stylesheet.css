@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Final Frontier Old Style';
+    src: url('FinalFrontierOldStyle.woff2') format('woff2'),
+        url('FinalFrontierOldStyle.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+

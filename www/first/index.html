@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>My First Webpage!</title>
+    <style>
+    </style>
+  </head>
+  <body>
+    <h1>Introduction</h1>
+    <p><img src="https://drive.google.com/uc?id=1qDpzukQfYF-Cgg3V9RihZf8qdB0JI-ri" alt="Monty"> My name is <a href="http://j.mp/psb_david_petty">Mr. Petty</a>. I am a computer-science teacher at <a href="http://bhs.brookline.k12.ma.us/">Brookline High School</a>. My second year in Brookline is 2019-2020. Over the years I have taught computer science (at four different levels), engineering, robotics, WWW design, and mathematics. I have also coached the <a href="http://botball.org/">Botball</a> and <a href="https://battlebots.com/">BattleBotsIQ</a> robotics teams, the <a href="http://technovationchallenge.org/">Technovation Challenge</a>, the <a href="http://realworlddesignchallenge.org/">Real World Design Challenge</a> and clubs in computer science and entrepreneurship. I am <strong>excited</strong> to be in Brookline!</p>
+    <h1>Favorites</h1>
+    <p>My favorite <a href="https://en.wikipedia.org/wiki/List_of_popular_music_genres">genres</a> of music are (in alphabetical order):</p>
+    <ul>
+      <li>Alternative &amp; Punk</li>
+      <li>Blues</li>
+      <li>Classical</li>
+      <li>Electronic</li>
+      <li>Funk</li>
+      <li>Jazz</li>
+      <li>R&amp;B</li>
+      <li>Rock</li>
+      <li>Soul</li>
+      <li>Traditional</li>
+      <li>World</li>
+    </ul>
+    <h1>Recipe</h1>
+    <img src="https://drive.google.com/uc?id=1F2zVrWaUSjdw0rGR_0d9jjBdKlYCk2hh" alt="bunny salad">
+    <p>Bunny Salad</p>
+    <ol>
+      <li>Place crisp lettuce leaf on plate.</li>
+      <li>On top of it, place upside down &mdash; <span>1 chilled pear half</span></li>
+      <li>Make bunny, using narrow end for face.
+        <ul>
+          <li>Eyes &mdash; <span>2 raisins</span></li>
+          <li>Nose &mdash; <span>1 red cinnamon candy</span></li>
+          <li>Ears &mdash; <span>2 blanched almonds</span></li>
+          <li>For his tail &mdash; <span>cottage cheese ball</span></li>
+        </ul>
+      </li>
+    </ol>
+    <p>From <a href="http://isbn.nu/9780764526343"><em>Betty Crocker's Cook Book for Boys and Girls</em></a> &copy; 1957.</p>
+
+    <h1>Block quotation</h1>
+    <blockquote>
+      The report of my death was an exaggeration. - <a href="http://oupacademic.tumblr.com/post/48310773463/misquotation-reports-of-my-death-have-been">Mark Twain</a>
+    </blockquote>
+
+    <h1>Preformatted <code>code</code> block</h1>
+    <p>Preformatted <a href="https://python.org/">Python</a> <code>code</code> block for the greatest common divisor and the least common multiple of two integers.</p>
+    <pre>
+# <a href="https://en.wikipedia.org/wiki/Greatest_common_divisor">https://en.wikipedia.org/wiki/Greatest_common_divisor</a>
+def gcd(m, n):
+    """Return GCD of m and n. GCD is defined for all integers."""
+    return abs(m) if n == 0 else gcd(n, m % n)          # abs allows m &amp; n to be any integers
+
+# <a href="https://en.wikipedia.org/wiki/Least_common_multiple">https://en.wikipedia.org/wiki/Least_common_multiple</a>
+def lcm(m, n):
+    """Return LCM of m and n. LCM is defined for all integers."""
+    return 0 if m * n == 0 else abs(m // gcd(m, n) * n) # abs allows m &amp; n to be any integers
+                                                        # divide first to reduce overflow
+    </pre>
+  <!--
+    My second webpage
+  -->
+<!--
+  <dl>
+    <dt>The Internet</dt>
+    <dd>Cat videos. This is not all the Internet is. There are also videos of cute puppies!</dd>  
+    <dt>The Matrix</dt>
+    <dd>What is the Matrix?</dd>
+  </dl>
+  <hr>
+  <table style="color: green; background-color: yellow; border: thin solid black;">
+    <tr>
+      <th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th>
+    </tr>
+    <tr>
+      <td>Z1: 7:30 - 8:15 <p></p></td>
+      <td>Z2: 7:30 - 8:15 <p></p></td>
+      <td>Z3: 7:30 - 8:15 <p></p></td>
+      <td>Z4: 7:35 - 8:15 <p></p></td>
+      <td>Z5: 7:30 - 8:15 <p></p></td>
+    </tr>
+    <tr>
+      <td>A1: 8:20 - 9:10 <p>Exploring Computer Science</p></td>
+      <td>A2: 8:20 - 9:20 <p>Exploring Computer Science</p></td>
+      <td>A3: 8:20 - 9:10 <p>Exploring Computer Science</p></td>
+      <td>B3: 8:20 - 9:20 <p></p></td>
+      <td>B4: 8:20 - 9:10 <p></p></td>
+    </tr>
+    <tr>
+      <td>B1: 9:15 - 9:10 <p></p></td>
+      <td>T: 9:25 - 9:20 <p></p></td>
+      <td>B2: 9:15 - 9:10 <p></p></td>
+      <td>A4: 9:25 - 9:20 <p>Exploring Computer Science</p></td>
+      <td>D4: 9:15 - 9:10 <p>Exploring Computer Science</p></td>
+    </tr>
+    <tr>
+      <td>C1: 10:20 - 11:15 <br>APCS Principles</td>
+      <td>C2: 10:10 - 11:10 <br>APCS Principles</td>
+      <td>C3: 10:15 - 11:15 <br>APCS Principles</td>
+      <td>X: 10:30 - 11:10 <br></td>
+      <td>E4: 10:10 - 11:00  <br></td>
+    </tr>
+  </table>
+-->
+  </body>
+</html>

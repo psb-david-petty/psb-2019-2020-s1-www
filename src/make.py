@@ -126,7 +126,7 @@ def _collect_paths(top='..', start="..", html=r'index.html'):
     return paths
 
 
-def _collect_files(paths, exts=['.html', '.css', '.js', 'jpg', '.png', ]):
+def _collect_files(paths, exts=['.html', '.md', '.css', '.js', 'jpg', '.png', ]):
     """Return list of files below each of paths w/ extensions from exts."""
     files = list()
     for ext in exts:

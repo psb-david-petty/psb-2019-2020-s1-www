@@ -1,0 +1,20 @@
+/* Semantic Elements: article, aside, details, figcaption, figure, footer, header, main, mark, nav, section, summary, time */
+body { font-family: Arial, Helvetica, sans-serif; }
+h1, h2, h3, h4, h5, h6 { font-family: Impact, Charcoal, sans-serif; }
+header, footer, nav, .ad { text-align: center; }
+nav, nav a { padding: 1%; background-color: gainsboro; font-size: large;}
+aside, article figure { float: right; width: 18%; padding: 0 0.75% 0 0.75%; }
+footer a, aside a { display: block; }
+footer p { margin: 0; padding: 0; }
+main { width: 80%; }
+main > section, footer { border-top: thick solid black; }
+main section article { padding: 1%; margin: 1%; border: thin solid red; overflow: hidden; }
+footer section { display: inline-block; text-align: left; vertical-align: text-top; margin-right: 2%; }
+img { max-width: 100%; }
+figure { margin: 0; }
+figcaption { font-size: small; }
+details { font-weight: bold; }
+/* borders */
+aside { border: thin dashed purple; }
+main figure { border: thin dashed green; }
+footer section { border: thin solid orange; }

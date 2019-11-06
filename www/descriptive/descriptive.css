@@ -1,0 +1,58 @@
+/* FontSpring 'bulletproof' @font-face: https://blog.fontspring.com/2011/02/the-new-bulletproof-font-face-syntax/ */
+@font-face {
+  font-family: 'MyFontFamily';
+	src:
+	  url('myfont-webfont.eot?#iefix') format('embedded-opentype'), 
+	  url('myfont-webfont.woff') format('woff'), 
+	  url('myfont-webfont.ttf')  format('truetype'),
+	  url('myfont-webfont.svg#svgFontName') format('svg');
+}
+
+/* WOFF fonts, after being converted from .TTF */
+@font-face {
+    font-family: 'Docu';
+    src: url('docu/Docu-Thin.woff2') format('woff2'),
+        url('docu/Docu-Thin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Docu';
+    src: url('docu/Docu-ThinOblique.woff2') format('woff2'),
+        url('docu/Docu-ThinOblique.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Docu';
+    src: url('docu/Docu-Medium.woff2') format('woff2'),
+        url('docu/Docu-Medium.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Docu';
+    src: url('docu/Docu-MediumOblique.woff2') format('woff2'),
+        url('docu/Docu-MediumOblique.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Final Frontier Old Style';
+    src: url('final-frontier-old-style/FinalFrontierOldStyle.woff2') format('woff2'),
+        url('final-frontier-old-style/FinalFrontierOldStyle.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body { font-family: Docu, Arial, sans-serif; }
+h1, h2, h3, h4, h5, h6 { font-family: "Final Frontier Old Style", Impact, monospace; font-weight: normal; }
+nav, aside, main { float: left; }
+nav { width: 18%; border: thin solid red; padding: 0 0.6%; }
+aside { width: 18%; border: thin solid pink; padding: 0 0.6%; }
+main { width: 60%; border: thin solid yellow; }
+body { color: #000099; background-color: gainsboro; }
+main p + p { color: red; background-color: yellow; }
+#green { color: green; }
+footer { clear: both; }

@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+  <head lang="en">
+    <meta charset="UTF-8">
+    <title>Practice Form</title>
+    <link rel="stylesheet" href="form.css"> <!-- link to .CSS file -->
+    <script src="form.js"></script>         <!-- link to .JS file -->
+  </head>
+<body>
+  <main>
+    <section>
+      <article>
+        <h1>Practice Form</h1>
+        <p>W3Schools has information on <a href="http://w3schools.com/html/html_forms.asp">forms</a>. This is code is available as a <a href="https://codepen.io/psb-david-petty/pen/roQVKx?editors=1010#0">CodePen</a>.</p>
+        <form>
+          <!-- ADD ADDITIONAL INPUTS -->
+          <label>Enter a Message</label><input type="text" name="message" id="inputText"> |
+          <label>Female</label><input type="radio" name="gender" value="female" id="inputRadio1">
+          <label>Male</label><input type="radio" name="gender" value="male" id="inputRadio2">
+          <label>Other</label><input type="radio" name="gender" value="other" id="inputRadio3"> |
+          <label>Yes</label><input type="checkbox" name="question" value="yes" id="inputCheckbox1">
+          <label>No</label><input type="checkbox" name="question" value="no" id="inputCheckbox2">
+          <label>Maybe</label><input type="checkbox" name="question" value="maybe" id="inputCheckbox3" checked> |
+        </form>
+        <input type="submit" onclick="showInput();">
+        <p>Your input: &quot;<span id="displayText"></span>&quot; |
+          <span id="displayRadio1"></span>
+          <span id="displayRadio2"></span>
+          <span id="displayRadio3"></span> |
+          <span id="displayCheckbox1"></span>
+          <span id="displayCheckbox2"></span>
+          <span id="displayCheckbox3"></span> |
+        </p>
+      </article>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,47 @@
+/* Commercial CSS */
+h1 { font-size: 3.00em; margin: 0.67em 0; }
+h2 { font-size: 2.25em; margin: 0.83em 0; }
+h3 { font-size: 1.75em; margin: 1.00em 0; }
+h4 { font-size: 1.50em; margin: 1.17em 0; }
+h5 { font-size: 1.25em; margin: 1.33em 0; }
+h6 { font-size: 1.00em; margin: 1.50em 0; }
+body { font-family: 'Josefin Sans', Georgia, serif; padding: 0 5em; min-width: 800px;  }
+h1, h2, h3, h4, h5, h6 { font-family: 'Amatic SC', Impact, Charcoal, sans-serif; text-transform: capitalize; line-height: 1.2; }
+code, kbd, pre, samp { font-family: "Lucida Console", Monaco, monospace; }
+main { line-height: 1.6; }
+header, nav, footer { text-align: center; padding-top: 1em;}
+nav, footer { border-top: thick solid indigo; }
+nav { border-bottom: thin solid black; }
+nav a { color: indigo; text-decoration: none; display: inline-block; width: 4em; font-size: small;
+  padding: 0 1em 0 1em; 
+  border-top: thin solid black;
+  border-right: thin solid black;
+  border-bottom: none;
+  border-left: thin solid black;
+  border-radius: 10px 10px 0 0;
+}
+nav a:nth-child(n+6) { background-color: oldlace; }
+aside { float: right; width: 18%; padding: 0 0.75% 0 0.75%; border: thin dashed indigo;}
+main { width: 80%; }
+main article { overflow: auto; }
+h2 a:link, h2 a:visited { color: inherit; text-decoration: none; }
+h2 a:hover, a:hover { color: orange; }
+figure { float: right; border: }
+figcaption { font-size: xx-small; }
+footer { overflow: auto; clear: both; }
+footer section { display: inline-block; text-align: left; vertical-align: text-top; margin-left: 2%; width: 30%; }
+footer h3 { margin: 0; }
+/* https://alistapart.com/article/creating-intrinsic-ratios-for-video */
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;      /* fixed size for YouTube chrome */
+  height: 0;
+}
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
