@@ -1,31 +1,50 @@
 <!DOCTYPE html>
 <!-- COMMERCIAL -->
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>index</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
-  <body>
-    <header>
-      <h1>Trees</h1>
-    </header>
-    <nav>
-      <ul>
-        <li><a href="">What</a></li>
-        <li><a href="">Why</a></li>
-        <li><a href="">Where</a></li>
-        <li><a href="">Tree Species</a></li>
-      </ul>
-    </nav>
-    <aside>
-      <p>aside</p>
-    </aside>
-    <main>
-      <h2>main</h2>
-    </main>
-    <footer>
-      <p>footer</p>
-    </footer>
-  </body>
-</html>
+
+<head>
+  <meta charset="utf-8">
+  <title>index</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Trees</h1>
+  </header>
+
+  <nav role="navigation">
+    <ul>
+      <li><a href="#">One</a></li>
+      <li><a href="#">Two</a></li>
+      <li><a href="#">Three</a>
+        <ul class="dropdown">
+          <li><a href="#">Sub-1</a></li>
+          <li><a href="#">Sub-2</a></li>
+          <li><a href="#">Sub-3</a>
+            <ul class="dropdown">
+              <li><a href="#">Sub-1</a></li>
+              <li><a href="#">Sub-2</a></li>
+              <li><a href="#">Sub-3</a></li>        
+            </ul>
+          </li>    
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+  <aside>
+    <p>aside</p>
+  </aside>
+  
+  <main>
+    <h2>main</h2>
+    <h3>What</h3>
+  </main>
+  
+  <footer>
+    <p>footer</p>
+  </footer>
+  
+</body>

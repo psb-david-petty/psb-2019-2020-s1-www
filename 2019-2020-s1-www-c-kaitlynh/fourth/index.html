@@ -21,7 +21,7 @@
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      font-size: 7;
+      font-size: 75%;
     }
 
     header ul {
@@ -39,7 +39,7 @@
 
     header ul {
       list-style: none;
-      padding: 02;
+      padding: 0;
     }
 
     header li {
@@ -49,29 +49,33 @@
     }
 
     header ul+ul li {
-      min-width: 4%;
+      min-width: 2%;
     }
 
-    /* END CODEPEN */
 
     .tab-1,
     header a:link,
     header a:visited,
     footer a:link,
-    footer a:visited {
+    footer a:visited{
       color: white;
-      text-decoration: none;
+      text-decoration: none;auto
     }
+
+
 
     nav ul {
       background-color: white;
+      display:flex; 
+      flex-wrap:wrap;
+      justify-content:center;
     }
 
-    nav ul {}
-
-    nav li {
-      display: inline;
+    nav li
+    {
+      display: flex;
       padding: 20px;
+      justify-content:center;
 
     }
 
@@ -84,35 +88,39 @@
       color: white;
       letter-spacing: .9px;
 
-
-
     }
 
     .logo {
       width: 100%;
+      height: 0;
       display: flex;
 
     }
+
 
     main .read-more {
       background-color: black;
       color: white;
       padding: 10px;
-
+         text-align: center;
+         position
 
     }
 
 
-    main h3 {
-      padding-top: 23%;
-      text-align: center;
+    main h3 {      
+
       word-spacing: 10px;
       color: white;
-
-
+      font-size: 90%;
+      padding27%
+      margin:3;
+      left:50%;
     }
 
     main {
+      display:flex;
+      
       background-image: url("https://drive.google.com/uc?id=1Tr-mwNpV-CKD_JXyCc9ZU1a2hd-U2iLH");
       background-repeat: no-repeat;
       position: relative;
@@ -120,13 +128,19 @@
       vertical-align: middle;
       padding: 0px;
       background-size: cover;
-
+      flex-wrap:wrap;
+      justify-content:center;-items:baseline;align-items: center
     }
 
     main h2 {
+      margin:;
       position: absolute;
       padding-bottom: 50%;
-    }
+float:center50%;
+      text-align: center;
+      left:20%;
+      font-size:90;
+      %    }
   </style>
 </head>
 
@@ -158,7 +172,6 @@
         </ul>
         <br>
         <ul>
-          <li class="logo"><a href="https://scoutthecity.com/"><img src="data:image/png;base64,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" alt="Scout the City" style="width:300px; float:left;"></a></li>
           <li class="tab-1"><a href="https://scoutthecity.com/category/fashion/">Fashion</a></li>
           <li class="tab-2"><a href="https://scoutthecity.com/category/beauty/">Beauty</a></li>
           <li><a href="https://scoutthecity.com/category/lifestyle/">Lifestyle</a></li>

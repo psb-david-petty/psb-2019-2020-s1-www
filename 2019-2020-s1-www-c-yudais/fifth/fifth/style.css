@@ -1,13 +1,24 @@
 h1 {
-    color: blue;
+    position:relative;
 }
 
-header {
-    position:absolute;
-    border
+#a {
+    position:fixed;
+    
+    background-color:black;
+    width:946px;
+    height:100px;
 }
 
-
+#b {
+    color:red;
+    
+    position:fixed;
+    
+    left:500719px;
+    
+    bottom:1;
+}
 
 
 
