@@ -207,7 +207,7 @@ if __name__ == '__main__':
     if is_idle or is_pycharm or is_jupyter:
         # Write formatted student webpage links to ../www/students.html
         path = '../'
-        htmlfile = os.path.normpath(os.path.join(path, r'./www/students.html'))
+        htmlfile = os.path.normpath(os.path.join(path, r'./www/github/students.html'))
         txtfile = os.path.normpath(os.path.join(path, r'./src/files.txt'))
         paths = _collect_paths()
         write(_format_main(paths).lstrip(), htmlfile)
