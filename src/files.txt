@@ -3,7 +3,20 @@
 ../2019-2020-s1-www-c-avinr/3rd/code.js
 ../2019-2020-s1-www-c-avinr/3rd/index.html
 ../2019-2020-s1-www-c-avinr/3rd/style.css
-../2019-2020-s1-www-c-avinr/news/index.html
+../2019-2020-s1-www-c-avinr/Blank/baseball.html
+../2019-2020-s1-www-c-avinr/Blank/code.js
+../2019-2020-s1-www-c-avinr/Blank/images/ben-simmons.jpg
+../2019-2020-s1-www-c-avinr/Blank/images/howie-kendrick.jpg
+../2019-2020-s1-www-c-avinr/Blank/images/jalen-ramsey.jpg
+../2019-2020-s1-www-c-avinr/Blank/images/patriots-defence.jpg
+../2019-2020-s1-www-c-avinr/Blank/index.html
+../2019-2020-s1-www-c-avinr/Blank/style.css
+../2019-2020-s1-www-c-avinr/news-again/code.js
+../2019-2020-s1-www-c-avinr/news-again/index.html
+../2019-2020-s1-www-c-avinr/news-again/style.css
+../2019-2020-s1-www-c-brendanc/fifth/1.html
+../2019-2020-s1-www-c-brendanc/fifth/2.html
+../2019-2020-s1-www-c-brendanc/fifth/3.html
 ../2019-2020-s1-www-c-brendanc/fifth/code.js
 ../2019-2020-s1-www-c-brendanc/fifth/index.html
 ../2019-2020-s1-www-c-brendanc/fifth/style.css
@@ -15,14 +28,10 @@
 ../2019-2020-s1-www-c-dusting/Bad Table/code.js
 ../2019-2020-s1-www-c-dusting/Bad Table/index.html
 ../2019-2020-s1-www-c-dusting/Bad Table/style.css
-../2019-2020-s1-www-c-dusting/Commercial Webpage/Index (1).html
-../2019-2020-s1-www-c-dusting/Commercial Webpage/code.js
-../2019-2020-s1-www-c-dusting/Commercial Webpage/index.html
-../2019-2020-s1-www-c-dusting/Commercial Webpage/style.css
-../2019-2020-s1-www-c-dusting/Dustin's Best Webpages/Index (1).html
-../2019-2020-s1-www-c-dusting/Dustin's Best Webpages/code.js
-../2019-2020-s1-www-c-dusting/Dustin's Best Webpages/index.html
-../2019-2020-s1-www-c-dusting/Dustin's Best Webpages/style.css
+../2019-2020-s1-www-c-dusting/Dustin's-Best-Webpages /Index (1).html
+../2019-2020-s1-www-c-dusting/Dustin's-Best-Webpages /code.js
+../2019-2020-s1-www-c-dusting/Dustin's-Best-Webpages /index.html
+../2019-2020-s1-www-c-dusting/Dustin's-Best-Webpages /style.css
 ../2019-2020-s1-www-c-dusting/first-web-page/code.js
 ../2019-2020-s1-www-c-dusting/first-web-page/index.html
 ../2019-2020-s1-www-c-dusting/first-web-page/style.css
@@ -56,6 +65,7 @@
 ../2019-2020-s1-www-c-fatimaha/third/index.html
 ../2019-2020-s1-www-c-isabellaa/fifth/fifth/idk.html
 ../2019-2020-s1-www-c-isabellaa/fifth/fifth/index.html
+../2019-2020-s1-www-c-isabellaa/fifth/fifth/species-deciduous.html
 ../2019-2020-s1-www-c-isabellaa/fifth/fifth/style.css
 ../2019-2020-s1-www-c-isabellaa/fifth/fifth/what.html
 ../2019-2020-s1-www-c-isabellaa/first/index.html
@@ -82,9 +92,9 @@
 ../2019-2020-s1-www-c-kaitlynh/fourth/scout.js
 ../2019-2020-s1-www-c-kaitlynh/second/index.html
 ../2019-2020-s1-www-c-kaitlynh/third/index.html
-../2019-2020-s1-www-c-natem/fifth (1)/code.js
-../2019-2020-s1-www-c-natem/fifth (1)/index.html
-../2019-2020-s1-www-c-natem/fifth (1)/style.css
+../2019-2020-s1-www-c-natem/fifth /code.js
+../2019-2020-s1-www-c-natem/fifth /index.html
+../2019-2020-s1-www-c-natem/fifth /style.css
 ../2019-2020-s1-www-c-natem/first/index.html
 ../2019-2020-s1-www-c-natem/fourth/index.html
 ../2019-2020-s1-www-c-natem/second/index.html
