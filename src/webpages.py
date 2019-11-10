@@ -5,7 +5,6 @@
 
 """Used in 2019-2020 WWW class to create students.html & files.txt."""
 
-import collections
 import datetime
 import os
 import pathlib
@@ -15,14 +14,20 @@ import sys
 __author__ = "David C. Petty & 2019-2020 S1 WWW"
 __copyright__ = "Copyright 2019, David C. Petty"
 __license__ = "https://creativecommons.org/licenses/by-nc-sa/4.0/"
-__version__ = "0.0.3"
+__version__ = "0.0.4"
 __maintainer__ = "David C. Petty"
 __email__ = "david_petty@psbma.org"
 __status__ = "Hack"
 
 
 class Webpages:
-    """Holds information about student webpages."""
+    """Generates HTML for student webpage directories below abs_top, linked to
+    rel_top, that contain any of _defaults and include all files below those
+    directories with _extensions. Also generates a list of such files.
+    write_webpage writes the webpage. write_files writes the file list."""
+
+    # TO_DO: _default_output_filename should be linked to its directory and
+    #        its relation to rel_top.
 
     _defaults = ['index.html', 'index.md', ]
     _extensions = ['.html', '.md', '.css', '.js', 'jpg', '.png', ]
@@ -31,7 +36,7 @@ class Webpages:
     _default_output_filename = 'students.html'
 
     def __init__(self, abs_top=r'../..', rel_top=r'..'):
-        """Initialize webpages information."""
+        """Initialize webpages fields."""
         self._abs_top = self._path(abs_top)
         self._rel_top = self._path(rel_top)
         self._paths = self._collect_paths(self.abs_top, self.defaults)
