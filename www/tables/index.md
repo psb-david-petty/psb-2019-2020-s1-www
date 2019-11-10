@@ -1,6 +1,6 @@
 # Various table Webpages
 
-These pages provide an introduction to how to use the `&lt;table&gt;` tags.
+These pages provide an introduction to how to use the `<table>` tags.
 
 ## Pages
 
