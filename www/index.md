@@ -1,6 +1,6 @@
 # Mr. Petty's webpages
 
-Whatever...
+These are Mr. Petty's versions of the WWW webpages.
 
 ## Pages
 
@@ -12,7 +12,7 @@ Whatever...
 | [./commercial](./commercial/) | Commercial Webpage Assignment |
 | ./descriptive/ | Descriptive Webpage Assignment |
 | [./dropdown](./dropdown/) | Dropdown Webpage Assignment |
-| [./paralax](./paralax/) | Paralax Webpage Assignment |
+| ./paralax/ | Paralax Webpage Assignment |
 | [./templates](./templates/) | HTML 5 templates |
 
 <hr>
