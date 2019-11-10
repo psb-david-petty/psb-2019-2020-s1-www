@@ -8,6 +8,7 @@ These are Mr. Petty's versions of the WWW webpages.
 | -- | -- |
 | [./first](./first/) | First Webpage Assignment |
 | [./second](./second/) | Second Webpage Assignment |
+| [./tables](./tables/) | Table Webpage Assignment |
 | [./news](./news/) | News Webpage Assignment |
 | [./commercial](./commercial/) | Commercial Webpage Assignment |
 | ./descriptive/ | Descriptive Webpage Assignment |
