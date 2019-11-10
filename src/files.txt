@@ -180,6 +180,7 @@
 ../www/second/index.html
 ../www/tables/colspanrowspan.html
 ../www/tables/colspanrowspanhint.html
+../www/tables/index.md
 ../www/tables/table.html
 ../www/tables/table1.html
 ../www/tables/table2.html
