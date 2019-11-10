@@ -116,13 +116,15 @@ _li_format = """
 _default_text = """      <p>These are links to student websites:</p>"""
 
 
-def _collect_paths(top='..', start="..", html=r'index.html'):
-    """Return list of paths below top containing html with top replaced
+def _collect_paths(top='..', start="../..", defaults=[r'index.html', r'index.md', ]):
+    """Return list of paths below top containing any of html with top replaced
     by start."""
     norm_top, norm_start = map(os.path.normpath, (top, start))
-    top_path, glob = pathlib.Path(norm_top), os.path.join(r'**/', html)
-    paths = list(sorted(os.path.dirname(p).replace(norm_top, norm_start)
-        for p in top_path.glob(glob)))
+    paths, top_path = list(), pathlib.Path(norm_top)
+    for default in defaults:
+        glob = os.path.join(r'**/', default)
+        paths += list(sorted(os.path.dirname(p).replace(norm_top, norm_start)
+                      for p in top_path.glob(glob)))
     return paths
 
 
@@ -151,7 +153,15 @@ def _create(links):
     return nested
 
 
-def _lists(nested, link=list(), indent=3, html=r'index.html'):
+def _has_index(directory, defaults=[r'index.html', r'index.md', ]):
+    """Return true if directory has any of defaults."""
+    print(directory, list(os.path.join(directory, default)
+               for default in defaults))
+    return any(os.path.isfile(os.path.join(directory, default))
+               for default in defaults)
+
+
+def _lists(nested, link=list(), indent=3):
     """Return formatted, nested, HTML ULs matching nested dicts. link is a list
     of directory components up until nested. indent is UL indent level. index
     is default HTML filename."""
@@ -161,8 +171,7 @@ def _lists(nested, link=list(), indent=3, html=r'index.html'):
             nest = nested[key]
             uri = os.sep.join(link + [key] + [''])
             # Branch URI is link if has html or key if more nested, else blank.
-            has_index = os.path.isfile(os.path.join(uri, html))
-            text = (f'<a href="{uri}">{key}</a>' if has_index else key) \
+            text = (f'<a href="{uri}">{key}</a>' if _has_index(uri) else key) \
                 if nest else ''
             items += _li_format.format(
                 text=text + _lists(nest, link + [key], indent + 1),
@@ -205,8 +214,8 @@ if __name__ == '__main__':
         '__file__' not in globals()
     )
     if is_idle or is_pycharm or is_jupyter:
-        # Write formatted student webpage links to ../www/students.html
-        path = '../'
+        # Write formatted student webpage links to students.html
+        path = '..'
         htmlfile = os.path.normpath(os.path.join(path, r'./www/github/students.html'))
         txtfile = os.path.normpath(os.path.join(path, r'./src/files.txt'))
         paths = _collect_paths()
