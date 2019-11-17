@@ -3,6 +3,7 @@
 ../2019-2020-s1-www-c-avinr/3rd/code.js
 ../2019-2020-s1-www-c-avinr/3rd/index.html
 ../2019-2020-s1-www-c-avinr/3rd/style.css
+../2019-2020-s1-www-c-avinr/Blank/Basketball.html
 ../2019-2020-s1-www-c-avinr/Blank/baseball.html
 ../2019-2020-s1-www-c-avinr/Blank/code.js
 ../2019-2020-s1-www-c-avinr/Blank/images/ben-simmons.jpg
@@ -17,6 +18,8 @@
 ../2019-2020-s1-www-c-brendanc/fifth/1.html
 ../2019-2020-s1-www-c-brendanc/fifth/2.html
 ../2019-2020-s1-www-c-brendanc/fifth/3.html
+../2019-2020-s1-www-c-brendanc/fifth/4.html
+../2019-2020-s1-www-c-brendanc/fifth/5.html
 ../2019-2020-s1-www-c-brendanc/fifth/code.js
 ../2019-2020-s1-www-c-brendanc/fifth/index.html
 ../2019-2020-s1-www-c-brendanc/fifth/style.css
@@ -28,6 +31,9 @@
 ../2019-2020-s1-www-c-dusting/Bad Table/code.js
 ../2019-2020-s1-www-c-dusting/Bad Table/index.html
 ../2019-2020-s1-www-c-dusting/Bad Table/style.css
+../2019-2020-s1-www-c-dusting/Blank/code.js
+../2019-2020-s1-www-c-dusting/Blank/index.html
+../2019-2020-s1-www-c-dusting/Blank/style.css
 ../2019-2020-s1-www-c-dusting/Dustin's-Best-Webpages/Index (1).html
 ../2019-2020-s1-www-c-dusting/Dustin's-Best-Webpages/code.js
 ../2019-2020-s1-www-c-dusting/Dustin's-Best-Webpages/index.html
@@ -64,11 +70,8 @@
 ../2019-2020-s1-www-c-fatimaha/second/index-color.html
 ../2019-2020-s1-www-c-fatimaha/second/index.html
 ../2019-2020-s1-www-c-fatimaha/third/index.html
-../2019-2020-s1-www-c-isabellaa/fifth/fifth/idk.html
 ../2019-2020-s1-www-c-isabellaa/fifth/fifth/index.html
-../2019-2020-s1-www-c-isabellaa/fifth/fifth/species-deciduous.html
 ../2019-2020-s1-www-c-isabellaa/fifth/fifth/style.css
-../2019-2020-s1-www-c-isabellaa/fifth/fifth/what.html
 ../2019-2020-s1-www-c-isabellaa/first/index.html
 ../2019-2020-s1-www-c-isabellaa/fourth/index.html
 ../2019-2020-s1-www-c-isabellaa/second/index.html
@@ -80,6 +83,9 @@
 ../2019-2020-s1-www-c-josephv/Third (1)/code.js
 ../2019-2020-s1-www-c-josephv/Third (1)/index.html
 ../2019-2020-s1-www-c-josephv/Third (1)/style.css
+../2019-2020-s1-www-c-kaitlynh/fifth/code.js
+../2019-2020-s1-www-c-kaitlynh/fifth/index.html
+../2019-2020-s1-www-c-kaitlynh/fifth/style.css
 ../2019-2020-s1-www-c-kaitlynh/first/index.html
 ../2019-2020-s1-www-c-kaitlynh/fourth/images/Lifestyle-Blogger-Sai-De-Silva-Shares-How-To-Work-Through-Creative-Blocks-And-Prevent-Burnout-.jpg
 ../2019-2020-s1-www-c-kaitlynh/fourth/images/iconfinder-blog-24x24.png
@@ -99,18 +105,24 @@
 ../2019-2020-s1-www-c-natem/first/index.html
 ../2019-2020-s1-www-c-natem/fourth/index.html
 ../2019-2020-s1-www-c-natem/second/index.html
+../2019-2020-s1-www-c-natem/sixth/code.js
+../2019-2020-s1-www-c-natem/sixth/index.html
+../2019-2020-s1-www-c-natem/sixth/style.css
 ../2019-2020-s1-www-c-natem/third/index.html
 ../2019-2020-s1-www-c-oliverg/first/index.html
 ../2019-2020-s1-www-c-oliverg/fourth/index.html
-../2019-2020-s1-www-c-oliverg/second/index.html
 ../2019-2020-s1-www-c-oliverg/third/index.html
-../2019-2020-s1-www-c-tristanl/(fifth)/code.js
-../2019-2020-s1-www-c-tristanl/(fifth)/images/background.jpg
-../2019-2020-s1-www-c-tristanl/(fifth)/images/skoolLogo.png
-../2019-2020-s1-www-c-tristanl/(fifth)/index.html
-../2019-2020-s1-www-c-tristanl/(fifth)/style.css
 ../2019-2020-s1-www-c-tristanl/bhsSchedule(Second)/index.html
 ../2019-2020-s1-www-c-tristanl/bhsSchedule(Second)/indexStyle.css
+../2019-2020-s1-www-c-tristanl/commercialWebsite(fifth)/code.js
+../2019-2020-s1-www-c-tristanl/commercialWebsite(fifth)/images/background.jpg
+../2019-2020-s1-www-c-tristanl/commercialWebsite(fifth)/images/mechanical.png
+../2019-2020-s1-www-c-tristanl/commercialWebsite(fifth)/images/skoolLogo.png
+../2019-2020-s1-www-c-tristanl/commercialWebsite(fifth)/images/ticonderoga.png
+../2019-2020-s1-www-c-tristanl/commercialWebsite(fifth)/index.html
+../2019-2020-s1-www-c-tristanl/commercialWebsite(fifth)/pencils.html
+../2019-2020-s1-www-c-tristanl/commercialWebsite(fifth)/pens.html
+../2019-2020-s1-www-c-tristanl/commercialWebsite(fifth)/style.css
 ../2019-2020-s1-www-c-tristanl/csgoWebsiteCopy(Fourth)/images/esrbImage.jpg
 ../2019-2020-s1-www-c-tristanl/csgoWebsiteCopy(Fourth)/images/getMerchBox.png
 ../2019-2020-s1-www-c-tristanl/csgoWebsiteCopy(Fourth)/images/pageBackground.jpg
@@ -135,6 +147,8 @@
 ../2019-2020-s1-www-c-yudais/fifth/fifth/Untitled.html
 ../2019-2020-s1-www-c-yudais/fifth/fifth/code.js
 ../2019-2020-s1-www-c-yudais/fifth/fifth/index.html
+../2019-2020-s1-www-c-yudais/fifth/fifth/menus.html
+../2019-2020-s1-www-c-yudais/fifth/fifth/private.html
 ../2019-2020-s1-www-c-yudais/fifth/fifth/style.css
 ../2019-2020-s1-www-c-yudais/first/index.html
 ../2019-2020-s1-www-c-yudais/second/index.html

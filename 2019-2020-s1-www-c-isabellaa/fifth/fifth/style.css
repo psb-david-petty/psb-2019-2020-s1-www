@@ -1,54 +1,90 @@
 body {
-  font-family: monospace;
+  font-family: Calibri, Arial, sans-serif;
+  margin: 0;
+  background: lightgreen;}
+header {
+  font-style: italic;
+  background: white;
+  padding: 10px;
 }
 nav {
-  margin: 0;
-}
-ul {
   background: green;
+  box-shadow: 0px 0px 10px green;
+}
+nav ul {
   list-style: none;
-  margin: 0;
-  padding-left: 0;
+  padding: 0;
 }
-li {
-  color: #fff;
-  background: green;
-  display: block;
-  float: left;
-  padding: 1rem;
+nav ul li {
+  display: inline-block;
   position: relative;
-  text-decoration: none;
 }
-li a {
-  color: #fff;
+nav ul li a {
+  color: black;
   text-decoration: none;
+  display: block;
+  padding: 10px;
 }
-li:hover {
+nav ul li:hover {
   background: darkgreen;
   cursor: pointer;
 }
-ul li ul {
-  background: green;
-  visibility: hidden;
-  opacity: 0;
-  min-width: 5rem;
-  position: absolute;
-  transition: all 0.5s ease;
-  margin-top: 1rem;
-  left: 0;
-  display: none;
+nav ul li a:hover {
+  color: white;
 }
-ul li:hover>ul, ul li ul:hover {
+nav ul li ul {
+  display: none;
+  position: absolute;
+  visibility: hidden;
+  background: white;
+  left: 0;
+}
+nav ul li:hover>ul, nav ul li ul:hover {
   visibility: visible;
-  opacity: 1;
   display: block;
 }
-ul li ul li {
+nav ul li ul li {
   clear: both;
   width: 100%;
 }
-ul li ul li ul li {
-  
+nav ul li ul li:hover {
+  background: lightgray;
 }
-  
-auto
+nav ul li ul li a:hover {
+  color: black;
+}
+nav ul li ul {
+  left: 0;
+}
+nav ul li ul li:hover>ul, nav ul li ul li ul:hover {
+  visibility: visible;
+  display: block;
+}
+nav ul li ul li ul li {
+  clear: both;
+  width: 100%;
+  left: 100%;
+  background: white;
+  top: 0;
+}
+nav ul li ul li ul li:hover {
+  background: lightgray 
+}
+nav ul li ul li ul li a:hover {
+  color: black;
+}
+aside {
+  box-shadow: 1px 1px 10px green;
+  margin-left: 70%;
+  margin-right: 5%;
+  background: white;
+}
+main {
+  box-shadow: 1px 1px 10px green;
+  margin-left: 15%;
+  margin-right: 30%;
+  background: white;
+}
+footer {
+  background: darkgreen;
+}eeneen203:03n

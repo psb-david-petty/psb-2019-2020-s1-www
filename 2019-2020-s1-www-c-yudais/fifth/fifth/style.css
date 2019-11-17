@@ -1,32 +1,75 @@
-h1 {
-    position:relative;
-}
-
 #a {
+    width:200px;
+    height:900px;
+    background:red;
+    color:white;
     position:fixed;
-    
-    background-color:black;
-    width:946px;
-    height:100px;
 }
-
 #b {
-    color:red;
-    
-    position:fixed;
-    
-    left:500719px;
-    
-    bottom:1;
+    right:600px;
+   bottom:1;
+    color:white;
+    position:absolute;
+    left:10px;
+    top:50px;
+    font-style:italic;
 }
-
-
-
-
-
-
-
-
-
-
-
+#c {
+    position:absolute;
+    left:30px;
+    top:250px;
+    color:white;
+}
+#d {
+  
+    width:160px;
+    height:40px;
+    background:black;
+    color:white;
+    position:absolute;
+    left:20px;
+    top:150px;
+    
+}
+#menus {
+    color:white;
+    position:absolute;
+    left:80px;
+    top:300px;
+}
+#private {
+    color:white;
+    position:absolute;
+    left:50px;
+    top:350px;
+}
+#order {
+    color:white;
+    position:absolute;
+    left:70px;
+    top:400px;
+}
+#gift {
+    color:green;
+    position:absolute;
+    left:90px;
+    top:450px;
+}
+#job {
+    color:white; 
+    position:absolute;
+    left:90px;
+    top:500px;
+}
+#press {
+    color:white;
+    position:absolute;
+    left:80px;
+    top:550px;
+}
+#contact {
+    color:white;
+    position:absolute;
+    left:70px;
+    top:600px;
+}
