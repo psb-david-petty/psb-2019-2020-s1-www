@@ -32,8 +32,9 @@ class Webpages:
 
     _defaults = ['index.html', 'index.md', ]
     _extensions = ['.html', '.md', '.css', '.js', 'jpg', '.png', ]
+    _default_heading = ''
     _default_text = """      <p>These are links to student websites:</p>"""
-    _default_comment = ''
+    _default_comment = '2019-2020 S1 WWW Design'
     _default_output_filename = 'students.html'
 
     def __init__(self, abs_top=r'../..', rel_top=r'..'):
@@ -85,7 +86,7 @@ class Webpages:
     <!-- HEADER -->
     <header>
       <section>
-        <h1>Brookline High School &mdash; 2019-2020 S1 WWW</h1>
+        <h1><a href="http://bhs.brookline.k12.ma.us/career--technology-education.html">Brookline High School</a></h1>
       </section>
     </header>
     <!-- NAV --><!--
@@ -248,7 +249,7 @@ class Webpages:
             uri = self._path(*link + [''], old=abs_top, new=rel_top)
             return f'<a href="{urllib.parse.quote(uri)}">{link[-1]}</a>'
 
-    def _format_main(self, files, heading='', text=_default_text):
+    def _format_main(self, files, heading=_default_heading, text=_default_text):
         """Return html for links as formatted, nested, unordered lists."""
         comment, filename = self._default_comment, self._default_output_filename
         links = self._lists(self._create(files))
