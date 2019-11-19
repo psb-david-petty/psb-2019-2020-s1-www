@@ -8,19 +8,18 @@
     /* CSS */
     body {
       font-family: Copperplate, sans-serif;
+      font-size: small;
     }
 
-    table {
-      border: thin solid black;
-      width: 90%;
-      margin-left: 5%;
-      margin-right: 5%;
+    body > table {
+      border: thick solid navy;
       border-collapse: collapse;
     }
 
     th {
       border: thin solid black;
       background-color: silver;
+      min-width: 160px;
     }
 
     td {
@@ -36,7 +35,9 @@
       padding: 1em;
       margin: 1em;
     }
-
+    table dd {
+      min-height: 5ex;
+    }
     .z-block {
       background-color: yellow;
     }
@@ -72,309 +73,557 @@
       color: linen;
     }
 
-    .t-block {
-      background-color: linen;
-    }
-
-    .x-block {
-      background-color: linen;
-    }
-
     .friday {
       border: thick solid blueviolet;
     }
 
     .lunch {
+      color: linen;
       background-image: url("https://nomageddon.com/wp-content/uploads/2016/08/Bacon-close-up.jpg");
       background-size: cover;
     }
+
+    .t-block, x-block, .collab { background-color: linen; }
+    .t-block dd, .x-block dd, .collab dd, .lunch dd { display: none; }
   </style>
 </head>
+
 <body>
   <!-- My second webpage -->
   <h1>Schedule</h1>
-  <table><tr><td>
   <table>
     <tr>
-      <th>Monday</th>
-      <th>Tuesday</th>
-      <th>Wednesday</th>
-      <th>Thursday</th>
-      <th>Friday</th>
+      <td>
+        <table>
+          <tr>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+          </tr>
+          <tr>
+            <td class="z-block">
+              <dl>
+                <dt>Z1: 7:30 - 8:15</dt>
+                <dd></dd>
+              </dl>
+            </td>
+            <td class="z-block">
+              <dl>
+                <dt>Z2: 7:30 - 8:15</dt>
+                <dd></dd>
+              </dl>
+            </td>
+            <td class="z-block">
+              <dl>
+                <dt>Z3: 7:30 - 8:15</dt>
+                <dd></dd>
+              </dl>
+            </td>
+            <td class="z-block">
+              <dl>
+                <dt>Z4: 7:35 - 8:15</dt>
+                <dd></dd>
+              </dl>
+            </td>
+            <td class="z-block friday">
+              <dl>
+                <dt>Z5: 7:30 - 8:25</dt>
+                <dd></dd>
+              </dl>
+            </td>
+          </tr>
+          <tr>
+            <td class="a-block">
+              <dl>
+                <dt>A1: 8:20 - 9:20</dt>
+                <dd>Exploring Computer Science</dd>
+              </dl>
+            </td>
+            <td class="c-block">
+              <dl>
+                <dt>C1: 8:20 - 9:25</dt>
+                <dd>WWW Design</dd>
+              </dl>
+            </td>
+            <td class="a-block">
+              <dl>
+                <dt>A2: 8:20 - 9:15</dt>
+                <dd>Exploring Computer Science</dd>
+              </dl>
+            </td>
+            <td class="b-block">
+              <dl>
+                <dt>B3: 8:20 - 9:25</dt>
+                <dd>Autonomous Robotics</dd>
+              </dl>
+            </td>
+            <td class="b-block friday">
+              <dl>
+                <dt>B4: 8:30 - 9:35</dt>
+                <dd>Autonomous Robotics</dd>
+              </dl>
+            </td>
+          </tr>
+          <tr>
+            <td class="b-block">
+              <dl>
+                <dt>B1: 9:25 - 10:25</dt>
+                <dd>Autonomous Robotics</dd>
+              </dl>
+            </td>
+            <td class="e-block">
+              <dl>
+                <dt>E2: 9:30 - 10:35</dt>
+                <dd></dd>
+              </dl>
+            </td>
+            <td class="b-block">
+              <dl>
+                <dt>B2: 9:20 - 10:15</dt>
+                <dd>Autonomous Robotics</dd>
+              </dl>
+            </td>
+            <td class="a-block">
+              <dl>
+                <dt>A3: 9:30 - 10:35</dt>
+                <dd>Exploring Computer Science</dd>
+              </dl>
+            </td>
+            <td class="c-block friday">
+              <dl>
+                <dt>C3: 9:40 - 10:40</dt>
+                <dd>WWW Design</dd>
+              </dl>
+            </td>
+          </tr>
+          <tr>
+            <td class="t-block" rowspan="2">
+              <dl>
+                <dt>T1: 10:30 - 11:00</dt>
+                <dd></dd>
+              </dl>
+            </td>
+            <td class="d-block" rowspan="2">
+              <dl>
+                <dt>D2: 10:40 - 11:45</dt>
+                <dd>APCS Principles</dd>
+              </dl>
+            </td>
+            <td class="c-block" rowspan="2">
+              <dl>
+                <dt>C2: 10:20 - 11:15</dt>
+                <dd>WWW Design</dd>
+              </dl>
+            </td>
+            <td class="t-block">
+              <dl>
+                <dt>T2: 10:40 - 11:15</dt>
+                <dd></dd>
+              </dl>
+            </td>
+            <td class="e-block friday" rowspan="2">
+              <dl>
+                <dt>E4: 10:45 - 11:50</dt>
+                <dd></dd>
+              </dl>
+            </td>
+          </tr>
+          <tr>
+            <td class="x-block">
+              <dl>
+                <dt>X1: 11:15 - 11:55</dt>
+                <dd></dd>
+              </dl>
+            </td>
+          </tr>
+          <tr>
+            <td class="d-block">
+              <dl>
+                <dt>D1: 11:05 - 12:05</dt>
+                <dd>APCS Principles</dd>
+              </dl>
+            </td>
+            <td class="lunch">
+              <dl>
+                <dt>LB: 11:45 - 12:20</dt>
+                <dd></dd>
+              </dl>
+            </td>
+            <td class="e-block">
+              <dl>
+                <dt>E3: 11:20 - 12:15</dt>
+                <dd></dd>
+              </dl>
+            </td>
+            <td class="lunch">
+              <dl>
+                <dt>LB: 11:55 - 12:30</dt>
+                <dd></dd>
+              </dl>
+            </td>
+            <td class="lunch friday">
+              <dl>
+                <dt>LB: 11:50 - 12:30</dt>
+                <dd></dd>
+              </dl>
+            </td>
+          </tr>
+          <tr>
+            <td class="lunch">
+              <dl>
+                <dt>LB: 12:05 - 12:40</dt>
+                <dd></dd>
+              </dl>
+            </td>
+            <td class="f-block">
+              <dl>
+                <dt>F1: 12:20 - 1:25</dt>
+                <dd>Exploring Computer Science</dd>
+              </dl>
+            </td>
+            <td class="lunch">
+              <dl>
+                <dt>LB: 12:15 - 12:50</dt>
+                <dd></dd>
+              </dl>
+            </td>
+            <td class="g-block">
+              <dl>
+                <dt>G4: 12:30 - 1:35</dt>
+                <dd></dd>
+              </dl>
+            </td>
+            <td class="d-block friday">
+              <dl>
+                <dt>D4: 12:30 - 1:35</dt>
+                <dd>APCS Principles</dd>
+              </dl>
+            </td>
+          </tr>
+          <tr>
+            <td class="e-block">
+              <dl>
+                <dt>E1: 12:40 - 1:40</dt>
+                <dd></dd>
+              </dl>
+            </td>
+            <td class="g-block">
+              <dl>
+                <dt>G1: 1:30 - 2:35</dt>
+                <dd></dd>
+              </dl>
+            </td>
+            <td class="d-block">
+              <dl>
+                <dt>D3: 12:50 - 1:45</dt>
+                <dd>APCS Principles</dd>
+              </dl>
+            </td>
+            <td class="f-block">
+              <dl>
+                <dt>F2: 1:40 - 2:45</dt>
+                <dd>Exploring Computer Science</dd>
+              </dl>
+            </td>
+            <td class="f-block friday">
+              <dl>
+                <dt>F3:  1:40 - 2:45</dt>
+                <dd>Exploring Computer Science</dd>
+              </dl>
+            </td>
+          </tr>
+          <tr>
+            <td class="g-block">
+              <dl>
+                <dt>G1: 1:45 - 2:50</dt>
+                <dd></dd>
+              </dl>
+            </td>
+            <td>
+            </td>
+            <td class="g-block">
+              <dl>
+                <dt>G3: 1:50 - 2:45</dt>
+                <dd></dd>
+              </dl>
+            </td>
+            </td>
+            <td>
+            </td>
+            <td>
+          </tr>
+        </table>
+      </td>
+      <td>
+        <table>
+           <tr>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+          </tr>
+          <tr>
+            <td class="z-block">
+              <dl>
+                <dt>Z6: 7:30 - 8:15</dt>
+                <dd></dd>
+              </dl>
+            </td>
+            <td class="z-block">
+              <dl>
+                <dt>Z7: 7:30 - 8:15</dt>
+                <dd></dd>
+              </dl>
+            </td>
+            <td class="z-block">
+              <dl>
+                <dt>Z8: 7:30 - 8:15</dt>
+                <dd></dd>
+              </dl>
+            </td>
+            <td class="collab" rowspan="2">
+              <dl>
+                <dt>FC: 8:10 - 9:30</dt>
+                <dd></dd>
+              </dl>
+            </td>
+            <td class="z-block friday">
+              <dl>
+                <dt>Z9: 7:30 - 8:25</dt>
+                <dd></dd>
+              </dl>
+            </td>
+          </tr>
+          <tr>
+            <td class="a-block">
+              <dl>
+                <dt>A4: 8:20 - 9:25</dt>
+                <dd>Exploring Computer Science</dd>
+              </dl>
+            </td>
+            <td class="a-block">
+              <dl>
+                <dt>A5: 8:20 - 9:25</dt>
+                <dd>Exploring Computer Science</dd>
+              </dl>
+            </td>
+            <td class="a-block">
+              <dl>
+                <dt>A6: 8:20 - 9:20</dt>
+                <dd>Exploring Computer Science</dd>
+              </dl>
+            </td>
+            <td class="a-block friday">
+              <dl>
+                <dt>A7: 8:30 - 9:35</dt>
+                <dd>Exploring Computer Science</dd>
+              </dl>
+            </td>
+          </tr>
+          <tr>
+            <td class="t-block">
+              <dl>
+                <dt>T3: 9:30 - 10:00</dt>
+                <dd></dd>
+              </dl>
+            </td>
+            <td class="b-block">
+              <dl>
+                <dt>B5: 9:30 - 10:35</dt>
+                <dd>Autonomous Robotics</dd>
+              </dl>
+            </td>
+            <td class="b-block">
+              <dl>
+                <dt>B6: 9:25 - 10:25</dt>
+                <dd>Autonomous Robotics</dd>
+              </dl>
+            </td>
+            <td class="c-block">
+              <dl>
+                <dt>C6: 9:40 - 10:45</dt>
+                <dd>WWW Design</dd>
+              </dl>
+            </td>
+            <td class="b-block friday">
+              <dl>
+                <dt>B7: 9:40 - 10:45</dt>
+                <dd>Autonomous Robotics</dd>
+              </dl>
+            </td>
+          </tr>
+          <tr>
+            <td class="c-block">
+              <dl>
+                <dt>C4: 10:05 - 11:05</dt>
+                <dd>WWW Design</dd>
+              </dl>
+            </td>
+            <td class="c-block">
+              <dl>
+                <dt>C5: 10:40 - 11:45</dt>
+                <dd>WWW Design</dd>
+              </dl>
+            </td>
+            <td class="x-block">
+              <dl>
+                <dt>X2: 10:30 - 11:00</dt>
+                <dd></dd>
+              </dl>
+            </td>
+            <td class="d-block">
+              <dl>
+                <dt>D6: 10:50 - 11:55</dt>
+                <dd>APCS Principles</dd>
+              </dl>
+            </td>
+            <td class="c-block friday">
+              <dl>
+                <dt>C7: 10:50 - 11:55</dt>
+                <dd>WWW Design</dd>
+              </dl>
+            </td>
+          </tr>
+          <tr>
+            <td class="e-block">
+              <dl>
+                <dt>E5: 11:05 - 12:15</dt>
+                <dd></dd>
+              </dl>
+            </td>
+            <td class="lunch">
+              <dl>
+                <dt>LB: 11:45 - 12:20</dt>
+                <dd></dd>
+              </dl>
+            </td>
+            <td class="e-block">
+              <dl>
+                <dt>E6: 11:05 - 12:05</dt>
+                <dd></dd>
+              </dl>
+            </td>
+            <td class="lunch">
+              <dl>
+                <dt>LB: 11:55 - 12:35</dt>
+                <dd></dd>
+              </dl>
+            </td>
+            <td class="lunch friday">
+              <dl>
+                <dt>LB: 11:55 - 12:35</dt>
+                <dd></dd>
+              </dl>
+            </td>
+          </tr>
+          <tr>
+            <td class="lunch">
+              <dl>
+                <dt>LB: 12:15 - 12:50</dt>
+                <dd></dd>
+              </dl>
+            </td>
+            <td class="d-block">
+              <dl>
+                <dt>D5: 12:20 - 1:25</dt>
+                <dd>APCS Principles</dd>
+              </dl>
+            </td>
+            <td class="lunch">
+              <dl>
+                <dt>LB: 12:05 - 12:40</dt>
+                <dd></dd>
+              </dl>
+            </td>
+            <td class="f-block">
+              <dl>
+                <dt>F7: 12:35 - 1:40</dt>
+                <dd>Exploring Computer Science</dd>
+              </dl>
+            </td>
+            <td class="d-block friday">
+              <dl>
+                <dt>D7: 12:35 - 1:35</dt>
+                <dd>APCS Principles</dd>
+              </dl>
+            </td>
+          </tr>
+          <tr>
+            <td class="f-block">
+              <dl>
+                <dt>F4: 12:50 - 1:45</dt>
+                <dd>Exploring Computer Science</dd>
+              </dl>
+            </td>
+            <td class="f-block">
+              <dl>
+                <dt>F5: 1:30 - 2:30</dt>
+                <dd>Exploring Computer Science</dd>
+              </dl>
+            </td>
+            <td class="f-block">
+              <dl>
+                <dt>F6: 12:40 - 1:40</dt>
+                <dd>Exploring Computer Science</dd>
+              </dl>
+            </td>
+            <td class="g-block">
+              <dl>
+                <dt>G7: 1:45 - 2:50</dt>
+                <dd></dd>
+              </dl>
+            </td>
+            <td class="e-block friday">
+              <dl>
+                <dt>E7: 1:40 - 2:45</dt>
+                <dd></dd>
+              </dl>
+            </td>
+          </tr>
+          <tr>
+            <td class="g-block">
+              <dl>
+                <dt>G5: 1:50 - 2:50</dt>
+                <dd></dd>
+              </dl>
+            </td>
+            <td>
+            </td>
+            <td class="g-block">
+              <dl>
+                <dt>G6: 1:45 - 2:45</dt>
+                <dd></dd>
+              </dl>
+            </td>
+            </td>
+            <td>
+            </td>
+            <td>
+          </tr>
+        </table>
+      </td>
     </tr>
-    <tr>
-      <td class="z-block">
-        <dl>
-          <dt>Z1: 7:30 - 8:15</dt>
-          <dd></dd>
-        </dl>
-      </td>
-      <td class="z-block">
-        <dl>
-          <dt>Z2: 7:30 - 8:15</dt>
-          <dd></dd>
-        </dl>
-      </td>
-      <td class="z-block">
-        <dl>
-          <dt>Z3: 7:30 - 8:15</dt>
-          <dd></dd>
-        </dl>
-      </td>
-      <td class="z-block">
-        <dl>
-          <dt>Z4: 7:35 - 8:15</dt>
-          <dd></dd>
-        </dl>
-      </td>
-      <td class="z-block friday">
-        <dl>
-          <dt>Z5: 7:30 - 8:15</dt>
-          <dd></dd>
-        </dl>
-      </td>
-    </tr>
-    <tr>
-      <td class="a-block">
-        <dl>
-          <dt>A1: 8:20 - 9:10</dt>
-          <dd>Exploring Computer Science</dd>
-        </dl>
-      </td>
-      <td class="a-block">
-        <dl>
-          <dt>A2: 8:20 - 9:20</dt>
-          <dd>Exploring Computer Science</dd>
-        </dl>
-      </td>
-      <td class="a-block">
-        <dl>
-          <dt>A3: 8:20 - 9:10</dt>
-          <dd>Exploring Computer Science</dd>
-        </dl>
-      </td>
-      <td class="b-block">
-        <dl>
-          <dt>B3: 8:20 - 9:20</dt>
-          <dd></dd>
-        </dl>
-      </td>
-      <td class="a-block friday">
-        <dl>
-          <dt>B4: 8:20 - 9:10</dt>
-          <dd>Exploring Computer Science</dd>
-        </dl>
-      </td>
-    </tr>
-    <tr>
-      <td class="b-block">
-        <dl>
-          <dt>B1: 9:15 - 9:10</dt>
-          <dd></dd>
-        </dl>
-      </td>
-      <td class="t-block">
-        <dl>
-          <dt>T: 9:25 - 9:20</dt>
-          <dd></dd>
-        </dl>
-      </td>
-      <td class="b-block">
-        <dl>
-          <dt>B2: 9:15 - 10:10</dt>
-          <dd></dd>
-        </dl>
-      </td>
-      <td class="a-block">
-        <dl>
-          <dt>A4: 9:25 - 9:20</dt>
-          <dd>Exploring Computer Science</dd>
-        </dl>
-      </td>
-      <td class="d-block friday">
-        <dl>
-          <dt>D4: 9:15 - 9:10</dt>
-          <dd>Exploring Computer Science</dd>
-        </dl>
-      </td>
-    </tr>
-    <tr>
-      <td class="c-block">
-        <dl>
-          <dt>C1: 10:20 - 11:15</dt>
-          <dd>APCS Principles</dd>
-        </dl>
-      </td>
-      <td class="c-block">
-        <dl>
-          <dt>C2: 10:10 - 11:10</dt>
-          <dd>APCS Principles</dd>
-        </dl>
-      </td>
-      <td class="c-block">
-        <dl>
-          <dt>C3: 10:15 - 11:15</dt>
-          <dd>APCS Principles</dd>
-        </dl>
-      </td>
-      <td class="x-block">
-        <dl>
-          <dt>X: 10:30 - 11:10</dt>
-          <dd></dd>
-        </dl>
-      </td>
-      <td class="e-block friday">
-        <dl>
-          <dt>E4: 10:10 - 11:00</dt>
-          <dd></dd>
-        </dl>
-      </td>
-    </tr>
-    <tr>
-      <td class="d-block">
-        <dl>
-          <dt>D1: 10:20 - 11:15</dt>
-          <dd>Exploring Computer Science</dd>
-        </dl>
-      </td>
-      <td class="g-block">
-        <dl>
-          <dt>G2: 10:10 - 11:10</dt>
-          <dd>WWW Design</dd>
-        </dl>
-      </td>
-      <td class="f-block">
-        <dl>
-          <dt>F2: 10:15 - 11:15</dt>
-          <dd>Exploring Computer Science</dd>
-        </dl>
-      </td>
-      <td class="e-block">
-        <dl>
-          <dt>E2: 10:30 - 11:10</dt>
-          <dd></dd>
-        </dl>
-      </td>
-      <td class="c-block friday">
-        <dl>
-          <dt>C4: 10:10 - 11:00</dt>
-          <dd>APCS Principles</dd>
-        </dl>
-      </td>
-    </tr>
-    <tr>
-      <td class="lunch">
-        <dl>
-          <dt>Lunch: 12:25 - 12:55</dt>
-          <dd></dd>
-        </dl>
-      </td>
-      <td class="lunch">
-        <dl>
-          <dt>Lunch: 12:20 - 12:50</dt>
-          <dd></dd>
-        </dl>
-      </td>
-      <td class="lunch">
-        <dl>
-          <dt>Lunch: 12:25 - 12:55</dt>
-          <dd></dd>
-        </dl>
-      </td>
-      <td class="lunch">
-        <dl>
-          <dt>Lunch: 12:20 - 12:50</dt>
-          <dd></dd>
-        </dl>
-      </td>
-      <td class="lunch friday">
-        <dl>
-          <dt>Lunch: 11:55 - 12:25</dt>
-          <dd></dd>
-        </dl>
-      </td>
-    </tr>
-    <tr>
-      <td class="f-block">
-        <dl>
-          <dt>F1: 1:00 - 2:00</dt>
-          <dd>Exploring Computer Science</dd>
-        </dl>
-      </td>
-      <td class="d-block">
-        <dl>
-          <dt>D2: 12:55 - 1:45</dt>
-          <dd>Exploring Computer Science</dd>
-        </dl>
-      </td>
-      <td class="d-block">
-        <dl>
-          <dt>D3: 1:00 - 2:00</dt>
-          <dd>Exploring Computer Science</dd>
-        </dl>
-      </td>
-      <td class="g-block">
-        <dl>
-          <dt>G3: 12:55 - 1:55</dt>
-          <dd>WWW Design</dd>
-        </dl>
-      </td>
-      <td class="f-block friday">
-        <dl>
-          <dt>F4: 12:30 - 1:20</dt>
-          <dd>Exploring Computer Science</dd>
-        </dl>
-      </td>
-    </tr>
-    <tr>
-      <td class="g-block">
-        <dl>
-          <dt>G2: 2:05 - 2:55</dt>
-          <dd>Exploring Computer Science</dd>
-        </dl>
-      </td>
-      <td class="e-block">
-        <dl>
-          <dt>E1: 1:50 - 2:50</dt>
-          <dd></dd>
-        </dl>
-      </td>
-      <td class="e-block">
-        <dl>
-          <dt>E2: 2:05 - 2:55</dt>
-          <dd></dd>
-        </dl>
-      </td>
-      <td class="f-block">
-        <dl>
-          <dt>F3: 2:00 - 2:50</dt>
-          <dd>Exploring Computer Science</dd>
-        </dl>
-      </td>
-      <td class="g-block friday">
-        <dl>
-          <dt>G4: 1:25 - 2:15</dt>
-          <dd>WWW Design</dd>
-        </dl>
-      </td>
-    </tr>
-  </table></td><td
+  </table>
+
   <h1>Classes</h1>
   <dl>
     <dt>A-Block</dt>
     <dd>Exploring Computer Science</dd>
     <dt>B-Block</dt>
-    <dd></dd>
+    <dd>Autonomous Robotics</dd>
     <dt>C-Block</dt>
-    <dd>APCS Principles</dd>
+    <dd>WWW Design</dd>
     <dt>D-Block</dt>
-    <dd>Exploring Computer Science</dd>
+    <dd>APCS Principles</dd>
     <dt>E-Block</dt>
     <dd></dd>
     <dt>F-Block</dt>
     <dd>Exploring Computer Science</dd>
     <dt>G-Block</dt>
-    <dd>WWW Design</dd>
+    <dd></dd>
   </dl>
 </body>
 
