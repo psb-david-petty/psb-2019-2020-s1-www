@@ -32,9 +32,9 @@ class Webpages:
 
     _defaults = ['index.html', 'index.md', ]
     _extensions = ['.html', '.md', '.css', '.js', 'jpg', '.png', ]
-    _default_heading = ''
+    _default_heading = '2019-2020 S1 WWW Design'
     _default_text = """      <p>These are links to student websites:</p>"""
-    _default_comment = '2019-2020 S1 WWW Design'
+    _default_comment = ''
     _default_output_filename = 'students.html'
 
     def __init__(self, abs_top=r'../..', rel_top=r'..'):
