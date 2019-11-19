@@ -10,6 +10,7 @@ import os
 import pathlib
 import re
 import sys
+import urllib.parse
 
 __author__ = "David C. Petty & 2019-2020 S1 WWW"
 __copyright__ = "Copyright 2019, David C. Petty"
@@ -235,7 +236,8 @@ class Webpages:
                 has_default = self._has_default(    # check absolute directory
                     self._path(uri, old=rel_top, new=abs_top), defaults)
                 # Branch URI is link if has html or key if more nested, else blank.
-                text = (f'<a href="{uri}">{key}</a>' if has_default else key) \
+                text = (f'<a href="{urllib.parse.quote(uri)}">{key}</a>'
+                        if has_default else key) \
                     if nest else ''
                 items += self._li_format.format(
                     text=text + self._lists(nest, link + [key], indent + 1),
@@ -244,7 +246,7 @@ class Webpages:
         else:
             # Leaf URI guaranteed to have html.
             uri = self._path(*link + [''], old=abs_top, new=rel_top)
-            return f'<a href="{uri}">{link[-1]}</a>'
+            return f'<a href="{urllib.parse.quote(uri)}">{link[-1]}</a>'
 
     def _format_main(self, files, heading='', text=_default_text):
         """Return html for links as formatted, nested, unordered lists."""
