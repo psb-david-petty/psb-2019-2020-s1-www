@@ -32,7 +32,7 @@ class Webpages:
 
     _defaults = ['index.html', 'index.md', ]
     _extensions = ['.html', '.md', '.css', '.js', 'jpg', '.png', ]
-    _default_heading = '2019-2020 S1 WWW Design'
+    _default_heading = '2019-2020 S1 &mdash; WWW Design'
     _default_text = """      <p>These are links to student websites:</p>"""
     _default_comment = ''
     _default_output_filename = 'students.html'
@@ -253,14 +253,13 @@ class Webpages:
         """Return html for links as formatted, nested, unordered lists."""
         comment, filename = self._default_comment, self._default_output_filename
         links = self._lists(self._create(files))
-        main = self._main_format.format(text=text, links=3 * 2 * ' ' + links) \
-            .replace('\n\n', '\n')
+        main = self._main_format.format(text=text, links=3 * 2 * ' ' + links)
         extra = 10 * ' ' + '<p>The main documentation is <a href="..">here</a>'
         return self._webpage_format.format(
             comment=comment, heading=heading,
             main=main.rstrip(), extra=extra, filename=filename,
             date_time=datetime.datetime.now().strftime('%c')
-        )
+        ).replace('\n\n', '\n')
 
     def write_webpage(self, outpath=None):
         """Write webpage to outpath, or print if outpath is None."""
