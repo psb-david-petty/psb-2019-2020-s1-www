@@ -30,6 +30,8 @@ nav ul {
   justify-content: flex-start;
   width: 100%;
   padding: 0; margin: 0;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
 }
 
 nav ul li {
@@ -38,7 +40,7 @@ nav ul li {
   position: relative;
 }
 
-nav ul li a {
+ul li a {
   color: white;
   text-decoration: none;
   display: list-item;
@@ -50,28 +52,28 @@ nav ul li:hover {
   background-color: rgba(80, 80, 80, 1);
 }
 
-nav ul li ul {
+nav > ul > li > ul, nav > ul > li > ul > li > ul, nav > ul > li > ul > li > ul > li > ul {
   display: none;
   background-color: rgba(40, 40, 40, 1);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
 }
 
-nav ul li ul li {
-  width: 100%;
-}
 
 nav > ul > li:hover > ul {
   display: block;
   position: absolute;
   left: 0; top: 100%;
 }
-nav > ul > li:hover > ul > li {
-  position: relative;
-}
 
-nav > ul > li:hover > ul > li:hover ul {
+nav > ul > li:hover > ul > li:hover > ul, nav > ul > li:hover > ul > li:hover > ul > li:hover > ul {
   display: block;
   position: absolute;
   left: 100%; top: 0;
+}
+
+nav > ul > li:hover > ul > li, nav > ul > li:hover > ul > li:hover > ul > li, nav > ul > li:hover > ul > li:hover > ul > li:hover > ul > li {
+  position: relative;
 }
 
 /*********************************************/
@@ -128,7 +130,7 @@ p {
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: red; /* Set a background color */
+  background-color: #808080; /* Set a background color */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
@@ -136,6 +138,8 @@ p {
   font-size: 18px; /* Increase font size */
 }
 
+/*
 .myBtn:hover {
-  background-color: #555; /* Add a dark-grey background on hover */
+  background-color: #A9A9A9; /* Add a dark-grey background on hover
 }
+*/

@@ -60,6 +60,7 @@
 ../2019-2020-s1-www-c-elijahi/second/index.html
 ../2019-2020-s1-www-c-fatimaha/fifth/code.js
 ../2019-2020-s1-www-c-fatimaha/fifth/index.html
+../2019-2020-s1-www-c-fatimaha/fifth/prices.html
 ../2019-2020-s1-www-c-fatimaha/fifth/style.css
 ../2019-2020-s1-www-c-fatimaha/first/index.html
 ../2019-2020-s1-www-c-fatimaha/fourth/IMG_0939.jpg
@@ -70,6 +71,26 @@
 ../2019-2020-s1-www-c-fatimaha/second/index-color.html
 ../2019-2020-s1-www-c-fatimaha/second/index.html
 ../2019-2020-s1-www-c-fatimaha/third/index.html
+../2019-2020-s1-www-c-haofengl/fifth/DB/ICE.css
+../2019-2020-s1-www-c-haofengl/fifth/DB/ICE.html
+../2019-2020-s1-www-c-haofengl/fifth/DB/S-bhan.css
+../2019-2020-s1-www-c-haofengl/fifth/DB/S-bhan.html
+../2019-2020-s1-www-c-haofengl/fifth/DB/code.js
+../2019-2020-s1-www-c-haofengl/fifth/DB/index.html
+../2019-2020-s1-www-c-haofengl/fifth/DB/link1.css
+../2019-2020-s1-www-c-haofengl/fifth/DB/links 1.html
+../2019-2020-s1-www-c-haofengl/fifth/DB/style.css
+../2019-2020-s1-www-c-haofengl/first/index.html
+../2019-2020-s1-www-c-haofengl/fourth/index.html
+../2019-2020-s1-www-c-haofengl/second/Blank/code.js
+../2019-2020-s1-www-c-haofengl/second/Blank/index.html
+../2019-2020-s1-www-c-haofengl/second/Blank/style.css
+../2019-2020-s1-www-c-haofengl/second/Blank (1)/code.js
+../2019-2020-s1-www-c-haofengl/second/Blank (1)/style.css
+../2019-2020-s1-www-c-haofengl/second/index.html
+../2019-2020-s1-www-c-haofengl/third/Blank/code.js
+../2019-2020-s1-www-c-haofengl/third/Blank/style.css
+../2019-2020-s1-www-c-haofengl/third/index.html
 ../2019-2020-s1-www-c-isabellaa/fifth/fifth/index.html
 ../2019-2020-s1-www-c-isabellaa/fifth/fifth/style.css
 ../2019-2020-s1-www-c-isabellaa/first/index.html
@@ -114,14 +135,15 @@
 ../2019-2020-s1-www-c-oliverg/third/index.html
 ../2019-2020-s1-www-c-tristanl/bhsSchedule(Second)/index.html
 ../2019-2020-s1-www-c-tristanl/bhsSchedule(Second)/indexStyle.css
+../2019-2020-s1-www-c-tristanl/commercialWebsite(fifth)/ballpointPens.html
 ../2019-2020-s1-www-c-tristanl/commercialWebsite(fifth)/code.js
 ../2019-2020-s1-www-c-tristanl/commercialWebsite(fifth)/images/background.jpg
+../2019-2020-s1-www-c-tristanl/commercialWebsite(fifth)/images/breakTheBank.png
 ../2019-2020-s1-www-c-tristanl/commercialWebsite(fifth)/images/mechanical.png
 ../2019-2020-s1-www-c-tristanl/commercialWebsite(fifth)/images/skoolLogo.png
 ../2019-2020-s1-www-c-tristanl/commercialWebsite(fifth)/images/ticonderoga.png
 ../2019-2020-s1-www-c-tristanl/commercialWebsite(fifth)/index.html
 ../2019-2020-s1-www-c-tristanl/commercialWebsite(fifth)/pencils.html
-../2019-2020-s1-www-c-tristanl/commercialWebsite(fifth)/pens.html
 ../2019-2020-s1-www-c-tristanl/commercialWebsite(fifth)/style.css
 ../2019-2020-s1-www-c-tristanl/csgoWebsiteCopy(Fourth)/images/esrbImage.jpg
 ../2019-2020-s1-www-c-tristanl/csgoWebsiteCopy(Fourth)/images/getMerchBox.png
@@ -152,6 +174,10 @@
 ../2019-2020-s1-www-c-yudais/fifth/fifth/style.css
 ../2019-2020-s1-www-c-yudais/first/index.html
 ../2019-2020-s1-www-c-yudais/second/index.html
+../2019-2020-s1-www-c-yudais/sixth/code.js
+../2019-2020-s1-www-c-yudais/sixth/index.html
+../2019-2020-s1-www-c-yudais/sixth/style.css
+../2019-2020-s1-www-c-yudais/sixth/subway.html
 ../2019-2020-s1-www-c-yudais/third/index.html
 ../www/commercial/carrots-2387394_640x324.jpg
 ../www/commercial/commercial.css
