@@ -133,6 +133,7 @@
 ../2019-2020-s1-www-c-natem/third/index.html
 ../2019-2020-s1-www-c-oliverg/first/index.html
 ../2019-2020-s1-www-c-oliverg/fourth/index.html
+../2019-2020-s1-www-c-oliverg/second/index.html
 ../2019-2020-s1-www-c-oliverg/third/index.html
 ../2019-2020-s1-www-c-tristanl/bhsSchedule(Second)/index.html
 ../2019-2020-s1-www-c-tristanl/bhsSchedule(Second)/indexStyle.css
