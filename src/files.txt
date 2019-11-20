@@ -104,6 +104,7 @@
 ../2019-2020-s1-www-c-josephv/Third (1)/code.js
 ../2019-2020-s1-www-c-josephv/Third (1)/index.html
 ../2019-2020-s1-www-c-josephv/Third (1)/style.css
+../2019-2020-s1-www-c-josephv/first/index.html
 ../2019-2020-s1-www-c-kaitlynh/fifth/code.js
 ../2019-2020-s1-www-c-kaitlynh/fifth/index.html
 ../2019-2020-s1-www-c-kaitlynh/fifth/style.css
