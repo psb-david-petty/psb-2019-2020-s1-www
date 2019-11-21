@@ -5,7 +5,6 @@ body {
 header {
   font-style: italic;
   background: white;
-  padding: 10px;
 }
 nav {
   display: flex;
