@@ -17,6 +17,8 @@
   .topnav input[type=text] {
     border: 1px solid #ccc;  
   }
-  .box {
-      
-  }
+#red {
+    height:100px;
+    width:200px;
+    
+}

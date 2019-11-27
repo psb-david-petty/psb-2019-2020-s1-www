@@ -1,6 +1,7 @@
 .navbar {
   overflow: hidden;
   background-color: #333;
+  text-align:left;
 }
 
 .navbar a {
@@ -57,3 +58,13 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+p {
+    font-family: 'Abel', sans-serif; 
+}
+
+Header {
+    font-family: 'Orbitron', sans-serif;
+}
+
+
