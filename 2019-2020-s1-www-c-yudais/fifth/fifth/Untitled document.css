@@ -1,3 +1,81 @@
-h1 {
+body  {
+  background-image: url("https://images.getbento.com/accounts/8564c74…/media…aISPKtgCQx0Wu4_Cross_12-10-20_0524.jpg?fit=maxw=1800%26auto=format,compress" ) ;
+  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#a {
+    width:200px;
+    height:900px;
+    background:red;
+    color:white;
+    position:absolute;
+}
+#b {
+    right:600px;
+   bottom:1;
+    color:white;
+    position:absolute;
+    left:10px;
+    top:50px;
+    font-style:italic;
+}
+#c {
+    position:absolute;
+    left:30px;
+    top:250px;
+    color:white;
+}
+#d {
+  
+    width:160px;
+    height:40px;
+    background:black;
+    color:white;
+    position:absolute;
+    left:20px;
+    top:150px;
     
+}
+#menus {
+    color:white;
+    position:absolute;
+    left:80px;
+    top:300px;
+}
+#private {
+    color:white;
+    position:absolute;
+    left:50px;
+    top:350px;
+}
+#order {
+    color:white;
+    position:absolute;
+    left:70px;
+    top:400px;
+}
+#gift {
+    color:white;
+    position:absolute;
+    left:90px;
+    top:450px;
+}
+#job {
+    color:white; 
+    position:absolute;
+    left:90px;
+    top:500px;
+}
+#press {
+    color:white;
+    position:absolute;
+    left:80px;
+    top:550px;
+}
+#contact {
+    color:white;
+    position:absolute;
+    left:70px;
+    top:600px;
 }

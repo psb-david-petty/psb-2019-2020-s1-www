@@ -1,3 +1,77 @@
+a {
+    color: black;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav {
+    margin: 50px 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+
+}
+
+nav ul li {
+    display: inline-block;
+    background-color: black;
+
+}
+
+nav a {
+    display: inline;
+    padding: 0 10px;
+    color: white;
+    font-size: 15px;
+    line-height: 60px;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    background-color: black;
+}
+
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 60px;
+    /* the height of the main nav */
+}
+
+/* Display Dropdowns on Hover */
+nav ul li:hover>ul {
+    display: inherit;
+}
+
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+    width: 150px;
+    float: none;
+    display: list-item;
+    position: absolute;
+    left:03px;
+    right:10px;
+}
+
+/* Second, Third and more Tiers	*/
+nav ul ul ul li {
+    position: relative;
+    top: -60px;
+}
+
 aside li {
     display:inline-block;
     list-style:none;

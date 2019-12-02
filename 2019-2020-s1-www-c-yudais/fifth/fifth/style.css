@@ -10,7 +10,7 @@ body  {
     height:900px;
     background:red;
     color:white;
-    position:fixed;
+    position:absolute;
 }
 #b {
     right:600px;
@@ -89,7 +89,7 @@ body  {
     color:white;
     position:absolute;
     left:400px;
-    top:600px;
+    top:400px;
 }
 #letter2nd {
     left:400px;
@@ -97,18 +97,18 @@ body  {
 }
 #visit {
     color:white;
-    width:50px;
+    width:70px;
     height:30px;
     background:red;
     position:absolute;
     left:300px;
-    top:900px;
+    top:600px;
 }
 #line {
     color:red;
     top:400px;
 }
-#square {
+.square {
     position:absolute;
     left:200px;
     top:400px;
@@ -117,14 +117,14 @@ body  {
     background:gray;
     
 }
-#hour {
+.hour {
     color:white;
     position:absolute;
     left:350px;
     top:500px;
 }
 #ppp {
-    position:;
+    position:absolute;
     left:300px;
     top:600px;
 }

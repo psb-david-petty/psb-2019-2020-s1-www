@@ -9,65 +9,65 @@ header {
 }
 
 nav {
-    margin: 50px 0;
-    background-color: black;
-    display: flex;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  background-color:black;
 }
-
 nav ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    position: relative;
-
+  display: flex;
+  justify-content: center;
+  list-style: none outside none;
+  padding: 0;
+  width: 100%;
+  
 }
-
-nav ul li {
-    display: inline-block;
-    background-color: black;
-
+nav ul ul { display: none; }
+nav li:hover { background-color: lightgray; }
+nav li { text-align: left; 
 }
-
+/* child selectors */
+nav > ul > li {
+  text-align: center;
+  position: relative;
+}
+nav > ul > li:hover > ul {
+  display: block;
+  position: absolute;
+  left: 0; top: 100%;
+}
+nav > ul > li:hover > ul > li {
+  position: relative;
+}
+nav > ul > li:hover > ul > li:hover ul {
+  display: block;
+  position: absolute;
+  left: 100%; top: 0;
+}
+/* appearance style */
 nav a {
-    display: inline;
-    padding: 0 10px;
-    color: white;
-    font-size: 15px;
-    line-height: 60px;
-    text-decoration: none;
-
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
 }
 
-nav a:hover {
-    background-color: black;
-}
-
-
-nav ul ul {
-    display: none;
-    position: absolute;
-    top: 60px;
-    /* the height of the main nav */
-}
-
-/* Display Dropdowns on Hover */
-nav ul li:hover>ul {
-    display: inherit;
-}
-
-/* Fisrt Tier Dropdown */
-nav ul ul li {
-    width: 150px;
-    float: none;
-    display: list-item;
+nav {
+  border: thin solid red;
+  min-width: 600px; }
+main {
+    background-image: url("http://www.elsaurquijo.com/uploads/images/Gallery/proyectos/en/stores/zara-zurich/3.jpg");
+    background-repeat: no-repeat;
     position: relative;
+    vertical-align: middle;
+    padding: 0px;
+    background-size: cover;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 200vh;
 }
-
-/* Second, Third and more Tiers	*/
-nav ul ul ul li {
-    position: relative;
-    top: -60px;
+model pic{
+    position:absolute;
+    left:20px;
 }
 
 footer {
@@ -86,4 +86,10 @@ footer li {
     letter-spacing: .9px;
 
 }
-    width:100%;
+footer li {
+    display: inline;
+    font-size: 13px;
+    background-color: black;
+    color: white;
+    letter-spacing: .9px;
+}

@@ -54,6 +54,10 @@ nav ul li:hover {
   background-color: rgba(96, 96, 96, 1);
 }
 
+.nonLinkElement:hover {
+  background-color: rgba(160, 160, 160, 1);
+}
+
 nav > ul > li > ul, nav > ul > li > ul > li > ul, nav > ul > li > ul > li > ul > li > ul {
   display: none;
   background-color: rgba(40, 40, 40, 1);
@@ -90,6 +94,10 @@ main {
 }
 
 main img {
+  width: 20%;
+}
+
+.mainPageImage {
   width: 100%;
 }
 
@@ -142,7 +150,7 @@ p {
 
 /*
 .myBtn:hover {
-  background-color: #A9A9A9; /* Add a dark-grey background on hover
+  background-color: #A9A9A9; /*Add a dark-grey background on hover
 }
 */
 

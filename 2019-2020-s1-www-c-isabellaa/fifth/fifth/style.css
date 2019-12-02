@@ -59,21 +59,36 @@ li {
   min-width: 18%;
 }
 aside {
-  box-shadow: 1px 1px 10px gray;
-  margin-left: 70%;
-  margin-right: 5%;
-  background: white;
+  z-index: 1;
+  margin-left: 5%;
+  margin-right: 65%;
+  padding: 5px;
+  border: thin black solid;
+  background: lightgray;
+
+}
+aside iframe {
+  width: 100%;
+  height: 200px;
 }
 main {
   box-shadow: 1px 1px 10px gray;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 40%;
+  margin-right: 5%;
+  margin-bottom: 10%;
   background: white;
   padding: 10px;
+  top: 0;
 }
 img {
-  width: 100%;4px
+  width: 100%;
 }
 footer {
   background: darkgreen;
-}
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}blac
