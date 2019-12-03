@@ -11,7 +11,7 @@ These are Mr. Petty's versions of the WWW webpages.
 | [./tables](./tables/) | Table Webpage Assignment |
 | [./news](./news/) | News Webpage Assignment |
 | [./commercial](./commercial/) | Commercial Webpage Assignment |
-| ./descriptive/ | Descriptive Webpage Assignment |
+| [./descriptive/](./descriptive/) | Descriptive Webpage Assignment |
 | [./dropdown](./dropdown/) | Dropdown Webpage Assignment |
 | ./paralax/ | Paralax Webpage Assignment |
 | [./form](./form/) | Form Webpage Assignment |
