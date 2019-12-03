@@ -2,7 +2,7 @@
 
 This is the [repository](https://github.com/psb-david-petty/psb-2019-2020-s1-www/) of the Brookline High School 2019-2020 S1 *WWW Design* course. The student [webpages](https://psb-david-petty.github.io/psb-2019-2020-s1-www/www/github/students.html) are available @ [https://psb-david-petty.github.io/psb-2019-2020-s1-www/www/github/students.html](https://psb-david-petty.github.io/psb-2019-2020-s1-www/www/github/students.html).
 
-## Minimal HTML 5 webpage
+## Minimal HTML 5 [webpage](https://psb-david-petty.github.io/psb-2019-2020-s1-www/www/templates/minimal.html)
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -16,7 +16,7 @@ This is the [repository](https://github.com/psb-david-petty/psb-2019-2020-s1-www
 </html>
 ```
 
-## Minimal HTML 5 semantic webpage
+## Minimal HTML 5 [semantic webpage](https://psb-david-petty.github.io/psb-2019-2020-s1-www/www/templates/minimalsemantic.html)
 ```html
 <!DOCTYPE html>
 <html lang="en">
