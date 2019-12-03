@@ -139,6 +139,9 @@ class Webpages:
         self._li_format = """
 {indent}<li>{text}</li>
 """
+        self._extra_format = """
+{indent}<p>The main documentation is <a href="{link}">here</a>.</p>
+"""
         self._webpage = self._format_main(self.paths).lstrip()
 
     @property
@@ -257,7 +260,8 @@ class Webpages:
         comment, filename = self._default_comment, self._default_output_filename
         links = self._lists(self._create(files))
         main = self._main_format.format(text=text, links=3 * 2 * ' ' + links)
-        extra = 10 * ' ' + '<p>The main documentation is <a href="..">here</a>'
+        # TO_DO: this link is relative to the created file and self._rel_top
+        extra = self._extra_format.format(indent=10 * ' ', link=self.rel_top)
         return self._webpage_format.format(
             comment=comment, heading=heading,
             main=main.rstrip(), extra=extra, filename=filename,
