@@ -19,4 +19,6 @@ These are Mr. Petty's versions of the WWW webpages.
 
 <hr>
 
-[Mr. Petty's website](http://j.mp/psb_david_petty)
+The header values calculator test ([./header-values-calculator-test.html](./header-values-calculator-test.html)) webpage uses the [header values calculator](https://drive.google.com/open?id=1YfmRxpjsvjqxqXFmH0yInBZWveFepM4WtMHBCcvRgjk).
+
+[Mr. Petty's website](http://j.mp/psb_david_petty).
