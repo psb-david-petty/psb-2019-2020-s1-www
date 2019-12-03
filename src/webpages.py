@@ -237,13 +237,14 @@ class Webpages:
         if nested:
             items = ''
             for key in sorted(nested):
+                kp = self._path(*[key] + [''], old=abs_top, new=rel_top)
                 nest = nested[key]
                 uri = self._path(*link + [key] + [''], old=abs_top, new=rel_top)
                 has_default = self._has_default(    # check absolute directory
                     self._path(uri, old=rel_top, new=abs_top), defaults)
-                # URI is link if has default, or key if more nested, else blank.
-                text = (f'<a href="{urllib.parse.quote(uri)}">{key}</a>'
-                        if has_default else key) \
+                # text is link if has default, or kp if more nested, else blank.
+                text = (f'<a href="{urllib.parse.quote(uri)}">{kp}</a>'
+                        if has_default else kp) \
                     if nest else ''
                 items += self._li_format.format(
                     text=text + self._lists(nest, link + [key], indent + 1),
@@ -251,7 +252,7 @@ class Webpages:
             return self._ul_format.format(items=items, indent=indent * 2 * ' ')\
                 .strip()
         else:
-            # Leaf URI guaranteed to have html.
+            # Leaf URI guaranteed to have one of self.defaults.
             uri = self._path(*link + [''], old=abs_top, new=rel_top)
             return f'<a href="{urllib.parse.quote(uri)}">{link[-1]}</a>'
 
