@@ -58,14 +58,13 @@ li {
   padding: 1%;
   min-width: 18%;
 }
+div {
+  display: flex;
+  margin-bottom: 4%;
+}
 aside {
-  z-index: 1;
-  margin-left: 5%;
-  margin-right: 65%;
-  padding: 5px;
-  border: thin black solid;
   background: lightgray;
-
+  width: 30%;
 }
 aside iframe {
   width: 100%;
@@ -73,12 +72,12 @@ aside iframe {
 }
 main {
   box-shadow: 1px 1px 10px gray;
-  margin-left: 40%;
-  margin-right: 5%;
   margin-bottom: 10%;
   background: white;
-  padding: 10px;
   top: 0;
+  height: 100%;
+  width: 70%;
+  padding: 10px;
 }
 img {
   width: 100%;

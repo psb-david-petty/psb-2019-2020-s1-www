@@ -31,7 +31,9 @@ class Webpages:
     #        its relation to rel_top.
 
     _defaults = ['index.html', 'index.md', ]
-    _extensions = ['.html', '.md', '.css', '.js', 'jpg', '.png', ]
+    _extensions = ['.html', '.md', '.css', '.js',
+                   '.gif', 'jpg', '.png',
+                   '.eot', '.ttf', '.otf', '.woff', '.woff2', '.svg', ]
     _default_heading = '2019-2020 S1 &mdash; WWW Design'
     _default_text = """      <p>These are links to student websites:</p>"""
     _default_comment = ''
@@ -203,11 +205,11 @@ class Webpages:
         return [str(f) for f in sorted(set(files))]
 
     @staticmethod
-    def _nest(path, dictionary):
+    def _nest(path, cds):
         """Return nested dictionaries of components of path list."""
         if path:
-            dictionary[path[0]] = Webpages._nest(path[1:], dictionary.get(path[0], dict()))
-        return dictionary
+            cds[path[0]] = Webpages._nest(path[1:], cds.get(path[0], dict()))
+        return cds
 
     @staticmethod
     def _create(links):
@@ -236,14 +238,15 @@ class Webpages:
                 uri = self._path(*link + [key] + [''], old=abs_top, new=rel_top)
                 has_default = self._has_default(    # check absolute directory
                     self._path(uri, old=rel_top, new=abs_top), defaults)
-                # Branch URI is link if has html or key if more nested, else blank.
+                # URI is link if has default, or key if more nested, else blank.
                 text = (f'<a href="{urllib.parse.quote(uri)}">{key}</a>'
                         if has_default else key) \
                     if nest else ''
                 items += self._li_format.format(
                     text=text + self._lists(nest, link + [key], indent + 1),
                     indent=(indent + 1) * 2 * ' ')
-            return self._ul_format.format(items=items, indent=indent * 2 * ' ').strip()
+            return self._ul_format.format(items=items, indent=indent * 2 * ' ')\
+                .strip()
         else:
             # Leaf URI guaranteed to have html.
             uri = self._path(*link + [''], old=abs_top, new=rel_top)

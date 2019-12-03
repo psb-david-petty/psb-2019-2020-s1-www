@@ -1,5 +1,4 @@
-nav
-ul {
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -26,8 +25,8 @@ nav ul {
     justify-content: center;
     padding:0;
 }
-nav ul ul{
-    disp
+nav ul ul {
+    display:hover;
 }
 nav li {text-align: left;}
 nav > ul > li{
@@ -40,7 +39,7 @@ nav > ul > li:hover > ul {
 }
 nav > ul > li:hover > ul > li {
     position:relative;
-    
+    display:block;
 }
 nav > ul > li:hover > ul > li:hover ul {
     display:block;

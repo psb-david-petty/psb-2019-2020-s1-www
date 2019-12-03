@@ -11,6 +11,7 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-family:'Abel', sans-serif;
 }
 
 .dropdown {
@@ -25,7 +26,7 @@
   color: white;
   padding: 14px 16px;
   background-color: inherit;
-  font-family: inherit;
+  font-family:'Abel', sans-serif;
   margin: 0;
 }
 
@@ -40,6 +41,7 @@
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  font-family:'Abel', sans-serif;
 }
 
 .dropdown-content a {
@@ -67,4 +69,14 @@ Header {
     font-family: 'Orbitron', sans-serif;
 }
 
+h2 {
+     font-family: 'Abel', sans-serif; 
+}
 
+ul {
+     font-family: 'Abel', sans-serif; 
+}
+
+figcaption {
+    font-family: 'Abel', sans-serif; 
+}

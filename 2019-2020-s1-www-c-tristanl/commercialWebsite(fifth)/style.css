@@ -93,13 +93,10 @@ main {
   margin: 2% 0 0 0;
 }
 
-main img {
-  width: 20%;
-}
-
-.mainPageImage {
-  width: 100%;
-}
+main figure {width: 100%; margin: 0;}
+main figcaption {width: 100%; font-size: 10px;}
+main img {width: 20%;}
+.mainPageImage img {width: 100%;}
 
 h1 {
   margin: 0;

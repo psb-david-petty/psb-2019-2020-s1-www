@@ -8,7 +8,7 @@
 	  url('myfont-webfont.svg#svgFontName') format('svg');
 }
 
-/* WOFF fonts, after being converted from .TTF */
+/* WOFF fonts, after being converted from .OTF / .TTF */
 @font-face {
     font-family: 'Docu';
     src: url('docu/Docu-Thin.woff2') format('woff2'),
@@ -54,5 +54,6 @@ aside { width: 18%; border: thin solid pink; padding: 0 0.6%; }
 main { width: 60%; border: thin solid yellow; }
 body { color: #000099; background-color: gainsboro; }
 main p + p { color: red; background-color: yellow; }
+article { font-family: Crimson Text, monospace; font-weight: 600; }
 #green { color: green; }
 footer { clear: both; }

@@ -1,7 +1,12 @@
 
-.a {
+.Bebas {
     font-family: 'Bebas Neue', cursive;
+    }
+    
+.Gupter {
+    font-family: 'Gupter', serif;
 }
+
 #search {
     position:absolute;
     top:200px;
@@ -18,7 +23,34 @@
     border: 1px solid #ccc;  
   }
 #red {
-    height:100px;
+    color:red;
     width:200px;
-    
+    height:50px;
+    border:solid;
+    }
+#black {
+    color:black;
+    width:200px;
+     height:50px;
+    border:solid;
+    position:absolute;
+    left:250px;
+    top:172px;
+    }
+#orange {
+    color:orange;
+    width:200px;
+    height:50px;
+    border:solid;
+    position:absolute;
+    top:250px;
+}
+#blue {
+    color:blue;
+    width:200px;
+    height:50px;
+    border:solid;
+    position:absolute;
+    left:250px;
+    top:250px;
 }
