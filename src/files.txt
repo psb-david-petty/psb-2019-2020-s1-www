@@ -321,6 +321,7 @@
 ../www/form/quiz.js
 ../www/github/students.html
 ../www/github/styles/students.css
+../www/header-values-calculator-test.html
 ../www/index.md
 ../www/news/index.html
 ../www/news/semantic.css
