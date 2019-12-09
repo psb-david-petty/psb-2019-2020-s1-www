@@ -1,0 +1,96 @@
+/********************/
+/* Fonts */
+/********************/
+@font-face {
+    font-family: 'Matrix';
+    src: url('./fonts/matrix/matrix.woff2') format('woff2'),
+        url('./fonts/matrix/matrix.woff') format('woff'),
+        url('./fonts/matrix/matrix.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap; /* uses default font before loading custom font for ease "fout" */
+}
+@font-face {
+    font-family: 'Gerry';
+    src: url('./fonts/gerry/Gerry.woff2') format('woff2'),
+        url('./fonts/gerry/Gerry.woff') format('woff'),
+        url('./fonts/gerry/Gerry.ttf') format('truetype'),
+        url('./fonts/gerry/Gerry.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; /* uses default font before loading custom font for ease "fout" */
+}
+/********************/
+/*Main Styling*/
+/********************/
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+header {
+  text-align: center;
+  width: 90%;
+  font-size: 3.5em;
+  padding: 2% 0 0 0;
+}
+
+header button {
+  border: none;
+  background-color: inherit;
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+/********************/
+/*Nav Styling*/
+/********************/
+nav {
+  width: 100%;
+}
+
+nav ul {
+  padding: 0;
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  z-index: 1;
+  background-color: none;
+}
+
+nav ul li {
+  width: 20%;
+  text-align: center;
+  position: relative;
+  background-color: inherit;
+  padding: 16px 0 16px 0;
+  border-radius: 20px;
+  box-shadow: 0px 8px 16px 0px rgba(255,255,255,0.2);
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav ul li:hover {filter: invert(100%);} /* TODO Fix */
+
+/********************/
+/*Font Page Styling*/
+/********************/
+.matrixPage {
+  font-family: 'Matrix', serif;
+  background-color: black;
+  color: lime;
+}
+
+.gerryPage {
+  font-family: 'Gerry', serif;
+  background-color: white;
+  color: black;
+}

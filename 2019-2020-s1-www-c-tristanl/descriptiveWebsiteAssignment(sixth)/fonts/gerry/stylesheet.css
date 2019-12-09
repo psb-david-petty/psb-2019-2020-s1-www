@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Gerry';
+    src: url('Gerry.woff2') format('woff2'),
+        url('Gerry.woff') format('woff'),
+        url('Gerry.ttf') format('truetype'),
+        url('Gerry.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}

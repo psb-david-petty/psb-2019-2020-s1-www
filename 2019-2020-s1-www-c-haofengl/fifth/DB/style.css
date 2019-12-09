@@ -26,7 +26,7 @@ nav ul {
     padding:0;
 }
 nav ul ul {
-    display:hover;
+    display:block;
 }
 nav li {text-align: left;}
 nav > ul > li{
@@ -57,5 +57,6 @@ p {
   font-family: 'Righteous', cursive;
 }
 main section:second-child p{font-family: 'Gloria Hallelujah', cursive;}
+main section:third-child p{font-family:MBTA Green Line LED display ;outline}
 
 

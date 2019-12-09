@@ -1,53 +1,77 @@
-/* FontSpring 'bulletproof' @font-face: https://blog.fontspring.com/2011/02/the-new-bulletproof-font-face-syntax/ */
+/* FontSpring 'bulletproof' @font-face: https://css-tricks.com/snippets/css/using-font-face/
+  https://blog.fontspring.com/2011/02/the-new-bulletproof-font-face-syntax/ */
 @font-face {
-  font-family: 'MyFontFamily';
-	src:
-	  url('myfont-webfont.eot?#iefix') format('embedded-opentype'), 
-	  url('myfont-webfont.woff') format('woff'), 
-	  url('myfont-webfont.ttf')  format('truetype'),
-	  url('myfont-webfont.svg#svgFontName') format('svg');
+  font-family: 'MyWebFont';
+  src:  url('fonts/webfont.eot'); /* IE9 Compat Modes */
+  src:  url('fonts/webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('fonts/webfont.woff2') format('woff2'), /* Super Modern Browsers */
+        url('fonts/webfont.woff') format('woff'), /* Pretty Modern Browsers */
+        url('fonts/webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+        url('fonts/webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 /* WOFF fonts, after being converted from .OTF / .TTF */
 @font-face {
-    font-family: 'Docu';
-    src: url('docu/Docu-Thin.woff2') format('woff2'),
-        url('docu/Docu-Thin.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Docu';
+  src:  url('fonts/docu/Docu-Thin.woff2') format('woff2'),
+        url('fonts/docu/Docu-Thin.woff') format('woff'),
+        url('fonts/docu/Docu-Thin.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* FOUT */
 }
 @font-face {
-    font-family: 'Docu';
-    src: url('docu/Docu-ThinOblique.woff2') format('woff2'),
-        url('docu/Docu-ThinOblique.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
+  font-family: 'Docu';
+  src:  url('fonts/docu/Docu-ThinOblique.woff2') format('woff2'),
+        url('fonts/docu/Docu-ThinOblique.woff') format('woff'),
+        url('fonts/docu/Docu-ThinOblique.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap; /* FOUT */
 }
 @font-face {
-    font-family: 'Docu';
-    src: url('docu/Docu-Medium.woff2') format('woff2'),
-        url('docu/Docu-Medium.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
+  font-family: 'Docu';
+  src:  url('fonts/docu/Docu-Medium.woff2') format('woff2'),
+        url('fonts/docu/Docu-Medium.woff') format('woff'),
+        url('fonts/docu/Docu-Medium.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; /* FOUT */
 }
 @font-face {
-    font-family: 'Docu';
-    src: url('docu/Docu-MediumOblique.woff2') format('woff2'),
-        url('docu/Docu-MediumOblique.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
+  font-family: 'Docu';
+  src:  url('fonts/docu/Docu-MediumOblique.woff2') format('woff2'),
+        url('fonts/docu/Docu-MediumOblique.woff') format('woff'),
+        url('fonts/docu/Docu-MediumOblique.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap; /* FOUT */
 }
 
 @font-face {
-    font-family: 'Final Frontier Old Style';
-    src: url('final-frontier-old-style/FinalFrontierOldStyle.woff2') format('woff2'),
-        url('final-frontier-old-style/FinalFrontierOldStyle.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Final Frontier Old Style';
+  src:  url('fonts/final-frontier-old-style/FinalFrontierOldStyle.woff2') format('woff2'),
+        url('fonts/final-frontier-old-style/FinalFrontierOldStyle.woff') format('woff'),
+        url('fonts/final-frontier-old-style/finalold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* FOUT */
 }
 
-body { font-family: Docu, Arial, sans-serif; }
-h1, h2, h3, h4, h5, h6 { font-family: "Final Frontier Old Style", Impact, monospace; font-weight: normal; }
+@font-face {
+  font-family: 'FUCXED CAPS';
+  src:  url('fonts/FUCXEDCAPSLATIN_fonts/FUCXEDCAPSLatin-Regular.woff2') format('woff2'),
+        url('fonts/FUCXEDCAPSLATIN_fonts/FUCXEDCAPSLatin-Regular.woff') format('woff'),
+        url('fonts/FUCXEDCAPSLATIN_fonts/FUCXEDCAPSLatin-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* FOUT */
+}
+
+body { font-family: "Crimson Text", serif; }
+h1, h2, h3, h4, h5, h6 { font-family: "FUCXED CAPS", Impact, monospace; font-weight: normal; }
+.trek { font-family: "Final Frontier Old Style", Impact, monospace; font-size: x-large; }
+span { font-family: Docu, sans-serif; font-size: x-large; }
 nav, aside, main { float: left; }
 nav { width: 18%; border: thin solid red; padding: 0 0.6%; }
 aside { width: 18%; border: thin solid pink; padding: 0 0.6%; }
@@ -57,3 +81,4 @@ main p + p { color: red; background-color: yellow; }
 article { font-family: Crimson Text, monospace; font-weight: 600; }
 #green { color: green; }
 footer { clear: both; }
+.xr-

@@ -64,23 +64,35 @@ div {
 }
 aside {
   background: lightgray;
-  width: 30%;
+  width: 25%;
 }
 aside iframe {
   width: 100%;
   height: 200px;
 }
 main {
-  box-shadow: 1px 1px 10px gray;
-  margin-bottom: 10%;
+  margin-bottom: 0;
   background: white;
   top: 0;
   height: 100%;
-  width: 70%;
+  width: 75%;
   padding: 10px;
 }
 img {
   width: 100%;
+}
+figcaption {
+  color: gray;
+}
+figcaption a {
+  color: gray;
+  text-decoration: none;
+  font-style: italic;
+}
+figcaption a:hover {
+  color:black;
+  text-decoration: underline;
+  font-weight: bold;
 }
 footer {
   background: darkgreen;

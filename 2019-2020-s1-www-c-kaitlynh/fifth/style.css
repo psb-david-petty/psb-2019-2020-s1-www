@@ -10,20 +10,19 @@ header {
 
 nav {
   display: flex;
-  align-items: center;
+
   height: 100px;
   background-color:black;
 }
 nav ul {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   list-style: none outside none;
   padding: 0;
   width: 100%;
   
 }
 nav ul ul { display: none; }
-nav li:hover { background-color: lightgray; }
 nav li { text-align: left; 
 }
 /* child selectors */

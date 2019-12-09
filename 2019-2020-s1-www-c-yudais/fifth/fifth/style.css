@@ -123,8 +123,28 @@ body  {
     left:350px;
     top:500px;
 }
+.secondhour {
+    color:white;
+    position:absolute;
+    left:350px;
+    top:600px;
+
+}
 #ppp {
     position:absolute;
     left:300px;
     top:600px;
+}
+#giftone {
+    color:white;
+    position:absolute;
+    left:350px;
+    top:600px;
+}
+#gifttwo {
+    color:white;
+    position:absolute;
+    left:350px;
+    top:700px;
+    
 }

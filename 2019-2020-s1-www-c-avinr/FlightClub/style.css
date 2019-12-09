@@ -76,3 +76,4 @@ li {
   border: thin solid blue;
   padding: 1%; min-width: 18%;  /* 100% / (n + 2) */
 }
+header {

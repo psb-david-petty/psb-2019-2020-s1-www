@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'matrix';
+    src: url('matrix.woff2') format('woff2'),
+        url('matrix.woff') format('woff'),
+        url('matrix.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}

@@ -34,13 +34,17 @@
 ../2019-2020-s1-www-c-dusting/Bad Table/code.js
 ../2019-2020-s1-www-c-dusting/Bad Table/index.html
 ../2019-2020-s1-www-c-dusting/Bad Table/style.css
+../2019-2020-s1-www-c-dusting/Best Webpages/Index (1).html
+../2019-2020-s1-www-c-dusting/Best Webpages/code.js
+../2019-2020-s1-www-c-dusting/Best Webpages/index.html
+../2019-2020-s1-www-c-dusting/Best Webpages/style.css
 ../2019-2020-s1-www-c-dusting/Blank/code.js
 ../2019-2020-s1-www-c-dusting/Blank/index.html
 ../2019-2020-s1-www-c-dusting/Blank/style.css
-../2019-2020-s1-www-c-dusting/Dustin's-Best-Webpages/Index (1).html
-../2019-2020-s1-www-c-dusting/Dustin's-Best-Webpages/code.js
-../2019-2020-s1-www-c-dusting/Dustin's-Best-Webpages/index.html
-../2019-2020-s1-www-c-dusting/Dustin's-Best-Webpages/style.css
+../2019-2020-s1-www-c-dusting/The Oculus Quest/code.js
+../2019-2020-s1-www-c-dusting/The Oculus Quest/index (1).html
+../2019-2020-s1-www-c-dusting/The Oculus Quest/index.html
+../2019-2020-s1-www-c-dusting/The Oculus Quest/style.css
 ../2019-2020-s1-www-c-dusting/first-web-page/code.js
 ../2019-2020-s1-www-c-dusting/first-web-page/index.html
 ../2019-2020-s1-www-c-dusting/first-web-page/style.css
@@ -100,7 +104,6 @@
 ../2019-2020-s1-www-c-haofengl/third/Blank/code.js
 ../2019-2020-s1-www-c-haofengl/third/Blank/style.css
 ../2019-2020-s1-www-c-haofengl/third/index.html
-../2019-2020-s1-www-c-isabellaa/fifth/fifth/environment.html
 ../2019-2020-s1-www-c-isabellaa/fifth/fifth/index.html
 ../2019-2020-s1-www-c-isabellaa/fifth/fifth/plant-more-trees.html
 ../2019-2020-s1-www-c-isabellaa/fifth/fifth/style.css
@@ -119,6 +122,9 @@
 ../2019-2020-s1-www-c-josephv/Fourth/code.js
 ../2019-2020-s1-www-c-josephv/Fourth/index.html
 ../2019-2020-s1-www-c-josephv/Fourth/style.css
+../2019-2020-s1-www-c-josephv/Sixth/code.js
+../2019-2020-s1-www-c-josephv/Sixth/index.html
+../2019-2020-s1-www-c-josephv/Sixth/style.css
 ../2019-2020-s1-www-c-josephv/Third/code.js
 ../2019-2020-s1-www-c-josephv/Third/index.html
 ../2019-2020-s1-www-c-josephv/Third/style.css
@@ -133,6 +139,7 @@
 ../2019-2020-s1-www-c-kaitlynh/fifth/mens.css
 ../2019-2020-s1-www-c-kaitlynh/fifth/mens.html
 ../2019-2020-s1-www-c-kaitlynh/fifth/sale (1).html
+../2019-2020-s1-www-c-kaitlynh/fifth/sale.css
 ../2019-2020-s1-www-c-kaitlynh/fifth/sale.html
 ../2019-2020-s1-www-c-kaitlynh/fifth/style.css
 ../2019-2020-s1-www-c-kaitlynh/fifth/womens.css
@@ -162,6 +169,7 @@
 ../2019-2020-s1-www-c-natem/sixth/index.html
 ../2019-2020-s1-www-c-natem/sixth/style.css
 ../2019-2020-s1-www-c-natem/third/index.html
+../2019-2020-s1-www-c-oliverg/fifth/fifth/Sport-Inspired. Nike.com.html
 ../2019-2020-s1-www-c-oliverg/fifth/fifth/code.js
 ../2019-2020-s1-www-c-oliverg/fifth/fifth/index.html
 ../2019-2020-s1-www-c-oliverg/fifth/fifth/style.css
@@ -209,6 +217,21 @@
 ../2019-2020-s1-www-c-tristanl/csgoWebsiteCopy(Fourth)/images/valveLogo.png
 ../2019-2020-s1-www-c-tristanl/csgoWebsiteCopy(Fourth)/index.html
 ../2019-2020-s1-www-c-tristanl/csgoWebsiteCopy(Fourth)/style.css
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/code.js
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/gerry/Gerry.otf
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/gerry/Gerry.ttf
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/gerry/Gerry.woff
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/gerry/Gerry.woff2
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/gerry/demo.html
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/gerry/stylesheet.css
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/matrix/demo.html
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/matrix/matrix.ttf
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/matrix/matrix.woff
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/matrix/matrix.woff2
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/matrix/stylesheet.css
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/gerry.html
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/index.html
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/style.css
 ../2019-2020-s1-www-c-tristanl/helloWorld/index.html
 ../2019-2020-s1-www-c-tristanl/introductionWebsite(First)/hubble25thanniversaryimage.jpg
 ../2019-2020-s1-www-c-tristanl/introductionWebsite(First)/index.html
@@ -234,8 +257,8 @@
 ../2019-2020-s1-www-c-yudais/fourth/index.html
 ../2019-2020-s1-www-c-yudais/fourth/someone-elses-webpage.html
 ../2019-2020-s1-www-c-yudais/second/index.html
-../2019-2020-s1-www-c-yudais/sixth/code.js
 ../2019-2020-s1-www-c-yudais/sixth/index.html
+../2019-2020-s1-www-c-yudais/sixth/map.html
 ../2019-2020-s1-www-c-yudais/sixth/style.css
 ../2019-2020-s1-www-c-yudais/sixth/subway.html
 ../2019-2020-s1-www-c-yudais/third/index.html
@@ -248,59 +271,148 @@
 ../www/commercial/index.html
 ../www/commercial/parsley-3622868_640x411.png
 ../www/commercial/variety.html
-../www/descriptive/Square-721-Bold-Extended-BT/Square-721-Bold-Extended-BT.ttf
 ../www/descriptive/descriptive.css
-../www/descriptive/docu/Docu-Bold.ttf
-../www/descriptive/docu/Docu-Bold.woff
-../www/descriptive/docu/Docu-Bold.woff2
-../www/descriptive/docu/Docu-BoldOblique.ttf
-../www/descriptive/docu/Docu-BoldOblique.woff
-../www/descriptive/docu/Docu-BoldOblique.woff2
-../www/descriptive/docu/Docu-Light.ttf
-../www/descriptive/docu/Docu-Light.woff
-../www/descriptive/docu/Docu-Light.woff2
-../www/descriptive/docu/Docu-LightOblique.ttf
-../www/descriptive/docu/Docu-LightOblique.woff
-../www/descriptive/docu/Docu-LightOblique.woff2
-../www/descriptive/docu/Docu-Medium.ttf
-../www/descriptive/docu/Docu-Medium.woff
-../www/descriptive/docu/Docu-Medium.woff2
-../www/descriptive/docu/Docu-MediumOblique.ttf
-../www/descriptive/docu/Docu-MediumOblique.woff
-../www/descriptive/docu/Docu-MediumOblique.woff2
-../www/descriptive/docu/Docu-Regular.ttf
-../www/descriptive/docu/Docu-Regular.woff
-../www/descriptive/docu/Docu-Regular.woff2
-../www/descriptive/docu/Docu-RegularOblique.ttf
-../www/descriptive/docu/Docu-RegularOblique.woff
-../www/descriptive/docu/Docu-RegularOblique.woff2
-../www/descriptive/docu/Docu-Thin.ttf
-../www/descriptive/docu/Docu-Thin.woff
-../www/descriptive/docu/Docu-Thin.woff2
-../www/descriptive/docu/Docu-ThinOblique.ttf
-../www/descriptive/docu/Docu-ThinOblique.woff
-../www/descriptive/docu/Docu-ThinOblique.woff2
-../www/descriptive/docu/Docu-Xbold.ttf
-../www/descriptive/docu/Docu-Xbold.woff
-../www/descriptive/docu/Docu-Xbold.woff2
-../www/descriptive/docu/Docu-XboldOblique.ttf
-../www/descriptive/docu/Docu-XboldOblique.woff
-../www/descriptive/docu/Docu-XboldOblique.woff2
-../www/descriptive/docu/demo.html
-../www/descriptive/docu/stylesheet.css
-../www/descriptive/final-frontier-old-style/FinalFrontierOldStyle.woff
-../www/descriptive/final-frontier-old-style/FinalFrontierOldStyle.woff2
-../www/descriptive/final-frontier-old-style/demo.html
-../www/descriptive/final-frontier-old-style/stylesheet.css
-../www/descriptive/gerry/Gerry.otf
-../www/descriptive/gerry/GerryRegular.ttf
-../www/descriptive/gerry/GerryRegular.woff
-../www/descriptive/gerry/GerryRegular.woff2
+../www/descriptive/fonts/FUCXEDCAPSLATIN_fonts/FUCXEDCAPSLatin-Regular.otf
+../www/descriptive/fonts/FUCXEDCAPSLATIN_fonts/FUCXEDCAPSLatin-Regular.ttf
+../www/descriptive/fonts/FUCXEDCAPSLATIN_fonts/FUCXEDCAPSLatin-Regular.woff
+../www/descriptive/fonts/FUCXEDCAPSLATIN_fonts/FUCXEDCAPSLatin-Regular.woff2
+../www/descriptive/fonts/Gerry/Gerry.otf
+../www/descriptive/fonts/Gerry/GerryRegular.ttf
+../www/descriptive/fonts/Gerry/GerryRegular.woff
+../www/descriptive/fonts/Gerry/GerryRegular.woff2
+../www/descriptive/fonts/Gerry/demo.html
+../www/descriptive/fonts/Gerry/stylesheet.css
+../www/descriptive/fonts/Square-721-Bold-Extended-BT/Square-721-Bold-Extended-BT.ttf
+../www/descriptive/fonts/Square-721-Bold-Extended-BT/specimen_files/grid_12-825-55-15.css
+../www/descriptive/fonts/Square-721-Bold-Extended-BT/specimen_files/specimen_stylesheet.css
+../www/descriptive/fonts/Square-721-Bold-Extended-BT/square-721-bold-extended-bt-demo.html
+../www/descriptive/fonts/Square-721-Bold-Extended-BT/square-721-bold-extended-bt-webfont.woff
+../www/descriptive/fonts/Square-721-Bold-Extended-BT/square-721-bold-extended-bt-webfont.woff2
+../www/descriptive/fonts/Square-721-Bold-Extended-BT/stylesheet.css
+../www/descriptive/fonts/capncrunch.ttf
+../www/descriptive/fonts/docu/Docu-Bold.ttf
+../www/descriptive/fonts/docu/Docu-Bold.woff
+../www/descriptive/fonts/docu/Docu-Bold.woff2
+../www/descriptive/fonts/docu/Docu-BoldOblique.ttf
+../www/descriptive/fonts/docu/Docu-BoldOblique.woff
+../www/descriptive/fonts/docu/Docu-BoldOblique.woff2
+../www/descriptive/fonts/docu/Docu-Light.ttf
+../www/descriptive/fonts/docu/Docu-Light.woff
+../www/descriptive/fonts/docu/Docu-Light.woff2
+../www/descriptive/fonts/docu/Docu-LightOblique.ttf
+../www/descriptive/fonts/docu/Docu-LightOblique.woff
+../www/descriptive/fonts/docu/Docu-LightOblique.woff2
+../www/descriptive/fonts/docu/Docu-Medium.ttf
+../www/descriptive/fonts/docu/Docu-Medium.woff
+../www/descriptive/fonts/docu/Docu-Medium.woff2
+../www/descriptive/fonts/docu/Docu-MediumOblique.ttf
+../www/descriptive/fonts/docu/Docu-MediumOblique.woff
+../www/descriptive/fonts/docu/Docu-MediumOblique.woff2
+../www/descriptive/fonts/docu/Docu-Regular.ttf
+../www/descriptive/fonts/docu/Docu-Regular.woff
+../www/descriptive/fonts/docu/Docu-Regular.woff2
+../www/descriptive/fonts/docu/Docu-RegularOblique.ttf
+../www/descriptive/fonts/docu/Docu-RegularOblique.woff
+../www/descriptive/fonts/docu/Docu-RegularOblique.woff2
+../www/descriptive/fonts/docu/Docu-Thin.ttf
+../www/descriptive/fonts/docu/Docu-Thin.woff
+../www/descriptive/fonts/docu/Docu-Thin.woff2
+../www/descriptive/fonts/docu/Docu-ThinOblique.ttf
+../www/descriptive/fonts/docu/Docu-ThinOblique.woff
+../www/descriptive/fonts/docu/Docu-ThinOblique.woff2
+../www/descriptive/fonts/docu/Docu-Xbold.ttf
+../www/descriptive/fonts/docu/Docu-Xbold.woff
+../www/descriptive/fonts/docu/Docu-Xbold.woff2
+../www/descriptive/fonts/docu/Docu-XboldOblique.ttf
+../www/descriptive/fonts/docu/Docu-XboldOblique.woff
+../www/descriptive/fonts/docu/Docu-XboldOblique.woff2
+../www/descriptive/fonts/docu/demo.html
+../www/descriptive/fonts/docu/stylesheet.css
+../www/descriptive/fonts/final-frontier-old-style/FinalFrontierOldStyle.woff
+../www/descriptive/fonts/final-frontier-old-style/FinalFrontierOldStyle.woff2
+../www/descriptive/fonts/final-frontier-old-style/demo.html
+../www/descriptive/fonts/final-frontier-old-style/finalold.ttf
+../www/descriptive/fonts/final-frontier-old-style/stylesheet.css
+../www/descriptive/fonts/fucxed-cpas-transfonter.org-20191204-043132/FUCXEDCAPSRegular.ttf
+../www/descriptive/fonts/fucxed-cpas-transfonter.org-20191204-043132/demo.html
+../www/descriptive/fonts/fucxed-cpas-transfonter.org-20191204-043132/stylesheet.css
+../www/descriptive/fonts/fucxedcaps-v2/FUCXEDCAPS-v2.otf
+../www/descriptive/fonts/fucxedcaps-v2/fucxedcaps-v2-demo.html
+../www/descriptive/fonts/fucxedcaps-v2/fucxedcaps-v2-webfont.woff
+../www/descriptive/fonts/fucxedcaps-v2/fucxedcaps-v2-webfont.woff2
+../www/descriptive/fonts/fucxedcaps-v2/fucxedcaps-v2.ttf
+../www/descriptive/fonts/fucxedcaps-v2/specimen_files/grid_12-825-55-15.css
+../www/descriptive/fonts/fucxedcaps-v2/specimen_files/specimen_stylesheet.css
+../www/descriptive/fonts/fucxedcaps-v2/stylesheet.css
+../www/descriptive/fonts/permanent-marker/PermanentMarker.ttf
+../www/descriptive/fonts/permanent-marker/permanentmarker-demo.html
+../www/descriptive/fonts/permanent-marker/permanentmarker-webfont.woff
+../www/descriptive/fonts/permanent-marker/permanentmarker-webfont.woff2
+../www/descriptive/fonts/permanent-marker/specimen_files/grid_12-825-55-15.css
+../www/descriptive/fonts/permanent-marker/specimen_files/specimen_stylesheet.css
+../www/descriptive/fonts/permanent-marker/stylesheet.css
+../www/descriptive/fonts/pixel-sagas_roddenberry/Roddenberry Bold Italic.otf
+../www/descriptive/fonts/pixel-sagas_roddenberry/Roddenberry Bold.otf
+../www/descriptive/fonts/pixel-sagas_roddenberry/Roddenberry Italic.otf
+../www/descriptive/fonts/pixel-sagas_roddenberry/Roddenberry.ttf
+../www/descriptive/fonts/pixel-sagas_roddenberry/roddenberry-demo.html
+../www/descriptive/fonts/pixel-sagas_roddenberry/roddenberry-webfont.ttf
+../www/descriptive/fonts/pixel-sagas_roddenberry/roddenberry-webfont.woff
+../www/descriptive/fonts/pixel-sagas_roddenberry/roddenberry-webfont.woff2
+../www/descriptive/fonts/pixel-sagas_roddenberry/roddenberry_bold-demo.html
+../www/descriptive/fonts/pixel-sagas_roddenberry/roddenberry_bold-webfont.ttf
+../www/descriptive/fonts/pixel-sagas_roddenberry/roddenberry_bold-webfont.woff
+../www/descriptive/fonts/pixel-sagas_roddenberry/roddenberry_bold-webfont.woff2
+../www/descriptive/fonts/pixel-sagas_roddenberry/roddenberry_bold_italic-demo.html
+../www/descriptive/fonts/pixel-sagas_roddenberry/roddenberry_bold_italic-webfont.ttf
+../www/descriptive/fonts/pixel-sagas_roddenberry/roddenberry_bold_italic-webfont.woff
+../www/descriptive/fonts/pixel-sagas_roddenberry/roddenberry_bold_italic-webfont.woff2
+../www/descriptive/fonts/pixel-sagas_roddenberry/roddenberry_italic-demo.html
+../www/descriptive/fonts/pixel-sagas_roddenberry/roddenberry_italic-webfont.ttf
+../www/descriptive/fonts/pixel-sagas_roddenberry/roddenberry_italic-webfont.woff
+../www/descriptive/fonts/pixel-sagas_roddenberry/roddenberry_italic-webfont.woff2
+../www/descriptive/fonts/pixel-sagas_roddenberry/specimen_files/grid_12-825-55-15.css
+../www/descriptive/fonts/pixel-sagas_roddenberry/specimen_files/specimen_stylesheet.css
+../www/descriptive/fonts/pixel-sagas_roddenberry/stylesheet.css
+../www/descriptive/fonts/transfonter.org-20191204-024601/PermanentMarker.ttf
+../www/descriptive/fonts/transfonter.org-20191204-024601/PermanentMarker.woff
+../www/descriptive/fonts/transfonter.org-20191204-024601/PermanentMarker.woff2
+../www/descriptive/fonts/transfonter.org-20191204-024601/Square721BT-BoldExtended.ttf
+../www/descriptive/fonts/transfonter.org-20191204-024601/Square721BT-BoldExtended.woff
+../www/descriptive/fonts/transfonter.org-20191204-024601/Square721BT-BoldExtended.woff2
+../www/descriptive/fonts/transfonter.org-20191204-024601/demo.html
+../www/descriptive/fonts/transfonter.org-20191204-024601/stylesheet.css
+../www/descriptive/fonts/transfonter.org-20191205-151156/Clarendon-ExtraBold.woff
+../www/descriptive/fonts/transfonter.org-20191205-151156/Clarendon-ExtraBold.woff2
+../www/descriptive/fonts/transfonter.org-20191205-151156/demo.html
+../www/descriptive/fonts/transfonter.org-20191205-151156/stylesheet.css
+../www/descriptive/fonts/webfontkit-20191203-215838/permanentmarker-demo.html
+../www/descriptive/fonts/webfontkit-20191203-215838/permanentmarker-webfont.woff
+../www/descriptive/fonts/webfontkit-20191203-215838/permanentmarker-webfont.woff2
+../www/descriptive/fonts/webfontkit-20191203-215838/specimen_files/grid_12-825-55-15.css
+../www/descriptive/fonts/webfontkit-20191203-215838/specimen_files/specimen_stylesheet.css
+../www/descriptive/fonts/webfontkit-20191203-215838/square-721-bold-extended-bt-demo.html
+../www/descriptive/fonts/webfontkit-20191203-215838/square-721-bold-extended-bt-webfont.woff
+../www/descriptive/fonts/webfontkit-20191203-215838/square-721-bold-extended-bt-webfont.woff2
+../www/descriptive/fonts/webfontkit-20191203-215838/stylesheet.css
+../www/descriptive/images/BeeWithHexagon-900x900.png
+../www/descriptive/images/Cod-1375x550.png
+../www/descriptive/images/Honey_Bee_V2-960x640.png
+../www/descriptive/images/Octopus_after_Haeckel-800x800.png
+../www/descriptive/images/SandTimer-640x960.png
+../www/descriptive/images/ShockFace-220x220.png
+../www/descriptive/images/Tree-550x550.png
+../www/descriptive/images/WoodCutSkullVersion3-640x960.png
+../www/descriptive/images/XR-logo-Black-Linear-900x300.png
+../www/descriptive/images/alarm-clock-220x220.png
+../www/descriptive/images/climate-emergency-220x220.png
+../www/descriptive/images/extinction-symbol-400x400.png
+../www/descriptive/images/fist-220x220.png
+../www/descriptive/images/map-pointer-220x220.png
+../www/descriptive/images/x-symbol-300x300.png
 ../www/descriptive/index.html
-../www/descriptive/pixel-sagas_roddenberry/Roddenberry Bold Italic.otf
-../www/descriptive/pixel-sagas_roddenberry/Roddenberry Bold.otf
-../www/descriptive/pixel-sagas_roddenberry/Roddenberry Italic.otf
-../www/descriptive/pixel-sagas_roddenberry/Roddenberry.ttf
+../www/descriptive/xr.css
+../www/descriptive/xr.html
 ../www/dropdown/dropdown.css
 ../www/dropdown/index.html
 ../www/first/bunny-salad-300x400.png
