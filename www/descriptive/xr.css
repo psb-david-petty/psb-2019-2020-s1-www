@@ -29,8 +29,7 @@ main { width: 72%; padding-left: 0.5em; }
 nav, aside, main, footer { border-top: 2px solid rgb(200, 0, 130);}
 aside { border-right: 2px solid rgb(200, 0, 130); }
 /* ids & classes */
-#dr article { color: white; }
-#tt article, #an article, #nv article, #bp article, footer ul { background-color: white; opacity: 75%; }
+#dr article, #tt article, #an article, #nv article, #bp article, footer ul { background-color: white; opacity: 75%; }
 .center { text-align: center; }
 /* descendent selectors */
 nav, footer {
@@ -78,8 +77,15 @@ footer p + p { width: 30%; text-align: right; }
 .octopus { background-image: url(./images/Octopus_after_Haeckel-800x800.png); }
 .sand-time { background-image: url(./images/SandTimer-640x960.png); }
 .skull { background-image: url(./images/WoodCutSkullVersion3-640x960.png); }
-.tree { background-image: url(./images/Tree-550x550.png); }
-.bee-hexagon, .cod, .octopus, .sand-time, .skull, .tree { 
+.tree { display: block; position: relative; }
+.tree::after {
+  /* https://css-tricks.com/snippets/css/transparent-background-images/ */
+  content: "";
+  background-image: url(./images/Tree-550x550.png); opacity: 20%;
+  top: 0; right: 0; bottom: 0; left: 0;
+  position: absolute; z-index: -1;
+}
+.bee-hexagon, .cod, .octopus, .sand-time, .skull, .tree::after { 
   background-repeat: no-repeat; 
   background-size: contain; 
   background-position: center top;
