@@ -20,6 +20,15 @@
     font-style: normal;
     font-display: swap; /* uses default font before loading custom font for ease "fout" */
 }
+@font-face {
+    font-family: 'Star Jedi Special';
+    src: url('./fonts/StarJediSpecial/StarJediSpecial.woff2') format('woff2'),
+        url('./fonts/StarJediSpecial/StarJediSpecial.woff') format('woff'),
+        url('./fonts/StarJediSpecial/StarJediSpecial.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 /********************/
 /*Main Styling*/
 /********************/
@@ -28,6 +37,11 @@ body {
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+article {
+  width: 90%;
+  text-align: left;
 }
 
 header {
@@ -45,6 +59,7 @@ header button {
   font-family: inherit;
 }
 
+
 /********************/
 /*Nav Styling*/
 /********************/
@@ -53,32 +68,30 @@ nav {
 }
 
 nav ul {
-  padding: 0;
-  width: 100%;
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  z-index: 1;
-  background-color: none;
+  justify-content: space-between;
 }
 
 nav ul li {
-  width: 20%;
-  text-align: center;
-  position: relative;
-  background-color: inherit;
-  padding: 16px 0 16px 0;
+  width: 30%;
   border-radius: 20px;
-  box-shadow: 0px 8px 16px 0px rgba(255,255,255,0.2);
+  background-color: inherit;
+  margin: 0 0 40px 0;
 }
 
 nav ul li a {
-  text-decoration: none;
+  display: block;
   color: inherit;
+  text-align: center;
+  padding: 14px 16px 14px 16px;
+  text-decoration: none;
 }
 
-nav ul li:hover {filter: invert(100%);} /* TODO Fix */
 
 /********************/
 /*Font Page Styling*/
@@ -93,4 +106,10 @@ nav ul li:hover {filter: invert(100%);} /* TODO Fix */
   font-family: 'Gerry', serif;
   background-color: white;
   color: black;
+}
+
+.starWarsPage { /* TODO Reconsider font choice */
+  font-family: 'Star Jedi Special', serif;
+  background-color: black;
+  color: #000000;
 }

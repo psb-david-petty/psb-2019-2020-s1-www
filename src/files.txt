@@ -70,7 +70,7 @@
 ../2019-2020-s1-www-c-elijahi/second/index.html
 ../2019-2020-s1-www-c-fatimaha/fifth/Untitled.html
 ../2019-2020-s1-www-c-fatimaha/fifth/index.html
-../2019-2020-s1-www-c-fatimaha/fifth/prices (3).html
+../2019-2020-s1-www-c-fatimaha/fifth/prices.html
 ../2019-2020-s1-www-c-fatimaha/fifth/prices1.html
 ../2019-2020-s1-www-c-fatimaha/fifth/prices2.html
 ../2019-2020-s1-www-c-fatimaha/fifth/style.css
@@ -83,9 +83,18 @@
 ../2019-2020-s1-www-c-fatimaha/fourth/iphone11 (2).jpg
 ../2019-2020-s1-www-c-fatimaha/second/index-color.html
 ../2019-2020-s1-www-c-fatimaha/second/index.html
+../2019-2020-s1-www-c-fatimaha/sixth/index.html
+../2019-2020-s1-www-c-fatimaha/sixth/prices.html
+../2019-2020-s1-www-c-fatimaha/sixth/prices1.html
+../2019-2020-s1-www-c-fatimaha/sixth/prices2.html
+../2019-2020-s1-www-c-fatimaha/sixth/style.css
+../2019-2020-s1-www-c-fatimaha/sixth/type.html
 ../2019-2020-s1-www-c-fatimaha/third/index.html
 ../2019-2020-s1-www-c-haofengl/fifth/DB/ICE.css
 ../2019-2020-s1-www-c-haofengl/fifth/DB/ICE.html
+../2019-2020-s1-www-c-haofengl/fifth/DB/MBTAGREENLINELEDDISPLAY.ttf
+../2019-2020-s1-www-c-haofengl/fifth/DB/MBTAGreenLineLEDDisplay.woff
+../2019-2020-s1-www-c-haofengl/fifth/DB/MBTAGreenLineLEDDisplay.woff2
 ../2019-2020-s1-www-c-haofengl/fifth/DB/S-bhan.css
 ../2019-2020-s1-www-c-haofengl/fifth/DB/S-bhan.html
 ../2019-2020-s1-www-c-haofengl/fifth/DB/code.js
@@ -111,6 +120,8 @@
 ../2019-2020-s1-www-c-isabellaa/first/index.html
 ../2019-2020-s1-www-c-isabellaa/fourth/index.html
 ../2019-2020-s1-www-c-isabellaa/second/index.html
+../2019-2020-s1-www-c-isabellaa/sixth/sixth/index.html
+../2019-2020-s1-www-c-isabellaa/sixth/sixth/style.css
 ../2019-2020-s1-www-c-isabellaa/third/index.html
 ../2019-2020-s1-www-c-josephv/Fifth/code.js
 ../2019-2020-s1-www-c-josephv/Fifth/index.html
@@ -169,9 +180,10 @@
 ../2019-2020-s1-www-c-natem/sixth/index.html
 ../2019-2020-s1-www-c-natem/sixth/style.css
 ../2019-2020-s1-www-c-natem/third/index.html
-../2019-2020-s1-www-c-oliverg/fifth/fifth/Sport-Inspired. Nike.com.html
 ../2019-2020-s1-www-c-oliverg/fifth/fifth/code.js
 ../2019-2020-s1-www-c-oliverg/fifth/fifth/index.html
+../2019-2020-s1-www-c-oliverg/fifth/fifth/nike (1).html
+../2019-2020-s1-www-c-oliverg/fifth/fifth/nike.html
 ../2019-2020-s1-www-c-oliverg/fifth/fifth/style.css
 ../2019-2020-s1-www-c-oliverg/first/index.html
 ../2019-2020-s1-www-c-oliverg/fourth/index.html
@@ -218,6 +230,11 @@
 ../2019-2020-s1-www-c-tristanl/csgoWebsiteCopy(Fourth)/index.html
 ../2019-2020-s1-www-c-tristanl/csgoWebsiteCopy(Fourth)/style.css
 ../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/code.js
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/StarJediSpecial/StarJediSpecial.ttf
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/StarJediSpecial/StarJediSpecial.woff
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/StarJediSpecial/StarJediSpecial.woff2
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/StarJediSpecial/demo.html
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/StarJediSpecial/stylesheet.css
 ../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/gerry/Gerry.otf
 ../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/gerry/Gerry.ttf
 ../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/gerry/Gerry.woff
@@ -231,6 +248,10 @@
 ../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/matrix/stylesheet.css
 ../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/gerry.html
 ../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/index.html
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/pageSpecificCSS/gerry.css
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/pageSpecificCSS/matrix.css
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/pageSpecificCSS/starJedi.css
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/starWars.html
 ../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/style.css
 ../2019-2020-s1-www-c-tristanl/helloWorld/index.html
 ../2019-2020-s1-www-c-tristanl/introductionWebsite(First)/hubble25thanniversaryimage.jpg
@@ -419,6 +440,21 @@
 ../www/first/first.md
 ../www/first/index.html
 ../www/first/monty-70x70.png
+../www/fonts/fonts/Gerry/Gerry.otf
+../www/fonts/fonts/Gerry/GerryRegular.ttf
+../www/fonts/fonts/Gerry/GerryRegular.woff
+../www/fonts/fonts/Gerry/GerryRegular.woff2
+../www/fonts/fonts/Gerry/demo.html
+../www/fonts/fonts/Gerry/stylesheet.css
+../www/fonts/fonts/permanent-marker/PermanentMarker.ttf
+../www/fonts/fonts/permanent-marker/permanentmarker-demo.html
+../www/fonts/fonts/permanent-marker/permanentmarker-webfont.woff
+../www/fonts/fonts/permanent-marker/permanentmarker-webfont.woff2
+../www/fonts/fonts/permanent-marker/specimen_files/grid_12-825-55-15.css
+../www/fonts/fonts/permanent-marker/specimen_files/specimen_stylesheet.css
+../www/fonts/fonts/permanent-marker/stylesheet.css
+../www/fonts/fonts.css
+../www/fonts/index.html
 ../www/form/bird.jpg
 ../www/form/cow.jpg
 ../www/form/form.css

@@ -5,7 +5,6 @@ a {
 header {
     display: flex;
     justify-content: center;
-
 }
 
 nav {
@@ -61,7 +60,5 @@ aside  {
 }
 main {
     display:flex;
-}
-.Tweed-Jacket {
-    justify-content:center;
+    justify-content:flex-start;
 }

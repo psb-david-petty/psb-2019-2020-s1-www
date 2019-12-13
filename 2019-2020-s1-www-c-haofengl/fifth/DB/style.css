@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'MBTA Green Line LED Display';
+  src: url('MBTAGreenLineLEDDisplay.woff2') format('woff2'),
+       url('MBTAGreenLineLEDDisplay.woff') format('woff'),
+       url('MBTAGREENLINELEDDISPLAY.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -35,28 +44,31 @@ nav > ul > li{
 }
 nav > ul > li:hover > ul {
     position:relative
-    display:block;
+
 }
 nav > ul > li:hover > ul > li {
     position:relative;
-    display:block;
+  
 }
 nav > ul > li:hover > ul > li:hover ul {
     display:block;
     position: relative;
 }
 li {
-    padding:1%; min-width: ;
+    padding:1%;
 }
 h1 {color:green;}
 h2 {color:lightyellow;
     font-family: 'Orbitron', sans-serif;
 }
-nav aside main{both:clear}
+
 p {
   font-family: 'Righteous', cursive;
 }
-main section:second-child p{font-family: 'Gloria Hallelujah', cursive;}
-main section:third-child p{font-family:MBTA Green Line LED display ;outline}
 
+main section:second-child p {font-family: 'Gloria Hallelujah', cursive;}
 
+.test {
+  font-family: 'MBTA Green Line LED Display', monospace;
+  font-size: x-large;
+}

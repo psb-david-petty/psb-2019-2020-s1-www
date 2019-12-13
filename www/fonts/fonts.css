@@ -1,0 +1,26 @@
+/*
+@font-face {
+  font-family: 'Permanent Marker';
+  src:  url('fonts/permanent-marker/permanentmarker-webfont.woff2') format('woff2'),
+        url('fonts/permanent-marker/permanentmarker-webfont.woff') format('woff'),
+        url('fonts/permanent-marker/PermanentMarker.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* FOUT *//*
+}
+*/
+@font-face {
+  font-family: 'Gerry';
+  src:  url('fonts/Gerry/GerryRegular.woff2') format('woff2'),
+        url('fonts/Gerry/GerryRegular.woff') format('woff'),
+        url('fonts/Gerry/GerryRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* FOUT */
+}
+
+a { color: inherit; }
+h1 { font-size: 200%; }
+span { font-family: "Architects Daughter", sans-serif; }
+.sharpie {font-family: "Permanent Marker", monospace; }
+.gerry { font-family: Gerry, monospace; }

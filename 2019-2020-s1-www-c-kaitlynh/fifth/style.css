@@ -1,30 +1,23 @@
-a {
-    color: black;
-}
 
 header {
     display: flex;
     justify-content: center;
 
 }
-
 nav {
   display: flex;
-
-  height: 100px;
   background-color:black;
 }
+nav a { display: block; }
 nav ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   list-style: none outside none;
   padding: 0;
-  width: 100%;
-  
+  width: 100%;  
 }
 nav ul ul { display: none; }
-nav li { text-align: left; 
-}
+nav li { text-align: left; background-color: black; }
 /* child selectors */
 nav > ul > li {
   text-align: center;
@@ -44,30 +37,33 @@ nav > ul > li:hover > ul > li:hover ul {
   left: 100%; top: 0;
 }
 /* appearance style */
+nav {
+  min-width: 600px; }
+nav li {
+  padding: 1%; min-width: 17%;
+}
 nav a {
   color: white;
   text-decoration: none;
   font-size: 16px;
 }
 
-nav {
-  border: thin solid red;
-  min-width: 600px; }
 main {
     background-image: url("http://www.elsaurquijo.com/uploads/images/Gallery/proyectos/en/stores/zara-zurich/3.jpg");
     background-repeat: no-repeat;
-    position: relative;
-    vertical-align: middle;
-    padding: 0px;
     background-size: cover;
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 0;
     height: 200vh;
+   
 }
-model pic{
-    position:absolute;
-    left:20px;
+main > article > section > figure > .model-pic {
+  transform: scaleX(-1);
 }
+
+
 
 footer {
     display: flex;

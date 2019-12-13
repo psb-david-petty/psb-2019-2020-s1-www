@@ -27,7 +27,6 @@ main{
 nav {
   display: flex;
   align-items: center;
-  height: 100px;
 }
 nav ul {
   display: flex;
@@ -76,4 +75,8 @@ li {
   border: thin solid blue;
   padding: 1%; min-width: 18%;  /* 100% / (n + 2) */
 }
-header {
+
+    
+p {
+  font-family: "Times New Roman", Times, serif;
+}

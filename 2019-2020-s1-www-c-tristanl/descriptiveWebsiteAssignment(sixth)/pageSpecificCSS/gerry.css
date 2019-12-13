@@ -1,0 +1,19 @@
+header {
+  font-size: 2em;
+}
+
+body {
+  font-size: 1.25em;
+}
+
+nav ul li {
+   box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.3); /* offset-x | offset-y | blur-radius | spread-radius | color */
+}
+
+nav ul li:hover {
+  background-color: #000000;
+}
+
+nav ul li:hover a {
+  filter: invert(100%);
+}
