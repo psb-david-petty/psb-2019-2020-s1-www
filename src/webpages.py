@@ -31,7 +31,7 @@ class Webpages:
     #        its relation to rel_top.
 
     _defaults = ['index.html', 'index.md', ]
-    _extensions = ['.html', '.md', '.css', '.js',
+    _extensions = ['.html', '.md', '.css', '.js', 'txt',
                    '.gif', 'jpg', '.png',
                    '.eot', '.ttf', '.otf', '.woff', '.woff2', '.svg', ]
     _default_heading = '2019-2020 S1 &mdash; WWW Design'
