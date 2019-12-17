@@ -102,8 +102,8 @@
 }
 @font-face {
   font-family: 'Fabulous 50s';
-  src:  url('./fonts/Fabulous-50s-Normal/Fabulous50sNormal.woff2') format('woff2'),
-        url('./fonts/Fabulous-50s-Normal/Fabulous50sNormal.woff') format('woff'),
+  src:/*  url('./fonts/Fabulous-50s-Normal/Fabulous50sNormal.woff2') format('woff2'),
+        url('./fonts/Fabulous-50s-Normal/Fabulous50sNormal.woff') format('woff'), */
         url('./fonts/Fabulous-50s-Normal/FABULOUS.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
