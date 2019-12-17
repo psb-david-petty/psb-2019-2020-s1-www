@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Fabulous 50s';
+    src: url('Fabulous50sNormal.woff2') format('woff2'),
+        url('Fabulous50sNormal.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+

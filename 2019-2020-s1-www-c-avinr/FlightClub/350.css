@@ -1,0 +1,10 @@
+main{
+    border: thin solid red;
+    width: 100%;
+    display: flex;
+    flex-wrap: wr;
+    background-color: tan;
+}
+article{
+    border:;
+}

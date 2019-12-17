@@ -69,6 +69,8 @@ p {
 main section:second-child p {font-family: 'Gloria Hallelujah', cursive;}
 
 .test {
+    color: green;
+    background-color: Chartreuse;
   font-family: 'MBTA Green Line LED Display', monospace;
-  font-size: x-large;
+  font-size: 36pt;
 }

@@ -1,0 +1,74 @@
+/* ==============================================================================================
+SED Innovations
+https://sed.am
+https://mkrtchyan.ga
+================================================================================================= */
+@keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-webkit-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-moz-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-ms-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+
+.stars, .twinkling{
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100%;
+  height:100%;
+  display:block;
+}
+
+.stars {
+  background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+  z-index:0;
+}
+
+.twinkling{
+  background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
+  z-index:1;
+
+  -moz-animation:move-twink-back 200s linear infinite;
+  -ms-animation:move-twink-back 200s linear infinite;
+  -o-animation:move-twink-back 200s linear infinite;
+  -webkit-animation:move-twink-back 200s linear infinite;
+  animation:move-twink-back 200s linear infinite;
+}
+
+/* Main */
+.starWarsPage {
+  text-shadow: -1px 0 #FFE81F, 0 1px #FFE81F, 1px 0 #FFE81F, 0 -1px #FFE81F;
+}
+
+nav, main {
+  z-index: 5;
+}
+
+header button {
+  line-height: 100%;
+  text-shadow: -1px 0 #FFE81F, 0 1px #FFE81F, 1px 0 #FFE81F, 0 -1px #FFE81F/* red/blue here 0 0 10px #FF0000, 0 0 15px #0000FF */;
+}
+
+header {
+  z-index: 5;
+}
+
+nav ul li:hover {
+  color: #FFE81F;
+}
+
+.enlarged {
+  font-size: 5em;
+}

@@ -1,0 +1,131 @@
+/********************/
+/* Fonts */
+/********************/
+@font-face {
+    font-family: 'Matrix';
+    src: url('./fonts/matrix/matrix.woff2') format('woff2'),
+        url('./fonts/matrix/matrix.woff') format('woff'),
+        url('./fonts/matrix/matrix.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap; /* uses default font before loading custom font for ease "fout" */
+}
+@font-face {
+    font-family: 'Gerry';
+    src: url('./fonts/gerry/Gerry.woff2') format('woff2'),
+        url('./fonts/gerry/Gerry.woff') format('woff'),
+        url('./fonts/gerry/Gerry.ttf') format('truetype'),
+        url('./fonts/gerry/Gerry.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; /* uses default font before loading custom font for ease "fout" */
+}
+@font-face {
+    font-family: 'Star Jedi Special';
+    src: url('./fonts/StarJediSpecial/StarJediSpecial.woff2') format('woff2'),
+        url('./fonts/StarJediSpecial/StarJediSpecial.woff') format('woff'),
+        url('./fonts/StarJediSpecial/StarJediSpecial.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+/********************/
+/*Main Styling*/
+/********************/
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+article {
+  width: 90%;
+  text-align: left;
+}
+
+header {
+  text-align: center;
+  width: 90%;
+  font-size: 3.5em;
+  padding: 2% 0 0 0;
+}
+
+header button {
+  border: none;
+  background-color: inherit;
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+
+/********************/
+/*Nav Styling*/
+/********************/
+nav {
+  width: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+nav ul li {
+  width: 30%;
+  border-radius: 20px;
+  background-color: inherit;
+  margin: 0 0 40px 0;
+}
+
+nav ul li a {
+  display: block;
+  color: inherit;
+  text-align: center;
+  padding: 14px 16px 14px 16px;
+  text-decoration: none;
+}
+
+/********************/
+/*Main Styling*/
+/********************/
+main {
+  width: 100%;
+  padding: 2% 5% 2% 5%;
+}
+
+article {
+  margin-bottom: 5%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/********************/
+/*Font Page Styling*/
+/********************/
+.matrixPage {
+  font-family: 'Matrix', serif;
+  background-color: black;
+  color: lime;
+}
+
+.gerryPage {
+  font-family: 'Gerry', serif;
+  background-color: white;
+  color: black;
+}
+
+.starWarsPage { /* TODO Reconsider font choice */
+  font-family: 'Star Jedi Special', serif;
+  background-color: black;
+  color: #000000;
+}

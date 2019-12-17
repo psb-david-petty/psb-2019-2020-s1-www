@@ -15,6 +15,8 @@ nav ul {
   list-style: none outside none;
   padding: 0;
   width: 100%;  
+  font-family: 'Old Standard TT', serif;
+  
 }
 nav ul ul { display: none; }
 nav li { text-align: left; background-color: black; }
@@ -59,6 +61,7 @@ main {
     height: 200vh;
    
 }
+
 main > article > section > figure > .model-pic {
   transform: scaleX(-1);
 }

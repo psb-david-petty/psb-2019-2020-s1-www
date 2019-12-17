@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Bonn Beta';
+    src: url('BonnBeta.woff2') format('woff2'),
+        url('BonnBeta.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bonn Bold Beta';
+    src: url('BonnBoldBeta.woff2') format('woff2'),
+        url('BonnBoldBeta.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bonn Light Beta';
+    src: url('BonnLightBeta.woff2') format('woff2'),
+        url('BonnLightBeta.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+

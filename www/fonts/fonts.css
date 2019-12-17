@@ -11,16 +11,147 @@
 */
 @font-face {
   font-family: 'Gerry';
-  src:  url('fonts/Gerry/GerryRegular.woff2') format('woff2'),
-        url('fonts/Gerry/GerryRegular.woff') format('woff'),
-        url('fonts/Gerry/GerryRegular.ttf') format('truetype');
+  src:  url('./fonts/Gerry/GerryRegular.woff2') format('woff2'),
+        url('./fonts/Gerry/GerryRegular.woff') format('woff'),
+        url('./fonts/Gerry/GerryRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* FOUT */
+}
+@font-face {
+  font-family: 'Clarendon Extra Bold';
+  src:  url('./fonts/clarendon-extrabold/Clarendon-ExtraBold.woff2') format('woff2'),
+        url('./fonts/clarendon-extrabold/Clarendon-ExtraBold.woff') format('woff'),
+        url('./fonts/clarendon-extrabold/Clarendon-ExtraBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* FOUT */
+}
+@font-face {
+  font-family: 'Final Frontier Old Style';
+  src:  url('./fonts/final-frontier-old-style/FinalFrontierOldStyle.woff2') format('woff2'),
+        url('./fonts/final-frontier-old-style/FinalFrontierOldStyle.woff') format('woff'),
+        url('./fonts/final-frontier-old-style/finalold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* FOUT */
+}
+/* Roddenberry has four weight / style combinations. */
+@font-face {
+  font-family: 'Roddenberry';
+  src:  url('./fonts/pixel-sagas_roddenberry/roddenberry-webfont.woff2') format('woff2'),
+        url('./fonts/pixel-sagas_roddenberry/roddenberry-webfont.woff') format('woff'),
+        url('./fonts/pixel-sagas_roddenberry/roddenberry-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* FOUT */
+}
+@font-face {
+  font-family: 'Roddenberry';
+  src:  url('./fonts/pixel-sagas_roddenberry/roddenberry_bold-webfont.woff2') format('woff2'),
+        url('./fonts/pixel-sagas_roddenberry/roddenberry_bold-webfont.woff') format('woff'),
+        url('./fonts/pixel-sagas_roddenberry/roddenberry_bold-webfont.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; /* FOUT */
+}
+@font-face {
+  font-family: 'Roddenberry';
+  src:  url('./fonts/pixel-sagas_roddenberry/roddenberry_italic-webfont.woff2') format('woff2'),
+        url('./fonts/pixel-sagas_roddenberry/roddenberry_italic-webfont.woff') format('woff'),
+        url('./fonts/pixel-sagas_roddenberry/roddenberry_italic-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap; /* FOUT */
+}
+@font-face {
+  font-family: 'Roddenberry';
+  src:  url('./fonts/pixel-sagas_roddenberry/roddenberry_bold_italic-webfont.woff2') format('woff2'),
+        url('./fonts/pixel-sagas_roddenberry/roddenberry_bold_italic-webfont.woff') format('woff'),
+        url('./fonts/pixel-sagas_roddenberry/roddenberry_bold_italic-webfont.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap; /* FOUT */
+}
+@font-face {
+  font-family: 'Bonn Light Beta';
+  src:  url('./fonts/Bonn-Beta/BONN_by_villa/BonnLightBeta.woff2') format('woff2'),
+        url('./fonts/Bonn-Beta/BONN_by_villa/BonnLightBeta.woff') format('woff'),
+        url('./fonts/Bonn-Beta/BONN_by_villa/bonn_light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* FOUT */
+}
+@font-face {
+  font-family: 'Square 721 Bold Extended BT';
+  src:  url('./fonts/Square-721-Bold-Extended-BT/square-721-bold-extended-bt-webfont.woff2') format('woff2'),
+        url('./fonts/Square-721-Bold-Extended-BT/square-721-bold-extended-bt-webfont.woff') format('woff'),
+        url('./fonts/Square-721-Bold-Extended-BT/Square-721-Bold-Extended-BT.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* FOUT */
+}
+@font-face {
+  font-family: 'Blueprint';
+  src:  url('./fonts/Blueprint/BlueprintRegularSWFTE.woff2') format('woff2'),
+        url('./fonts/Blueprint/BlueprintRegularSWFTE.woff') format('woff'),
+        url('./fonts/Blueprint/blueprint.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* FOUT */
+}
+@font-face {
+  font-family: 'Fabulous 50s';
+  src:  url('./fonts/Fabulous-50s-Normal/Fabulous50sNormal.woff2') format('woff2'),
+        url('./fonts/Fabulous-50s-Normal/Fabulous50sNormal.woff') format('woff'),
+        url('./fonts/Fabulous-50s-Normal/FABULOUS.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* FOUT */
+}
+@font-face {
+  font-family: 'KR Kube';
+  src:  url('./fonts/KR-Kube/KRKube.woff2') format('woff2'),
+        url('./fonts/KR-Kube/KRKube.woff') format('woff'),
+        url('./fonts/KR-Kube/KR_Kube.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* FOUT */
+}
+/* Minimal Docu font */
+@font-face {
+  font-family: 'Docu';
+  src:  url('./fonts/Docu/Docu-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap; /* FOUT */
 }
 
+body { padding: 0 5%; background-color: #eee; }
 a { color: inherit; }
 h1 { font-size: 200%; }
 span { font-family: "Architects Daughter", sans-serif; }
-.sharpie {font-family: "Permanent Marker", monospace; }
+img { display: block; margin: auto; }
+code, pre { font-family: "Lucida Console", monospace; }
+header h1, footer h1 {
+  font-family: "Fabulous 50s", monospace;
+  font-weight: normal;
+  text-transform: capitalize;
+  text-align: center;
+}
+header { border-bottom: thin solid black; }
+footer { border-top: thin solid black; font-family: "Docu", monospace; }
+footer section { display: flex; flex-direction: row; }
+footer article { width: 48%; justify-content: space-between; }
+
+.sharpie { font-family: "Permanent Marker", monospace; }
 .gerry { font-family: Gerry, monospace; }
+.final-frontier { font-family: "Final Frontier Old Style", monospace; } .final-frontier h1 { font-weight: normal; }
+.roddenberry { font-family: "Roddenberry", monospace; }
+.bonn { font-family: "Bonn Light Beta", monospace; } .bonn h1 { text-transform: uppercase; }
+.square721 { font-family: "Square 721 Bold Extended BT", monospace; }
+.blueprint { font-family: "Blueprint", monospace; }
+.fabulous50s { font-family: "Fabulous 50s", monospace; } .fabulous50s * { 	font-weight: normal; }
+.kr-kube { font-family: "KR Kube", monospace; }
+.capn-crunch { font-family: "Clarendon Extra Bold", monospace; }
+.docu { font-family: "Docu", monospace; }
