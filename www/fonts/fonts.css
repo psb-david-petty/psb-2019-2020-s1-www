@@ -143,6 +143,7 @@ header { border-bottom: thin solid black; }
 footer { border-top: thin solid black; font-family: "Docu", monospace; }
 footer section { display: flex; flex-direction: row; }
 footer article { width: 48%; justify-content: space-between; }
+footer dl { width: 100%; }
 
 .sharpie { font-family: "Permanent Marker", monospace; }
 .gerry { font-family: Gerry, monospace; }
