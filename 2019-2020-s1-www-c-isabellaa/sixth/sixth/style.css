@@ -6,7 +6,6 @@
 
 body {
   margin: 0;
-  background-image: url('https://scx1.b-cdn.net/csz/news/800/2018/studyofdista.jpg');
 }
 h1 {
   color: yellow;
@@ -15,32 +14,30 @@ h1 {
   text-align: center;
   font-size: 50px;
   font: "STARWARS";
-}
-.bg1 {
   background-image: url('https://scx1.b-cdn.net/csz/news/800/2018/studyofdista.jpg');
 }
 
 
 nav {
-  display: flex;
   align-items: center;
   box-shadow: 0px 10px 8px gray;
 }
 nav ul {
- list-style: none ;
- display: flex;
- background: black;
- width: 100%;
- margin: 0;
+  list-style: none outside none;
+  display: flex;
+  background: black;
+  width: 102%;
+  margin: 0;
+  padding: 0;
 }
 nav li {
-  text-align: left;
+  text-align: center;
   min-width: 33%;
+  margin: 0;
 }
 nav li a {
   display: block;
   padding: 10px;
-  color: white;
   text-decoration: none;
 }
 nav .darkside:hover {
@@ -52,6 +49,19 @@ nav .lightside:hover {
 nav ul ul {
   display: none;
 }
+nav ul ul .empire:hover {
+  background-image: url('https://i.ebayimg.com/images/g/wrkAAOSwjDZYcset/s-l300.jpg');
+  background-repeat: no-repeat;
+  background-size: 10%;
+}
+nav ul ul .first-order:hover {
+  background-image: url('https://i.pinimg.com/originals/c4/99/38/c499382a0b05c3a7bf68d4e33e3739bf.jpg');
+  background-repeat: no-repeat;
+  background-size: 10%;
+}
+nav ul ul li:hover {
+  background: gray;
+}
 nav>ul>li {
   text-align: center;
   position: relative;
@@ -61,7 +71,7 @@ nav>ul>li:hover>ul {
   position: absolute;
   left: 0;
   top: 100%;
-  background: white;
+  width: 100%;
 }
 nav>ul>li:hover>ul>li {
   position: relative;
@@ -71,7 +81,9 @@ nav>ul>li:hover>ul>li:hover ul {
   position: absolute;
   left: 100%;
   top: 0;
-  background: white;
+}
+img {
+  height: 10px;
 }
 
 
@@ -114,4 +126,151 @@ main {
 }
 .lightside:hover {
   background-color: lightblue;
-}33
+}@import url(//db.onlinewebfonts.com/c/c00548f5d217ed324ae9096051927001?family=STARWARS);
+@font-face {
+  font-family: "STARWARS";
+  src: url("//db.onlinewebfonts.com/t/c00548f5d217ed324ae9096051927001.eot");
+  src: url("//db.onlinewebfonts.com/t/c00548f5d217ed324ae9096051927001.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/c00548f5d217ed324ae9096051927001.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/c00548f5d217ed324ae9096051927001.woff") format("woff"), url("//db.onlinewebfonts.com/t/c00548f5d217ed324ae9096051927001.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/c00548f5d217ed324ae9096051927001.svg#STARWARS") format("svg"); }
+
+body {
+  margin: 0;
+}
+h1 {
+  color: yellow;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  font-size: 50px;
+  font: "STARWARS";
+  background-image: url('https://scx1.b-cdn.net/csz/news/800/2018/studyofdista.jpg');
+}
+
+
+nav {
+  align-items: center;
+  box-shadow: 0px 10px 8px gray;
+}
+nav ul {
+  list-style: none outside none;
+  display: flex;
+  background: black;
+  width: 102%;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  text-align: center;
+  min-width: 33%;
+  margin: 0;
+}
+nav li a {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+nav .darkside:hover {
+  background-color: red;
+}
+nav .lightside:hover {
+  background-color: lightblue;
+}
+nav ul ul {
+  display: none;
+}
+
+nav>ul>li:hover>ul {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 100%;
+}nav>ul>li:hover>ul {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 100%;
+}
+
+
+main {
+  background: white;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+
+.wrapper {
+  height: 50vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 2px;
+}
+.section {
+  position: relative;
+  height: 50vh;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: yellow;
+  text-shadow: 0 0 5px #000;
+}
+.parallax::after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateZ(-1px) scale(1.5);
+  background-size: 100%;
+  z-index: -1;
+}
+.bg::after {
+  background-image: url('');
+}
+.lightside:hover {
+  background-color: lightblue;
+}
+main {
+  background: white;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+
+.wrapper {
+  height: 50vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 2px;
+}
+.section {
+  position: relative;
+  height: 50vh;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: yellow;
+  text-shadow: 0 0 5px #000;
+}
+.parallax::after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateZ(-1px) scale(1.5);
+  background-size: 100%;
+  z-index: -1;
+}
+.bg::after {
+  background-image: url('');
+}
+.lightside:hover {
+  background-color: lightblue;
+}

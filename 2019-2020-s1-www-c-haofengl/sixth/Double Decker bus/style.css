@@ -1,17 +1,29 @@
-h1,p{ 
-    color:yellow;
-}
+
 aside {
      background-image: url(https://www.alexander-dennis.com/media/85603/alexander-dennis-enviro500-for-kmb-1-resized.jpg?center=0.52666666666666662,0.53666666666666663&mode=crop&width=1020&height=600&rnd=132169011870000000);
      background-repeat: no-repeat;
      background-position: center;
      height: 500px;
 }
-main section {
- background-image: url(https://live.staticflickr.com/65535/48212700416_20cf493357_h.jpg );
-  height: 1030px;
-  width:  1030px;
-  background-repeat: no-repeat;
-   background-position: center;
+p,h2{ color:lightblue;
 }
- 
+.parallax__layer--base {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+
+  .parallax__layer--back {
+    -webkit-transform: translateZ(-1px);
+    transform: translateZ(-1px);
+  }
+.parallax {
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-perspective: 1px;
+    perspective: 1px;
+  }
+  img {
+  height: auto;
+  width: auto;
+}

@@ -7,16 +7,19 @@ body, html {
 
 .bgimg-1, .bgimg-2, .bgimg-3 {
   position: relative;
-  opacity: 1;
+  opacity: 0.9;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  transform:scaleY(1.04);
+  perspective:800px;
+  
 
 }
 .bgimg-1 {
   background-image: url("https://s31606.pcdn.co/wp-content/uploads/2019/08/new-year-fireworks-picture-id1087025586.jpg");
-  min-height: 95%;
+  min-height: 100%;
 }
 
 .bgimg-2 {
@@ -38,7 +41,7 @@ body, html {
   color: #000;
 }
 
-.caption span.border {
+.caption .border {
   background-color: #111;
   color: #fff;
   padding: 18px;

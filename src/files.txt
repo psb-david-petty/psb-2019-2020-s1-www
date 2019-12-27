@@ -134,19 +134,22 @@
 ../2019-2020-s1-www-c-isabellaa/sixth/sixth/index.html
 ../2019-2020-s1-www-c-isabellaa/sixth/sixth/style.css
 ../2019-2020-s1-www-c-isabellaa/third/index.html
-../2019-2020-s1-www-c-josephv/Fifth/code.js
-../2019-2020-s1-www-c-josephv/Fifth/index.html
-../2019-2020-s1-www-c-josephv/Fifth/style.css
+../2019-2020-s1-www-c-josephv/Fifth (1)/code.js
+../2019-2020-s1-www-c-josephv/Fifth (1)/index.html
+../2019-2020-s1-www-c-josephv/Fifth (1)/style.css
 ../2019-2020-s1-www-c-josephv/First/code.js
 ../2019-2020-s1-www-c-josephv/First/index.html
 ../2019-2020-s1-www-c-josephv/First/style.css
-../2019-2020-s1-www-c-josephv/Fourth/Table data.html
 ../2019-2020-s1-www-c-josephv/Fourth/code.js
 ../2019-2020-s1-www-c-josephv/Fourth/index.html
 ../2019-2020-s1-www-c-josephv/Fourth/style.css
+../2019-2020-s1-www-c-josephv/Second/code.js
+../2019-2020-s1-www-c-josephv/Second/index.html
+../2019-2020-s1-www-c-josephv/Second/style.css
 ../2019-2020-s1-www-c-josephv/Sixth/code.js
 ../2019-2020-s1-www-c-josephv/Sixth/index.html
 ../2019-2020-s1-www-c-josephv/Sixth/style.css
+../2019-2020-s1-www-c-josephv/Third/Table data.html
 ../2019-2020-s1-www-c-josephv/Third/code.js
 ../2019-2020-s1-www-c-josephv/Third/index.html
 ../2019-2020-s1-www-c-josephv/Third/style.css
@@ -242,39 +245,39 @@
 ../2019-2020-s1-www-c-tristanl/csgoWebsiteCopy(Fourth)/images/valveLogo.png
 ../2019-2020-s1-www-c-tristanl/csgoWebsiteCopy(Fourth)/index.html
 ../2019-2020-s1-www-c-tristanl/csgoWebsiteCopy(Fourth)/style.css
-../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth) (1)/code (1).js
-../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth) (1)/fonts/StarJediSpecial/StarJediSpecial.ttf
-../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth) (1)/fonts/StarJediSpecial/StarJediSpecial.woff
-../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth) (1)/fonts/StarJediSpecial/StarJediSpecial.woff2
-../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth) (1)/fonts/StarJediSpecial/demo.html
-../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth) (1)/fonts/StarJediSpecial/stylesheet.css
-../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth) (1)/fonts/gerry/Gerry.otf
-../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth) (1)/fonts/gerry/Gerry.ttf
-../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth) (1)/fonts/gerry/Gerry.woff
-../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth) (1)/fonts/gerry/Gerry.woff2
-../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth) (1)/fonts/gerry/demo.html
-../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth) (1)/fonts/gerry/stylesheet.css
-../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth) (1)/fonts/matrix/demo.html
-../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth) (1)/fonts/matrix/matrix.ttf
-../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth) (1)/fonts/matrix/matrix.woff
-../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth) (1)/fonts/matrix/matrix.woff2
-../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth) (1)/fonts/matrix/stylesheet.css
-../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth) (1)/gerry.html
-../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth) (1)/index.html
-../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth) (1)/pageSpecificCSS/gerry.css
-../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth) (1)/pageSpecificCSS/matrix.css
-../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth) (1)/pageSpecificCSS/starJedi.css
-../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth) (1)/starWars.html
-../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth) (1)/style.css
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/code.js
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/StarJediSpecial/StarJediSpecial.ttf
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/StarJediSpecial/StarJediSpecial.woff
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/StarJediSpecial/StarJediSpecial.woff2
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/StarJediSpecial/demo.html
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/StarJediSpecial/stylesheet.css
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/gerry/Gerry.otf
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/gerry/Gerry.ttf
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/gerry/Gerry.woff
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/gerry/Gerry.woff2
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/gerry/demo.html
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/gerry/stylesheet.css
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/matrix/demo.html
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/matrix/matrix.ttf
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/matrix/matrix.woff
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/matrix/matrix.woff2
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/matrix/stylesheet.css
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/gerry.html
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/index.html
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/pageSpecificCSS/gerry.css
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/pageSpecificCSS/matrix.css
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/pageSpecificCSS/starJedi.css
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/starWars.html
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/style.css
 ../2019-2020-s1-www-c-tristanl/helloWorld/index.html
 ../2019-2020-s1-www-c-tristanl/introductionWebsite(First)/hubble25thanniversaryimage.jpg
 ../2019-2020-s1-www-c-tristanl/introductionWebsite(First)/index.html
-../2019-2020-s1-www-c-tristanl/parallax(seventh) (1)/code.js
-../2019-2020-s1-www-c-tristanl/parallax(seventh) (1)/images/blackCat.jpg
-../2019-2020-s1-www-c-tristanl/parallax(seventh) (1)/images/nyanCat.jpg
-../2019-2020-s1-www-c-tristanl/parallax(seventh) (1)/images/orangeCat.jpg
-../2019-2020-s1-www-c-tristanl/parallax(seventh) (1)/index.html
-../2019-2020-s1-www-c-tristanl/parallax(seventh) (1)/style.css
+../2019-2020-s1-www-c-tristanl/parallax(seventh)/code.js
+../2019-2020-s1-www-c-tristanl/parallax(seventh)/images/blackCat.jpg
+../2019-2020-s1-www-c-tristanl/parallax(seventh)/images/nyanCat.jpg
+../2019-2020-s1-www-c-tristanl/parallax(seventh)/images/orangeCat.jpg
+../2019-2020-s1-www-c-tristanl/parallax(seventh)/index.html
+../2019-2020-s1-www-c-tristanl/parallax(seventh)/style.css
 ../2019-2020-s1-www-c-tristanl/rowspawnColspan(Third)/index.html
 ../2019-2020-s1-www-c-tristanl/rowspawnColspan(Third)/style.css
 ../2019-2020-s1-www-c-yassinm/fifth/code.js

@@ -1,26 +1,29 @@
 h1 {
-    color: red;
+    color: White;
 }
-/* Tiny reset thingy */
+body {
+  background-color: rgb(240, 179, 255);
+}
+
+
 body,html{margin:0;padding:0;}
 
 .wrapper {
-  /* The height needs to be set to a fixed value for the effect to work.
-   * 100vh is the full height of the viewport. */
-  height: 100vh;
-  /* The scaling of the images would add a horizontal scrollbar, so disable x overflow. */
+
+  height: 110vh;
+
   overflow-x: hidden;
-  /* Enable scrolling on the page. */
+
   overflow-y: auto;
-  /* Set the perspective to 2px. This is essentailly the simulated distance from the viewport to transformed objects.*/
+
   perspective: 10px;
 }
 
 .section {
-  /* Needed for children to be absolutely positioned relative to the parent. */
+
   position: relative;
   /* The height of the container. Must be set, but it doesn't really matter what the value is. */
-  height: 100vh;
+  height: 79vh;
   
   /* For text formatting. */
   display: flex;
@@ -36,13 +39,13 @@ body,html{margin:0;padding:0;}
   position: absolute;
   top: 0;
   right: 0;
-  bottom: 0;
+  bottom:0;
   left: 0;
   
   /* Move the pseudo-element back away from the camera,
    * then scale it back up to fill the viewport.
    * Because the pseudo-element is further away, it appears to move more slowly, like in real life. */
-  transform: translateZ(1px) scale(1.5);
+  transform: translateZ(-5px) scale(1.5);
   /* Force the background image to fill the whole element. */
   background-size: 100%;
   /* Keep the image from overlapping sibling elements. */ 
@@ -51,14 +54,58 @@ body,html{margin:0;padding:0;}
 
 /* The styling for the static div. */
 .static {
-  background: blue;
+  background: white;
 }
 
 /* Sets the actual background images to adorable kitties. This part is crucial. */
 .bg1::after {
-  background-image: url('https://placekitten.com/g/900/700');
+  background-image: url('https://oyster.ignimgs.com/wordpress/stg.ign.com/2017/08/Yeti-1251.jpg?fit=bounds&width=640&height=480');
 }
 
 .bg2::after {
-  background-image: url('https://placekitten.com/g/800/600');
+  background-image: url('https://cdn.windowsreport.com/wp-content/uploads/2018/03/blue-yeti-software-1.jpg');
 }
+
+
+.dropbtn {
+  background-color: rgb(163, 0, 204);
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: rgb(224, 102, 255)}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: rgb(224, 102, 255);
+}
+
+
+
