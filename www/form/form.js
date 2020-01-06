@@ -6,12 +6,15 @@ function htmlEntities(str) {
 function showFormValues() {
     var name = '', html = '';
     const
-        tags = [ "input", "textarea", ],
-        checked = [ "radio", "checkbox", ],
+        div = '|',
+        tagValues = [ "select", "textarea", ],
+        // The only tags handled are these:
+        tags = [ "input", ].concat(tagValues),
         // The only input types handled are these:
-        handled = [ "text", "password", ].concat(checked);
+        inputValues = [ "text", "password", "number", "range", ],
+        checkedValues = [ "radio", "checkbox", ];
 
-    // Look at all forms.
+    // Process input from all forms (f) and elements (e) in those forms.
     var f;
     for (let i = 0; (f = document.getElementsByTagName('form')[i]); i++) {
         var e, text = '<h3>Form:';
@@ -23,32 +26,40 @@ function showFormValues() {
         for (let j = 0; (e = f[j]); j++) {
             // console.log(new XMLSerializer().serializeToString(e));
             var tagName = e.tagName.toLowerCase();
+            // Process input from all tags in tags.
             if (tags.indexOf(tagName) >= 0) {
+                // Booleans for supported value tags. e.type is lowercase.
+                var supportedValueTag = tagValues.indexOf(tagName) >= 0,
+                    supportedInputValueType = tagName == 'input'
+                        && inputValues.indexOf(e.type) >= 0,
+                    supportedInputCheckedType = tagName == 'input'
+                        && checkedValues.indexOf(e.type) >= 0;
+                // Set divider around processed inputs... w/o common name.
                 if (e.name && e.name.toLowerCase() != name) {
                     name = e.name.toLowerCase();
-                    text += '| ' + name + ': ';
+                    text += div + ' ' + name + ': ';
                 }
-                if (!e.name && tagName == 'input' && handled.indexOf(e.type) >= 0) {
+                // ...and w/o *any* name.
+                if (!e.name && (supportedValueTag 
+                    || supportedInputValueType || supportedInputCheckedType)) {
                     name = '';
-                    text += '| ';
+                    text += div + ' ';
                 }
                 // Form values for tags.
-                if (tagName == 'textarea' && e.value) {
+                if (supportedValueTag && e.value) {
                     text += '\"' + e.value + '\" ';
                 }
-                // Form values for input tags. e.type is lowercase.
-                if (tagName == 'input' && e.type == 'text' && e.value) {
+                // Form values for input types.
+                if (supportedInputValueType && e.value) {
                     text += '\"' + e.value + '\" ';
                 }
-                if (tagName == 'input' && e.type == 'password' && e.value) {
-                    text += '\"' + e.value + '\" ';
-                }
-                if (tagName == 'input' && checked.indexOf(e.type) >= 0) {
+                // Form values for checked inputs.
+                if (supportedInputCheckedType) {
                     text += e.checked + ' ';
                 }
             }
         }
-        text += '|</p>'
+        text += div + '</p>'
         console.log(text + '\n');
         html += text;
     }
@@ -62,18 +73,22 @@ function showFormElementAttributes() {
         "fieldset", "legend", "select", "optgroup", "datalist", "option",
         "output",
     ];
+    // Process every attribute of element in tags.
     for (let i = 0; i < tags.length; i++) {
         var t, a, text = '';
         for (let j = 0; (t = document.getElementsByTagName(tags[i])[j]); j++) {
             for (let k = 0; (a = t.attributes[k]); k++) {
                 text += a.name + '=' + '\"' + a.value + '\"' + ' ';
+                // Take special note of CHECKED.
                 if (a.name.toLowerCase() == "type"
                     && (a.value.toLowerCase() == "radio"
                         || a.value.toLowerCase() == "checkbox"))
                     text += 'CHECKED=\"' + t.checked + '\"" ';
             }
+            // Take special note of VALUE.
             if (t.value)
                 text += 'VALUE=\"' + t.value + '\" ';
+            // Add HTML code as a <pre> last.
             if (htmlEntities(t.innerHTML))
                 text += '<pre style="display: inline-block; margin: 0;">' 
                     + htmlEntities(t.innerHTML) + '</pre>';
