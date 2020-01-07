@@ -16,14 +16,12 @@
           <legend>INPUTs</legend>
           <!-- ADD ADDITIONAL INPUTS -->
           <label>Enter a Message: </label><input type="text" name="message"> |
-          <label>Female</label><input type="RADIO" name="gender" value="female">
+          <label>Female</label><input type="radio" name="gender" value="female">
           <label>Male</label><input type="radio" name="gender" value="male">
           <label>Other</label><input type="radio" name="gender" value="other"> |
           <label>Yes</label><input type="checkbox" name="question" value="yes">
           <label>No</label><input type="checkbox" name="question" value="no">
           <label>Maybe</label><input type="checkbox" name="question" value="maybe" checked> |
-          <label>Score? </label><input type="number" name="score" min="0" max="100" step="5" value="75"> |
-          <label>Tenths on [0, 10]? </label><input type="range" name="tenths" min="0" max="10" step="0.1" value="4.7"> |
           <label>Choose a country: </label>
           <select name="country">
             <optgroup label="North America">
@@ -34,13 +32,32 @@
               <option value="australia">Australia</option>
             </optgroup>
           </select> |
+          <label>File: </label><input type="file" name="upload"> |
+          <label>Hidden (<code>value=&quot;hiding&quot;</code>): </label><input type="hidden" name="hidden" value="hiding"> |
+          <label>Password: </label><input type="password" name="password"> |
         </fieldset>
       </form>
       <form>
         <fieldset>
-          <legend>Unnamed FORM &amp; INPUTs</legend>
-          <label>Password: </label><input type="password">
-          <label>Enter a Paragaph:</label><br><textarea rows="4" cols="80"></textarea>
+          <legend>Unnamed FORM with <a href="https://www.w3schools.com/html/html_form_input_types.asp">HTML-5</a> INPUTs</legend>
+          <label>Color: </label><input type="color"> |
+          <label><a href="https://stackoverflow.com/questions/19605773/html5-email-validation">E-mail</a>: </label><input type="email"> |
+          <label>Score? </label><input type="number" name="score" min="0" max="100" step="5" value="75"> |
+          <label>Tenths on [0, 10]? </label><input type="range" name="tenths" min="0" max="10" step="0.1" value="4.7"> |
+          <label>Telephone: </label><input type="tel"> |
+          <label>URI: </label><input type="url"> |
+          <br>
+          <label>Date / Time: </label><input type="datetime-local"> |
+          <label>Date: </label><input type="date"> |
+          <label>Month: </label><input type="Month"> |
+          <label>Time: </label><input type="time"> |
+          <br>
+          <label>Buttons: </label>
+            <input type="button" value="R" onclick="bodyColor('red');">
+            <input type="button" value="G" onclick="bodyColor('green');">
+            <input type="button" value="B" onclick="bodyColor('blue');">
+            <input type="button" value="X" onclick="bodyColor('inherit');"> |
+          <label><a href="https://www.netclipart.com/isee/mimbxx_cursor-press-button-index-finger-pointer-point-click/">Image</a>: </label><input type="image" src="https://www.netclipart.com/pp/m/227-2276024_cursor-press-button-index-finger-pointer-point-click.png" alt="Click Me!" width="20" height="20"> | These can have a <code>formaction</code> attribute to replace the <code>action</code> attribute of the <code>&lt;form&gt;</code>.
         </fieldset>
       </form>
       <section>
@@ -49,6 +66,7 @@
           <label>Enter a Comment:</label><br><textarea name="comment" form="form1" rows="4" cols="80"></textarea>
         </fieldset>
         <input type="submit" value="CLICK ME TO SEE FORM RESULTS!" form="form1">
+        <input type="reset" form="form1">
       </section>
       <hr>
       <section>

@@ -1,3 +1,10 @@
+function bodyColor(color) {
+    // Set the body color attribute to color.
+    for (let i = 0; (b = document.getElementsByTagName('body')[i]); i++) {
+        b.style.color = color;
+    }
+}
+
 // https://css-tricks.com/snippets/javascript/htmlentities-for-javascript/
 function htmlEntities(str) {
     return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -11,7 +18,11 @@ function showFormValues() {
         // The only tags handled are these:
         tags = [ "input", ].concat(tagValues),
         // The only input types handled are these:
-        inputValues = [ "text", "password", "number", "range", ],
+        inputValues = [ "file", "hidden", "password", "text",
+            // input types aded in HTML-5
+            "color", "email", "number", "range", "search", "tel", "url",
+            "date", "datetime-local", "month", "week", "time",
+        ],
         checkedValues = [ "radio", "checkbox", ];
 
     // Process input from all forms (f) and elements (e) in those forms.
@@ -101,6 +112,10 @@ function showFormElementAttributes() {
     return html;
 }
 
+/*
+ * Show form input values in the element with id="inputs" and
+ * form element attributes in the element with id="outputs".
+ */
 function show() {
     document.getElementById("inputs").innerHTML = '';
     document.getElementById("output").innerHTML = '';
