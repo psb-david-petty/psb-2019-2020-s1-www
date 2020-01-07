@@ -23,7 +23,7 @@ function showAnswers(form) {
      * attribute
      */
     const valid = new Set(
-        document.getElementById(form).getAttribute('data-valid').
+        document.getElementById('valid').getAttribute('data-valid').
           split(' ')
               .map(Function.prototype.call, String.prototype.toLowerCase)
     );
@@ -87,4 +87,6 @@ function showAnswers(form) {
     document.getElementById('answer').innerHTML 
         = answer;
     console.log(answer);
+
+    return false;
 }
