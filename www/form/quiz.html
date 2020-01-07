@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>What Animal Are You Quiz</title>
+    <link href="quiz.css" rel="stylesheet">
+    <script src="quiz.js"></script>        
+  </head>
+  <body>
+    <h1>What Animal Are You Quiz</h1>
+    <p class="description">Fill in your answer and count how many times you get each letter</p>
+    <form id="valid" data-valid="bird mouse cow lion panda jaguar">
+      <p>What would you rather do in your free time?</p>
+      <input type="radio" name="q0" value="bird">Daydream (a)<br>
+      <input type="radio" name="q0" value="mouse">Hide out in my room and do stuff (b) <br>
+      <input type="radio" name="q0" value="cow">Chill out, maybe eat (c)<br>
+      <input type="radio" name="q0" value="lion">Do something competitive, playing a game counts (d)<br>
+      <input type="radio" name="q0" value="panda">Hang out with friends or loved ones (e)<br>
+      <input type="radio" name="q0" value="jaguar">Be by myself...I need no one (f)
+
+      <p>What random food is your favorite out of these?</p>
+      <input type="radio" name="q1" value="bird">Granola (a)<br>
+      <input type="radio" name="q1" value="mouse">ANY CHEESE (b)<br>
+      <input type="radio" name="q1" value="cow">Any green veggie (c)<br>
+      <input type="radio" name="q1" value="lion">Bamboo shoots (e)<br>
+      <input type="radio" name="q1" value="panda">Buffalo(d)<br>
+      <input type="radio" name="q1" value="jaguar">Venison (f)
+
+      <p>If you were a superhero, what color would your costume be?</p>
+      <input type="radio" name="q2" value="bird">Any, I don't really care (a)<br>
+      <input type="radio" name="q2" value="mouse">Grey, brown, (neutral colors) (b)<br>
+      <input type="radio" name="q2" value="cow">Gold, orange (d)<br>
+      <input type="radio" name="q2" value="lion">Black and white (mostly white)(c)<br>
+      <input type="radio" name="q2" value="panda">Black and white (mostly black) (e)<br>
+      <input type="radio" name="q2" value="jaguar">Yellow, black  (f)
+
+      <p>What's one word to describe your personality?</p>
+      <input type="radio" name="q3" value="bird">Exploratory (a)<br>
+      <input type="radio" name="q3" value="mouse">Shy (b)<br>
+      <input type="radio" name="q3" value="cow">Boring (c)<br>
+      <input type="radio" name="q3" value="lion">Arrogant (d)<br>
+      <input type="radio" name="q3" value="panda">Sweet (e)<br>
+      <input type="radio" name="q3" value="jaguar">Ambitious  (f)
+
+      <p>You see someone getting bullied, what do you do?</p>
+      <input type="radio" name="q4" value="bird">Fly in and save them! (a)<br>
+      <input type="radio" name="q4" value="mouse">Run away (b)<br>
+      <input type="radio" name="q4" value="cow">Watch (c)<br>
+      <input type="radio" name="q4" value="lion">Boldly and aggressively stop the bully (d)<br>
+      <input type="radio" name="q4" value="panda">Nicely step in and politely ask the bully to stop (e)<br>
+      <input type="radio" name="q4" value="jaguar">Passive aggressively warn the bully about the consequnces  (f)
+
+      <p>How would you react to getting an F on your midterms?</p>      
+      <input type="radio" name="q5" value="bird">Getting an F? I'm too smart for that, this isn't a logical situation (a)<br>
+      <input type="radio" name="q5" value="mouse">Hide in my room and cry (b)<br>
+      <input type="radio" name="q5" value="cow">I don't care (c)<br>
+      <input type="radio" name="q5" value="lion">Throw a fit, rage (d)<br>
+      <input type="radio" name="q5" value="panda">Oh well, I'll study more next time (e)<br>
+      <input type="radio" name="q5" value="jaguar">Sneakily and persuasively try to get my teacher to change my grade  (f)
+
+      <p>Where would you rather live?</p>
+      <input type="radio" name="q6" value="bird">anywhere is fine (a)<br>
+      <input type="radio" name="q6" value="mouse">small, urban apartment (b)<br>
+      <input type="radio" name="q6" value="cow">grassy countryside (c)<br>
+      <input type="radio" name="q6" value="lion">outback, maybe the savannah (d)<br>
+      <input type="radio" name="q6" value="panda">a warm, foresty area (e)<br>
+      <input type="radio" name="q6" value="jaguar">the jungle...I've always wanted to be Tarzan  (f)
+
+      <p>What's your body type?</p>
+      <input type="radio" name="q7" value="bird">Small, lean (a)<br>
+      <input type="radio" name="q7" value="mouse">Petite (b)<br>
+      <input type="radio" name="q7" value="cow">Medium (c)<br>
+      <input type="radio" name="q7" value="lion">Big, muscular (d)<br>
+      <input type="radio" name="q7" value="panda">Kinda on the bigger side (e)<br>
+      <input type="radio" name="q7" value="jaguar">Medium, lean (f)
+
+      <p>What is/what do you want your job to be?</p>
+      <input type="radio" name="q8" value="bird">Pilot/flight attendant (a)<br>
+      <input type="radio" name="q8" value="mouse">Stay at home mom/dad (b)<br>
+      <input type="radio" name="q8" value="cow">Farmer (c)<br>
+      <input type="radio" name="q8" value="lion">Lawyer/director of (something) (d)<br>
+      <input type="radio" name="q8" value="panda">Desk job (e)<br>
+      <input type="radio" name="q8" value="jaguar">Athlete  (f)
+
+      <p>How big is your appetite/what's your diet like?</p>
+      <input type="radio" name="q9" value="bird">small appetite, love grains and fruit (a)<br>
+      <input type="radio" name="q9" value="mouse">tiny appetite, I don't eat much (b)<br>
+      <input type="radio" name="q9" value="cow">I kinda graze (c)<br>
+      <input type="radio" name="q9" value="lion">Huge appetite, love meat (d)<br>
+      <input type="radio" name="q9" value="panda">I'm vegetarian/vegan (e)<br>
+      <input type="radio" name="q9" value="jaguar">Pretty big appetite, fish are great  (f)
+
+      <p>What's your favorite book genre?</p>
+      <input type="radio" name="q10" value="bird">Fantasy (a)<br>
+      <input type="radio" name="q10" value="mouse">Historical (b)<br>
+      <input type="radio" name="q10" value="cow">Non-fiction (c)<br>
+      <input type="radio" name="q10" value="lion">Horror (d)<br>
+      <input type="radio" name="q10" value="panda">Poetry (e)<br>
+      <input type="radio" name="q10" value="jaguar">Adventure  (f)
+
+      <p>What's your favorite sport?</p>
+      <input type="radio" name="q11" value="bird">Paragliding (a)<br>
+      <input type="radio" name="q11" value="mouse">Running (b)<br>
+      <input type="radio" name="q11" value="cow">Walking...does that count? (c)<br>
+      <input type="radio" name="q11" value="lion">Wrestling (d)<br>
+      <input type="radio" name="q11" value="panda">Sports?...what's that? (e)<br>
+      <input type="radio" name="q11" value="jaguar">Swimming  (f)
+
+      <p>What's your favorite kids movie out of these?</p>
+      <input type="radio" name="q12" value="bird">Rio(a)<br>
+      <input type="radio" name="q12" value="mouse">Stuart Little (b)<br>
+      <input type="radio" name="q12" value="cow">Charlotte's Web (c)<br>
+      <input type="radio" name="q12" value="lion">The Lion King (d)<br>
+      <input type="radio" name="q12" value="panda">Kung Fu Panda (e)<br>
+      <input type="radio" name="q12" value="jaguar">The Jungle Book  (f)
+
+      <p>If you were a wild animal, how would you hunt your prey?</p>
+      <input type="radio" name="q13" value="bird">Dive in from above (a)<br>
+      <input type="radio" name="q13" value="mouse">Quickly and nimbly (b)<br>
+      <input type="radio" name="q13" value="cow">I'll stick to veggies, thanks (c)<br>
+      <input type="radio" name="q13" value="lion">Powerful bite with my strong jaws (d)<br>
+      <input type="radio" name="q13" value="panda">I'm too slow for this... (e)<br>
+      <input type="radio" name="q13" value="jaguar">Ambush  (f)
+
+      <p>How many friends do you have?</p>
+      <input type="radio" name="q14" value="bird">Normal amount...? (a)<br>
+      <input type="radio" name="q14" value="mouse">Very few, maybe one or two close friends (b)<br>
+      <input type="radio" name="q14" value="cow">I'm chill with everyone, everyone's chill with me (c)<br>
+      <input type="radio" name="q14" value="lion">I'm very popular, like a leader (d)<br>
+      <input type="radio" name="q14" value="panda">Lots, people like how nice I am (e)<br>
+      <input type="radio" name="q14" value="jaguar">Some, I guess...but not too many  (f)
+
+      <p>And FINALLY...how are you today?</p>
+      <input type="radio" name="q15" value="bird">Great! Lots of energy! (a)<br>
+      <input type="radio" name="q15" value="mouse">Anxious... (b)<br>
+      <input type="radio" name="q15" value="cow">I don't know, fine I guess(c)<br>
+      <input type="radio" name="q15" value="lion">Angry/passionate (d)<br>
+      <input type="radio" name="q15" value="panda">Relaxed (e)<br>
+      <input type="radio" name="q15" value="jaguar">Suspicious  (f)
+    </form>
+    <p>Find out how many of each letter you got. If most of your answers were A, you're a bird! If most of them were B, you're a mouse! Most of your answers resulting in C, means cow! If most of your answers were D, you're a lion! If most were E, you're a panda! Finally, if most were F, you're a jaguar!</p>
+    <p>Note: This website is available as a <a href="https://codepen.io/psb-david-petty/pen/Bvemap">Codepen</a>.</p>
+    <input type="submit" onclick="showAnswers();">
+    <p>Your answers:
+          <span id="bird"></span>
+          <span id="mouse"></span>
+          <span id="cow"></span>
+          <span id="lion"></span>
+          <span id="panda"></span>
+          <span id="jaguar"></span> 
+          You are a: &quot;<span id="answer"></span>&quot;
+    </p>
+    <footer>
+      <figure data-key="bird">
+        <img src="https://drive.google.com/uc?id=1kgUTPoFGPvM82VvMiLdRwQyGECdsBdp2" alt="bird">
+        <figcaption><a href="https://www.almanac.com/content/bird-sounds-black-capped-chickadee">Old Farmer's Almanac</a></figcaption>
+      </figure>
+      <figure data-key="mouse">
+        <img src="https://drive.google.com/uc?id=14JLG789U38d0EqUz7LTxjRrPFKHGCdO1" alt="mouse">
+        <figcaption><a href="http://www.pngall.com/mouse-animal-png/download/17580">PNG All</a></figcaption>
+      </figure>
+      <figure data-key="cow">
+        <img src="https://drive.google.com/uc?id=1ITu03lX-PRoLPLRDskeXgQc_FA1kR2P2" alt="cow">
+        <figcaption><a href="https://www.britannica.com/animal/cow">Encyclopedia Britannica</a></figcaption>
+      </figure>
+      <figure data-key="lion">
+        <img src="https://drive.google.com/uc?id=1fjz8TjRoEC5UBK1qJVnPfnlODByEyL70" alt="lion">
+        <figcaption><a href="https://mpumalanganews.co.za/340017/breaking-news-lion-leopard-spotted-malalane/">Mpumalanga News</a></figcaption>
+      </figure>
+      <figure data-key="panda">
+        <img src="https://drive.google.com/uc?id=15-Z2b3BucyZanXG3FhJFOcBTxbAyv1zu" alt="panda">
+        <figcaption><a href="https://www.telegraph.co.uk/news/2016/09/15/pandas-arent-cute-theyre-death-loving-oxygen-thieves-lets-just-e/">The Telegraph</a></figcaption>
+      </figure>
+      <figure data-key="jaguar">
+        <img src="https://drive.google.com/uc?id=1Za5R8UFDLV-YwluT5ekScmOIDg8WPfJZ" alt="jaguar">
+        <figcaption><a href="http://www.cnn.com/2011/TRAVEL/05/17/jaguar.spotting.belize.matador/">CNN</a></figcaption>
+      </figure>
+    </footer>
+  </body>
+</html>
