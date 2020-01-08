@@ -24,8 +24,8 @@ function showAnswers(form) {
      */
     const valid = new Set(
         document.getElementById('valid').getAttribute('data-valid').
-          split(' ')
-              .map(Function.prototype.call, String.prototype.toLowerCase)
+            split(' ')
+                .map(Function.prototype.call, String.prototype.toLowerCase)
     );
     console.log(Array.from(valid));
 
