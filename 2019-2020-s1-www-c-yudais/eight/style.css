@@ -1,0 +1,28 @@
+#form {
+    position:absolute;
+    top:100px;
+}
+#motivation {
+    position:absolute;
+    top:150px;
+}
+#story {
+    position:absolute;
+    top:200px;
+}
+#submit {
+    position:absolute;
+    top:1000px;
+}
+#info {
+    position:absolute;
+    top:275px;
+}
+#comment {
+    position:absolute;
+    top:650px;
+}
+#ques {
+    position:absolute;
+    top:590px;
+}

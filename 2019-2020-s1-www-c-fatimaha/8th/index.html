@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Form</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="code.js"></script>
+    </head>
+    
+    <body>
+        <h1 style="text-align:center">Online Field Trip Form</h1>
+        <h4>This year, GSL is hosting an event for those who are intersted in the medical field! Students will be out all day.
+        The bus will leave at 9:00 am, and studens are well aware that it's their responsbility to attend school earlier.
+        By filling out this form, parents/guardians are aware of their child's departure.  </h4>
+        
+        <form action="code.js">
+            First name:<br>
+            <input type="text" name="firstname" required>
+            <br><br>
+            Last name:<br>
+            <input type="text" name="lastname" required>
+            <br><br>
+            Grade:<br>
+            <input type="text" name="grade" required>
+            <br><br>
+            Gender:<br>
+            <input type="radio" name="gender" value="male" checked> Male<br>
+            <input type="radio" name="gender" value="female"> Female<br>
+            <input type="radio" name="gender" value="other"> Other<br><br>
+           
+            <strong>Contact Information:</strong>
+            <br><br>
+            Parent/Guardian Phone #:<br>
+            <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+            <br><br>
+            Parent/Guardian E-mail address:<br>
+            <input type="email" name="email">
+            <br><br>
+            Parent/Guardian Phone #2:<br>
+            <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+            <br><br>
+            Parent/Guardian E-mail address #2:<br>
+            <input type="email" name="email">
+            <br><br>
+            <input type="checkbox" name="#" value="#" required>I agree 
+            <br><br>
+         
+            <input type="submit" value="submit">
+         
+        </form>    
+      
+    </body>
+</html>

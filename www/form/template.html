@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScript Template</title>
+    <link href="template.css" rel="stylesheet">
+    <script src="template.js"></script>        
+  </head>
+  <body onload="return hideShow('output', 'input');">
+    <article id="input">
+      <h1>JavaScript Template (inputs)</h1>
+      <p>Add form here&hellip;</p>
+      <form id="form" onsubmit="return show('input', 'output');" data-valid="mood color">
+        <fieldset>
+          <legend>Enter information</legend>
+          <ul>
+            <li><label>Last: </label><input type="text" name="last"></li>
+            <li><label>First: </label><input type="text" name="first"></li>
+            <li><label>Comment: </label><textarea name="comment"></textarea></li>
+            <li><label>Mood: </label>
+              <input type="checkbox" name="mood" value="happy"> <label>Happy &#x1f600;</label>
+              <input type="checkbox" name="mood" value="meh"> <label>Meh&hellip; &#x1f610;</label>
+              <input type="checkbox" name="mood" value="sad"> <label>Sad &#x1f622;</label>
+            </li>
+            <li>
+              <label>Which are you? </label><select name="which">
+                <option value="pirate">Pirate</option>
+                <option value="ninja">Ninja</option>
+              </select>
+          </ul>
+          <ul>
+            <li><label>What color is a fire engine? </label>
+              <input type="radio" name="engine" value="red" class="color foo"><label>Red</label>
+              <input type="radio" name="engine" value="green" class="color foo"><label>Green</label>
+              <input type="radio" name="engine" value="blue" class="color foo"><label>Blue</label>
+            </li>
+            <li><label>What color is grass? </label>
+              <input type="radio" name="grass" value="red" class="color foo"><label>Red</label>
+              <input type="radio" name="grass" value="green" class="color foo"><label>Green</label>
+              <input type="radio" name="grass" value="blue" class="color foo"><label>Blue</label>
+            </li>
+            <li><label>What color is the sky? </label>
+              <input type="radio" name="sky" value="red" class="color"><label>Red</label>
+              <input type="radio" name="sky" value="green" class="color"><label>Green</label>
+              <input type="radio" name="sky" value="blue" class="color"><label>Blue</label>
+            </li>
+            <li><label>Which is your favorite of these colors?? </label>
+              <input type="radio" name="favorite" value="red" class="color"><label>Red</label>
+              <input type="radio" name="favorite" value="green" class="color"><label>Green</label>
+              <input type="radio" name="favorite" value="blue" class="color"><label>Blue</label>
+            </li>
+          </ul>
+          <input type="submit">
+        </fieldset>
+      </form>
+    </article>
+     <article id="output">
+      <h1>JavaScript Template (outputs)</h1>
+      <p>This is your last name: <span id="last"></span></p>
+      <p>This is your first name: <span id="first"></span></p>
+      <p>This is your comment: <span id="comment"></span></p>
+      <p>This is you: <span id="which"></span></p>
+      <p>This is your mood: <span id="mood"></span></p>
+      <p>This is your color: <span id="color"></span></p>
+      <p><input type="button" name="reset" value="Reset" onClick="return hideShow('output', 'input');"></p>
+    </article>
+  </body>
+</html>

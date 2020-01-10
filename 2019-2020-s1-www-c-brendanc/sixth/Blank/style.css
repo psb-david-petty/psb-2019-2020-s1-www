@@ -1,5 +1,6 @@
 h1 {
     color: White;
+    text-align: center;
 }
 body {
   background-color: rgb(240, 179, 255);
@@ -23,7 +24,7 @@ body,html{margin:0;padding:0;}
 
   position: relative;
   /* The height of the container. Must be set, but it doesn't really matter what the value is. */
-  height: 79vh;
+  height: 69vh;
   
   /* For text formatting. */
   display: flex;
@@ -106,6 +107,8 @@ body,html{margin:0;padding:0;}
 .dropdown:hover .dropbtn {
   background-color: rgb(224, 102, 255);
 }
+
+
 
 
 
