@@ -296,6 +296,7 @@ if __name__ == '__main__':
         '__file__' not in globals()
     )
     if is_idle or is_pycharm or is_jupyter:
+        print('webpages.py...')
         # Write formatted student webpage links to students.html
         abs_path, rel_path = '../', '../../'
         htmlfile = Webpages._path(abs_path, r'./www/github/students.html')

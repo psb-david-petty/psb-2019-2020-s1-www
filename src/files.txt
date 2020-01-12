@@ -550,7 +550,6 @@
 ../www/form/quiz.css
 ../www/form/quiz.html
 ../www/form/quiz.js
-../www/form/tamplate.html
 ../www/form/template.css
 ../www/form/template.html
 ../www/form/template.js
