@@ -6,11 +6,11 @@
     <link href="template.css" rel="stylesheet">
     <script src="template.js"></script>        
   </head>
-  <body onload="return hideShow('output', 'input');">
+  <body onload="return hideShow('#output', '#input');">
     <article id="input">
       <h1>JavaScript Template (inputs)</h1>
-      <p>Add form here&hellip;</p>
-      <form id="form" onsubmit="return show('input', 'output');" data-valid="mood color">
+      <p>Add form below&hellip;</p>
+      <form id="form" onsubmit="return show('#input', '#output');" data-valid="mood color">
         <fieldset>
           <legend>Enter information</legend>
           <ul>
@@ -62,7 +62,7 @@
       <p>This is you: <span id="which"></span></p>
       <p>This is your mood: <span id="mood"></span></p>
       <p>This is your color: <span id="color"></span></p>
-      <p><input type="button" name="reset" value="Reset" onClick="return hideShow('output', 'input');"></p>
+      <p><input type="button" name="reset" value="Reset" onClick="return hideShow('#output', '#input');"></p>
     </article>
   </body>
 </html>
