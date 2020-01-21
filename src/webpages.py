@@ -33,7 +33,8 @@ class Webpages:
     _defaults = ['index.html', 'index.md', ]
     _extensions = ['.html', '.md', '.css', '.js', 'txt',
                    '.gif', 'jpg', '.png',
-                   '.eot', '.ttf', '.otf', '.woff', '.woff2', '.svg', ]
+                   '.eot', '.ttf', '.otf', '.woff', '.woff2', '.svg',
+                    '.pdf', ]
     _default_heading = '2019-2020 S1 &mdash; WWW Design'
     _default_text = """      <p>These are links to student websites:</p>"""
     _default_comment = ''

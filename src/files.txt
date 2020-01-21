@@ -421,6 +421,7 @@
 ../www/descriptive/images/x-symbol-300x300.png
 ../www/descriptive/index.html
 ../www/descriptive/poster.html
+../www/descriptive/poster.pdf
 ../www/descriptive/xr.css
 ../www/dropdown/dropdown.css
 ../www/dropdown/index.html
