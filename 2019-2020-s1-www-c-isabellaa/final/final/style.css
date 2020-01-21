@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+}
+.flexcolumn {
+  display: flex;
+  flex-direction: column;
+}
+.flexrow {
+  display: flex;
+  flex-direction: row;
+}
+section h1 {
+  color: #33cccc;
+  font-family: Roboto, sans-serif;
+  font-weight: lighter;
+  font-size: 30px;
+}
+section p {
+  color: white;
+}
+section a {
+  background-color: #000066;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  text-decoration: none;
+  transition: 0.8s;
+}
+section a:hover {
+  background-color: white;
+  color: black;
+}
+section img {
+  height: 30%;
+}
+
+/* PARALLAX SCROLLING */ 
+.wrapper {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 2px;
+}
+.section {
+  position: relative;
+  height: 100vh;
+  
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.parallax::after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  
+  transform: translateZ(-1px) scale(1.5);
+  background-size: 100%;
+  z-index: -1;
+}
+.bg1::after {
+  background-image: url('https://wallpapercave.com/wp/wp2903046.jpg');
+}
+.static1 {
+  background: darkblue;
+}
+.bg2::after {
+  background-image: url('');
+  background: darkred;
+}
+.static2 {
+  background: darkgreen;
+}

@@ -1,53 +1,74 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-        <title>Empty Project</title>
-        <script src="code.js" type="text/javascript" charset="utf-8"></script>        
-        <link href="style.css" rel="stylesheet" type="text/css">
-    </head>
-    <body>
-      <h1>What type of fish are you?</h1>
-      <form action="">
-        <p>1. What's your favourite colour?</p>
-        <input type="radio" name=""><label>Orange</label><br>
-        <input type="radio" name=""><label>Red</label><br>
-        <input type="radio" name=""><label>Any!</label><br>
-        <input type="radio" name=""><label>It's too dark to see</label><br>
-        
-        <p>2. What's your favourite Disney movie?</p>
-        <input type="radio" name=""><label>Finding Nemo</label><br>
-        <input type="radio" name=""><label>Finding Dory</label><br>
-        <input type="radio" name=""><label>Dumbo</label><br>
-        <input type="radio" name=""><label></label><br>
-        
-        <p>3. What do you do when you're scared?</p>
-        <input type="radio" name=""><label>Look surprised</label><br>
-        <input type="radio" name=""><label>Run (swim) away</label><br>
-        <input type="radio" name=""><label>Eat them</label><br>
-        <input type="radio" name=""><label></label><br>
-        
-        <p>4. </p>
-        <input type="radio" name=""><label></label><br>
-        <input type="radio" name=""><label></label><br>
-        <input type="radio" name=""><label></label><br>
-        <input type="radio" name=""><label></label><br>
-        
-        <p>5. </p>
-        <input type="radio" name=""><label></label><br>
-        <input type="radio" name=""><label></label><br>
-        <input type="radio" name=""><label></label><br>
-        <input type="radio" name=""><label></label><br>
-        
-        <br>
-        
-        <input type="radio" name=""><label></label><br>
-        <input type="submit" value="submit">
-      </form>
-      
-      <img src="https://www.thisiscolossal.com/wp-content/uploads/2019/06/tsubaki-12.jpg" alt="surprised fish">
-      <img src="https://cdn.shopify.com/s/files/1/0855/3388/products/6297.jpeg?v=1441108913" alt="clown">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <title>index</title>
+  <script src="code.js" type="text/javascript" charset="utf-8"></script>
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <h1>What type of fish are you?</h1>
+  <form id="valid" data-valid="chinese-goldfish clownfish angler-fish dumbo-octopus">
+    <p>1. What's your favourite colour?</p>
+    <input type="radio" name="1" value="clownfish"><label>Orange</label><br>
+    <input type="radio" name="1" value="chinese-goldfish"><label>Red</label><br>
+    <input type="radio" name="1" value="dumbo-octopus"><label>Any!</label><br>
+    <input type="radio" name="1" value="angler-fish"><label>It's too dark to see</label><br>
+
+    <p>2. What's your favourite Disney movie?</p>
+    <input type="radio" name="2" value="angler-fish"><label>Finding Nemo -- I liked the scenes where the clown fish was scared</label><br>
+    <input type="radio" name="2" value="clownfish"><label>Definitely NOT Finding Nemo! A parent's NIGHTMARE!!!</label><br>
+    <input type="radio" name="2" value="chinese-goldfish"><label>The Little Mermaid -- I like the colourful fish</label><br>
+    <input type="radio" name="2" value="dumbo-octopus"><label>Dumbo -- the elephant is cute</label><br>
+
+    <p>3. What do you do when you're scared?</p>
+    <input type="radio" name="3" value="chinese-goldfish"><label>Look surprised</label><br>
+    <input type="radio" name="3" value="clownfish"><label>Run (swim) away</label><br>
+    <input type="radio" name="3" value="angler-fish"><label>Eat whomever scared me</label><br>
+    <input type="radio" name="3" value="dumbo-octopus"><label>Hide</label><br>
+
+    <p>4. If you could be any other animal, which animal would you be?</p>
+    <input type="radio" name="4" value="angler-fish"><label>Shark</label><br>
+    <input type="radio" name="4" value="dumbo-octopus"><label>Bird of Paradise</label><br>
+    <input type="radio" name="4" value=""><label>Human</label><br>
+    <input type="radio" name="4" value="chinese-goldfish"><label>Goldfish</label><br>
+
+    <p>5. What's your ideal job?</p>
+    <input type="radio" name="5" value="clownfish"><label>Entertainer</label><br>
+    <input type="radio" name="5" value="angler-fish"><label>Something to do with light and fire</label><br>
+    <input type="radio" name="5" value=""><label>Artist</label><br>
+    <input type="radio" name="5" value="chinese-goldfish"><label>Pet store owner</label><br>
+  </form>
+
+  <input type="submit" onclick="return showAnswers();">
+  <p><strong>Your answers:</strong>
+    <span id="chinese-goldfish"></span>
+    <span id="clownfish"></span>
+    <span id="angler-fish"></span>
+    <span id="dumbo-octopus"></span>
+    You are a: &quot;<span id="answer"></span>&quot;
+  </p>
+
+  <article>
+    <figure data-key="chinese-goldfish">
+      <img src="https://www.thisiscolossal.com/wp-content/uploads/2019/06/tsubaki-12.jpg" alt="chinese gold fish">
+      <figcaption><a href=""></a></figcaption>
+    </figure>
+    <figure data-key="clownfish">
+      <img src="https://cdn.shopify.com/s/files/1/0855/3388/products/6297.jpeg?v=1441108913" alt="clown fish">
+      <figcaption><a href=""></a></figcaption>
+    </figure>
+    <figure data-key="angler-fish">
       <img src="https://www.nationalgeographic.com/content/dam/animals/thumbs/rights-exempt/fish/group/anglerfish_thumb.jpg" alt="angler fish">
-      <img src="https://i.ytimg.com/vi/YcoMEaBjJLk/maxresdefault.jpg" alt="dumbo">
-    </body>
+      <figcaption><a href=""></a></figcaption>
+    </figure>
+    <figure data-key="dumbo-octopus">
+      <img src="https://i.ytimg.com/vi/YcoMEaBjJLk/maxresdefault.jpg" alt="dumbo octopus">
+      <figcaption><a href=""></a></figcaption>
+    </figure>
+  </article>
+</body>
+
 </html>

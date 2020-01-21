@@ -1,3 +1,54 @@
-h1 {
-    color: red;
+body {
+  font-family: arial;
+  background: black;
+}
+.longtimeago {
+  color: lightblue;
+}
+.starwars {
+  color: yellow;
+  font-size: 100px;
+}
+.crawl {
+  color: yellow;
+  margin: 30%;
+  font-size: 20px;
+}
+strong {
+  color: yellow;
+  font-size: 30px;
+}
+.wrapper {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 2px;
+}
+.section {
+  position: relative;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 0 0 5px #000;
+}
+.parallax::after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  transform: translateZ(-1px) scale(1.5);
+  background-size: 100%;
+  z-index: -1;
+}
+.bg1::after {
+  background-image: url('https://www.universetoday.com/wp-content/uploads/2011/11/Pleiades-by-Jamie-Ball.jpg');
+}
+.bg2::after {
+  background-image: url('https://cmkt-image-prd.freetls.fastly.net/0.1.0/ps/3117853/910/607/m1/fpnw/wm1/1607.m00.i101.n021.p.c25.179331677-space-w-.jpg?1502726817&s=1a19ad501d83dc73e35cdf1f3b965102');
 }

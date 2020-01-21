@@ -67,7 +67,9 @@ nav li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-p {background-color:yellow;
+p {background-color:yellow;font-family: 'Source Code Pro', monospace;
 }
-h {color:blue;
+h {color:blue;font-family: 'Pacifico', cursive;
 }
+ol {background-color:orange;}
+#comment { background-color: pink; }

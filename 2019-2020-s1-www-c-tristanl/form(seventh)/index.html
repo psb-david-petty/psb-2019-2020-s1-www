@@ -18,12 +18,13 @@
       <input type="text" name="lastname"><br><br>
 
       Gender:<br>
-      <input type="radio" name="gender" value="male">Male<br>
-      <input type="radio" name="gender" value="female">Female<br>
-      <input type="radio" name="gender" value="other">Other<br><br>
+      <input type="radio" name="gender" value="male" onclick="genderClicked()">Male<br>
+      <input type="radio" name="gender" value="female" onclick="genderClicked()">Female<br>
+      <input type="radio" name="gender" value="other" onclick="genderClicked()">Other:
+      <input type="text" name="gender" id="genderInput" placeholder="Please Specify" disabled><br><br>
 
       Birthday:<br>
-      <select name="birthday" required>
+      <select name="birthday" id="selectMonth" onchange="monthChange()" required>
         <option value="">Select Month</option>
         <option value="1">January</option>
         <option value="2">Feburary</option>
@@ -38,79 +39,17 @@
         <option value="11">November</option>
         <option value="12">December</option>
       </select> /
-      <select name="birthday" required>
-        <option value="">Select Day</option>
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
-        <option value="6">6</option>
-        <option value="7">7</option>
-        <option value="8">8</option>
-        <option value="9">9</option>
-        <option value="10">10</option>
-        <option value="11">11</option>
-        <option value="12">12</option>
-        <option value="13">13</option>
-        <option value="14">14</option>
-        <option value="15">15</option>
-        <option value="16">16</option>
-        <option value="17">17</option>
-        <option value="18">18</option>
-        <option value="19">19</option>
-        <option value="20">20</option>
-        <option value="21">21</option>
-        <option value="22">22</option>
-        <option value="23">23</option>
-        <option value="24">24</option>
-        <option value="25">25</option>
-        <option value="26">26</option>
-        <option value="27">27</option>
-        <option value="28">28</option>
-        <option value="29">29</option>
-        <option value="30">30</option>
-        <option value="31">31</option>
+
+      <select name="birthday" id="selectDay" onchange="dayChange()" required>
+        <option value="">Select Month First</option>
       </select> /
-      <select name="birthday" required>
-        <option value="">Select Year</option>
-        <option value="1">2002</option>
-        <option value="2">2001</option>
-        <option value="3">2000</option>
-        <option value="4">1999</option>
-        <option value="5">1998</option>
-        <option value="6">1997</option>
-        <option value="7">1996</option>
-        <option value="8">1995</option>
-        <option value="9">1994</option>
-        <option value="10">1993</option>
-        <option value="11">1992</option>
-        <option value="12">1991</option>
-        <option value="13">1990</option>
-        <option value="14">1989</option>
-        <option value="15">1988</option>
-        <option value="16">1987</option>
-        <option value="17">1986</option>
-        <option value="18">1985</option>
-        <option value="19">1984</option>
-        <option value="20">1983</option>
-        <option value="21">1982</option>
-        <option value="22">1981</option>
-        <option value="23">1970</option>
-        <option value="24">1979</option>
-        <option value="25">1978</option>
-        <option value="26">1977</option>
-        <option value="27">1976</option>
-        <option value="28">1975</option>
-        <option value="29">1974</option>
-        <option value="30">1973</option>
-        <option value="31">1972</option>
-        <option value="32">1971</option>
-        <option value="33">1970</option>
-        <option value="34">1969</option>
+
+      <select name="birthday" id="selectYear" required>
+        <option value="">Select Month First</option>
       </select><br><br>
 
-
+      Telephone Number:<br>
+      <input type="tel" name="telephone" placeholder="(617)-555-1234"><br><br>
 
       <input type="submit" value="Submit">
 
@@ -121,6 +60,7 @@
       <section id="lastname"></section>
       <section id="gender"></section>
       <section id="birthday"></section>
+      <section id="telephone"></section>
     </p>
 
 

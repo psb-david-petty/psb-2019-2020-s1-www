@@ -28,6 +28,10 @@ body, html {
   background-image: url("https://images.alphacoders.com/186/186993.jpg");
   min-height: 400px;
 }
+.bgimg-4 {
+  background-image: url("https://images.wallpapersden.com/image/wxl-the-elder-scrolls-skyrim-bas_12890.jpg");
+  min-height: 400px;
+}
 
 
 .caption {
@@ -64,4 +68,14 @@ h3 {
   .bgimg-1, .bgimg-2, .bgimg-3 {
     background-attachment: scroll;
   }
+}
+.parallax {
+  perspective: 1px;
+
+}
+.parallax__layer--base {
+  transform: translateZ(0);
+}
+.parallax__layer--back {
+  transform: translateZ(-2px);
 }

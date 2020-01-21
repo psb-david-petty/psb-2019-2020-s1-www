@@ -12,6 +12,7 @@
   <span class="border">The Elder Scrolls V: Skyrim</span>
   </div>
 </div>
+<div class="parallax">
 
 <div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
   <h3 style="text-align:center;">What is Skryim?</h3>
@@ -19,18 +20,19 @@
 
 <p>The game's main story revolves around the player's character, the Dragonborn, quest to defeat Alduin the World-Eater, a dragon who is prophesied to destroy the world. The game is set 200 years after the events of Oblivion and takes place in Skyrim, the northernmost province of Tamriel. Over the course of the game, the player completes quests and develops the character by improving skills. The game continues the open-world tradition of its predecessors by allowing the player to travel anywhere in the game world at any time, and to ignore or postpone the main storyline indefinitely."-Wikipidia</p>
 </div>
-
+</div>
+      <div class="parallax__layer parallax__layer--back">
 <div class="bgimg-2">
   <div class="caption">
   <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
   </div>
 </div>
-
+<div></div>
 <div style="position:relative;">
   <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
-  <p>Create a charactor.</p>
+  <p>Create a charactor and experence a new exiting world, full of monsters and dragons.</p>
   </div>
-</div>Save
+</div>
 <div class="bgimg-3">
   <div class="caption">
   <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
@@ -39,16 +41,37 @@
 
 <div style="position:relative;">
   <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
-  <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
+  <p>Buy.</p>
   </div>
 </div>
-
-<div class="bgimg-1">
+</div>
+<div class="bgimg-4">
   <div class="caption">
   <span class="border">Also Its Better than The Legend of Zelda: Breath Of The Wild</span>
   </div>
 </div>
 
+</div>
+
+<script>
+ (function(){
+
+  var parallax = document.querySelectorAll("body"),
+      speed = 0.5;
+
+  window.onscroll = function(){
+    [].slice.call(parallax).forEach(function(el,i){
+
+      var windowYOffset = window.pageYOffset,
+          elBackgrounPos = "50% " + (windowYOffset * speed) + "px";
+
+      el.style.backgroundPosition = elBackgrounPos;
+
+    });
+  };
+
+})();
+    </script>
 
 </body>
 

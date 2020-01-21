@@ -20,7 +20,7 @@ nav ul {
 }
 nav ul ul { display: none; }
 nav li { text-align: left; background-color: black; }
-/* child selectors */
+
 nav > ul > li {
   text-align: center;
   position: relative;
@@ -38,7 +38,6 @@ nav > ul > li:hover > ul > li:hover ul {
   position: absolute;
   left: 100%; top: 0;
 }
-/* appearance style */
 nav {
   min-width: 600px; }
 nav li {

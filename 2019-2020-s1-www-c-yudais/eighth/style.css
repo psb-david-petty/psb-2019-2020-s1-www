@@ -4,7 +4,7 @@
 }
 #motivation {
     position:absolute;
-    top:150px;
+    top:350px;
 }
 #story {
     position:absolute;
@@ -12,11 +12,12 @@
 }
 #submit {
     position:absolute;
-    top:1000px;
+    top:700px;
 }
 #info {
     position:absolute;
-    top:275px;
+    top:50px;
+    left:320px;
 }
 #comment {
     position:absolute;
@@ -26,3 +27,21 @@
     position:absolute;
     top:590px;
 }
+#infotwo {
+    position:absolute;
+    top:200px;
+}
+#education {
+    position:absolute;
+     top:350px;
+    left:320px;
+   
+}
+#redn {
+    color:red;
+    position:absolute;
+    top:445px;
+    left:320px;
+}
+
+   
