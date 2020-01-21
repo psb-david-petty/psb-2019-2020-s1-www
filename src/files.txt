@@ -420,6 +420,7 @@
 ../www/descriptive/images/map-pointer-220x220.png
 ../www/descriptive/images/x-symbol-300x300.png
 ../www/descriptive/index.html
+../www/descriptive/poster.html
 ../www/descriptive/xr.css
 ../www/dropdown/dropdown.css
 ../www/dropdown/index.html
