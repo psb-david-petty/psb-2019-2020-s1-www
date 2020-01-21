@@ -387,6 +387,7 @@
 ../www/commercial/parsley-3622868_640x411.png
 ../www/commercial/variety.html
 ../www/descriptive/descriptive.css
+../www/descriptive/descriptive.html
 ../www/descriptive/fonts/FUCXEDCAPSLATIN_fonts/FUCXEDCAPSLatin-Regular.otf
 ../www/descriptive/fonts/FUCXEDCAPSLATIN_fonts/FUCXEDCAPSLatin-Regular.ttf
 ../www/descriptive/fonts/FUCXEDCAPSLATIN_fonts/FUCXEDCAPSLatin-Regular.woff
@@ -420,7 +421,6 @@
 ../www/descriptive/images/x-symbol-300x300.png
 ../www/descriptive/index.html
 ../www/descriptive/xr.css
-../www/descriptive/xr.html
 ../www/dropdown/dropdown.css
 ../www/dropdown/index.html
 ../www/first/bunny-salad-300x400.png
