@@ -62,10 +62,10 @@
 }
 
 .center {
-           display:block;
-           margin-left:auto;
-           margin-right:auto;
-        }
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
         
 p {
     font-family: 'Abel', sans-serif; 

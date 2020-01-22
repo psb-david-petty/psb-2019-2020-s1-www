@@ -1,3 +1,7 @@
-h1 {
-    color: red;
+.rainbow-text {
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
 }
+
+.Bebas {
+    font-family: 'Bebas Neue', cursive;
+    }

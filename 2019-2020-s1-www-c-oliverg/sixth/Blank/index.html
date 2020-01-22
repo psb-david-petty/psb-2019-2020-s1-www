@@ -1,38 +1,30 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body, html {
-  height: 100%;
-}
-
-.parallax {
-  /* The image used */
-  background-image: url('img_parallax.jpg');
-
-  /* Full height */
-  height: 100%; 
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-</style>
-</head>
-<body>
-
-<div class="parallax"></div>
-
-<div style="height:1000px;background-color:red;font-size:36px">
-Scroll Up and Down this page to see the parallax scrolling effect.
-This div is just here to enable scrolling.
-Tip: Try to remove the background-attachment property to remove the scrolling effect.
-</div>
-
-<div class="parallax"></div>
-
-</body>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScript Template</title>
+    <link href="template.css" rel="stylesheet">
+    <script src="template.js"></script>        
+  </head>
+  <body onload="return hideShow('#output', '#input');">
+    <article id="input">
+      <h1>JavaScript Template (inputs)</h1>
+      <p>Add form below&hellip;</p>
+      <form id="form" onsubmit="return show('#input', '#output');" data-valid="mood color">
+        <fieldset>
+          <legend>Enter information</legend>
+          <ul>
+            <li><label>Last: </label><input type="text" name="last"></li>
+            <li><label>First: </label><input type="text" name="first"></li>
+    
+            <li>
+              <label>Best Movies</label>
+          <ul>
+            <li><label>What type of movie are you interested in watching?</label>
+              <input type="radio" name="engine" value="Drama" class="color plus other classes"><label><a href="./Drama.html">Drama</a></label>
+              <input type="radio" name="engine" value="Action" class="color"><label><a href="./.html">Action</a></label>
+              <input type="radio" name="engine" value="Warfare" class="color"><label><a href="./Warfare.html">Warfare</a></label>
+              <input type="radio" name="engine" value="Street" class="color"><label><a href="./Street.html">Street</a></label>
+            </li>
+           ? 
 </html>

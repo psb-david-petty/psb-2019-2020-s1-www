@@ -1,13 +1,12 @@
 body {
   margin: 0;
+  font-family: 'Roboto Mono', monospace;
 }
+
+/* PAGE 1 */
 .flexcolumn {
   display: flex;
   flex-direction: column;
-}
-.flexrow {
-  display: flex;
-  flex-direction: row;
 }
 section h1 {
   color: #33cccc;
@@ -34,6 +33,100 @@ section a:hover {
 }
 section img {
   height: 30%;
+}
+
+/* OTHER PAGES */
+.galaxy {
+  background-image: url('https://thenypost.files.wordpress.com/2019/09/killing-galaxy.jpg?quality=80&strip=all&strip=all');
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.light-side {
+  background-image: url('https://thenypost.files.wordpress.com/2019/09/killing-galaxy.jpg?quality=80&strip=all&strip=all');
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.dark-side {
+  background-image: url('https://thenypost.files.wordpress.com/2019/09/killing-galaxy.jpg?quality=80&strip=all&strip=all');
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.quiz {
+  background-image: url('https://thenypost.files.wordpress.com/2019/09/killing-galaxy.jpg?quality=80&strip=all&strip=all');
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+header h1 {
+  text-align: center;
+  color: yellow;
+  margin: 0;
+  padding: 20px;
+  background-image: url('https://wallpapercave.com/wp/wp2903046.jpg');
+}
+nav {
+  display: flex;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  list-style: none outside none;
+  padding: 0;
+  width: 100%;
+  background-color: black;
+  margin: 0;
+}
+nav li {
+  text-align: left;
+  min-width: 25%;
+}
+nav li:hover {
+  background-color: lightgray;
+}
+nav a {
+  color: gray;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
+nav a:hover {
+  color: black;
+}
+nav ul ul {
+  display: none;
+}
+nav>ul>li {
+  text-align: center;
+  position: relative;
+}
+nav>ul>li:hover>ul {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background: white;
+}
+nav>ul>li:hover>ul>li {
+  position: relative;
+}
+nav>ul>li:hover>ul>li:hover ul {
+  display: block;
+  position: absolute;
+  left: 100%;
+  top: 0;
+  background: white;
+}
+.galaxy main, .light-side main, .dark-side main, .quiz main {
+  background: white;
+  margin-left: 20%;
+  margin-right: 20%;
+  top: 0;
+  bottom: 0;
+  border: thin white solid;
+  height: 100%;
 }
 
 /* PARALLAX SCROLLING */ 
@@ -65,14 +158,23 @@ section img {
 }
 .bg1::after {
   background-image: url('https://wallpapercave.com/wp/wp2903046.jpg');
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .static1 {
-  background: darkblue;
+  background-image: url('https://vignette.wikia.nocookie.net/starwars/images/f/f4/ProcessionalWay-Deceived.png/revision/latest?cb=20121119202111');
+  border: thick black solid;
 }
 .bg2::after {
-  background-image: url('');
-  background: darkred;
+  background-image: url('https://www.syfy.com/sites/syfy/files/styles/1200x680/public/2019/10/screen-shot-2019-10-22-at-10.08.32-am.png');
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .static2 {
-  background: darkgreen;
+  background-image: url('https://vignette.wikia.nocookie.net/starwars/images/1/1d/Endor_BF2.png/revision/latest?cb=20171014232605');
+  border: thick black solid;
 }

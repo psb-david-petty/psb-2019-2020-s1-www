@@ -3,7 +3,7 @@ h1 {
     text-align: center;
 }
 body {
-  background-color: rgb(240, 179, 255);
+  background-color: rgb(255, 153, 255);
 }
 
 
@@ -11,7 +11,7 @@ body,html{margin:0;padding:0;}
 
 .wrapper {
 
-  height: 110vh;
+  height: 55vh;
 
   overflow-x: hidden;
 
@@ -24,7 +24,7 @@ body,html{margin:0;padding:0;}
 
   position: relative;
   /* The height of the container. Must be set, but it doesn't really matter what the value is. */
-  height: 69vh;
+  height: 79vh;
   
   /* For text formatting. */
   display: flex;
@@ -64,9 +64,12 @@ body,html{margin:0;padding:0;}
 }
 
 .bg2::after {
-  background-image: url('https://cdn.windowsreport.com/wp-content/uploads/2018/03/blue-yeti-software-1.jpg');
+  background-image: url('https://blog.bluedesigns.com/images/_sliderMobileRetina/10-years-of-Yeti-hero_1636.jpg');
 }
 
+.bg3::after {
+  background-image: url('https://betanews.com/wp-content/uploads/2019/09/yetix1.jpg');
+}
 
 .dropbtn {
   background-color: rgb(163, 0, 204);
