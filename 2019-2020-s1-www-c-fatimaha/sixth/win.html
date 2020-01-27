@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Electric Cars</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+  </head>
+  
+  <body>
+    <header>
+      <h1 style="text-align:center"> Electric Vehicles</h1>
+    </header>
+    
+    <div class="navbar">
+       <a href="/index.html">Home</a>
+       <a href="/type.html">Prices</a>
+       <a href="/table.html">Charging Stations</a>
+       <a href="win.html">WIN A TESLA?</a>
+
+     <div class="dropdown">
+      <button class="dropbtn">Types 
+        <i class="fa fa-caret-down"></i>
+         </button>
+       <div class="dropdown-content">
+        <a href="prices.html">BEV</a>
+        <a href="prices2.html">PHEV</a>
+        <a href="prices1.html">HEV</a>
+       </div>
+        </div> 
+         </div>
+    <main>
+        <section>
+            <h2>WIN A TESLA!</h2>
+            <article>
+                <p>Fill in the boxes below, and win a Tesla! </p>
+            </article>
+        </section>
+    </main>
+    <body onload="return hideShow('#output', '#input');">
+              <article id="input">
+        
+        <form onsubmit="return show('#input', '#output');" data-valid="gender agree">
+          First name:<br>
+           <input type="text" name="firstname" required>
+            <br><br>
+             Last name:<br>
+              <input type="text" name="lastname" required>
+             <br><br>
+          Gender:<br>
+            <input type="radio" name="gender" value="male" class="gender" checked> Male<br>
+                <input type="radio" name="gender" value="female" class="gender" > Female<br>
+                    <input type="radio" name="gender" value="other" class="gender" > Other<br><br>
+           
+                    <strong>Contact Information:</strong>
+                  <br><br>
+                Parent/Guardian Phone #:<br>
+              <input type="tel" name="phone">
+            <br><br>
+          Parent/Guardian E-mail address:<br>
+            <input type="email" name="email">
+              <br><br>
+             Parent/Guardian Phone #2:<br>
+          <input type="tel" name="phone2">
+        <br><br>
+          Parent/Guardian E-mail address #2:<br>
+           <input type="email" name="email2">
+             <br><br>
+           <input type="checkbox" name="agree" class="agree" value="#" required>I agree to the <a href="#">terms and conditions </a>
+         <br><br>
+      <input type="submit" value="submit">
+         </form> 
+          </article>
+        
+         <article id="output">
+          <h1>JavaScript Template (outputs)</h1>
+            <p>This is your last name: <span id="lastname"></span></p>
+            <p>This is your first name: <span id="firstname"></span></p>
+            <p>This is your pg#1: <span id="phone"></span></p>
+            <p>This is your pg#2: <span id="phone2"></span></p>
+            <p>This is your pg@1: <span id="email"></span></p>
+            <p>This is your pg@: <span id="email2"></span></p>
+            <p>This is your gender: <span id="gender"></span></p>
+            <p>This is your consent: <span id="agree"></span></p>
+            <p><input type="button" name="reset" value="Reset" onClick="return hideShow('#output', '#input');"></p>
+        </article>
+       </body>
+      </html>

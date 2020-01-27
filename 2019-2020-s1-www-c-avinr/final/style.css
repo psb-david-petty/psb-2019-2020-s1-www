@@ -21,6 +21,7 @@ main{
     display: flex;
     flex-wrap: wr;
     background-color: tan;
+ 
 }
 
 /* descendent selectors */

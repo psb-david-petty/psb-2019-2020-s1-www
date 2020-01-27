@@ -1,0 +1,123 @@
+h1 {
+    color: White;
+    text-align: center;
+    font-size: 50px;
+}
+
+h2{
+    color:white;
+    text-align: center;
+}
+body {
+  background-color: black;
+}
+
+body,html{margin:0;padding:0;}
+
+.wrapper {
+
+  height: 55vh;
+
+  overflow-x: hidden;
+
+  overflow-y: auto;
+
+  perspective: 10px;
+}
+
+.section {
+
+  position: relative;
+  /* The height of the container. Must be set, but it doesn't really matter what the value is. */
+  height: 79vh;
+  
+  /* For text formatting. */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 0 0 5px #000;
+}
+
+.parallax::after {
+  /* Display and position the pseudo-element */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom:0;
+  left: 0;
+  
+  /* Move the pseudo-element back away from the camera,
+   * then scale it back up to fill the viewport.
+   * Because the pseudo-element is further away, it appears to move more slowly, like in real life. */
+  transform: translateZ(-5px) scale(1.5);
+  /* Force the background image to fill the whole element. */
+  background-size: 100%;
+  /* Keep the image from overlapping sibling elements. */ 
+  z-index: -1;
+}
+
+/* The styling for the static div. */
+.static {
+  background: white;
+}
+
+/* Sets the actual background images to adorable kitties. This part is crucial. */
+.bg1::after {
+  background-image: url('https://oyster.ignimgs.com/wordpress/stg.ign.com/2017/08/Yeti-1251.jpg?fit=bounds&width=640&height=480');
+}
+
+.bg2::after {
+  background-image: url('https://blog.bluedesigns.com/images/_sliderMobileRetina/10-years-of-Yeti-hero_1636.jpg');
+}
+
+.bg3::after {
+  background-image: url('https://betanews.com/wp-content/uploads/2019/09/yetix1.jpg');
+}
+
+.dropbtn {
+  background-color: rgb(163, 0, 204);
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: rgb(224, 102, 255)}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: rgb(224, 102, 255);
+}
+
+body{
+    font-family: 'Cookie', cursive;
+}
+
+

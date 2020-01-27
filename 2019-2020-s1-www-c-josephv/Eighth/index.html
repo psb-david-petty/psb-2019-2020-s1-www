@@ -1,5 +1,14 @@
 <!DOCTYPE html>
 <html>
+    
+        <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>CAT FACTS™</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <body>
 
 <header>
@@ -37,7 +46,7 @@
   <input type="text" name="lastname">
   <br><br>
 
-
+<aside>
 Do any of these reasons apply to your unsubscription?
 
 <p>
@@ -46,6 +55,33 @@ Do any of these reasons apply to your unsubscription?
   <input type="checkbox" name="reasons" value="Cute"> The facts we sent were too cute<br>
   <input type="checkbox" name="reasons" value="Hate Kitties" checked>You are a soulless monster that hates kittens<br><br>
   </aside>
+  
+  <p>Are you <em>still</em> sure you want to unsubscribe from CAT FACTS™</p>
+  
+<input type="radio" name="still yay or nay" value="still Yes" checked> Yes<br>
+<input type="radio" name="still yay or nay" value="still No" checked> No<br>
+  
+  <p>
+
+    If yes, this makes us sad /ᐠ｡▿｡ᐟ\  Can you tell us at least one thing you liked about CAT FACTS™?:<br>
+  <input type="text" name="one thing">
+  <br>
+  
+  <p>
+
+    Please tell us your <strong>FAVORITE</strong> thing about CAT FACTS™:<br>
+  <input type="text" name="favorite">
+  <br>
+  
+  <p>(Check all that apply) I love:<p>
+
+  <input type="checkbox" name="reasons" value="adorable" checked>The cats were just ADORABLE!<br>
+  <input type="checkbox" name="reasons" value="updated" checked>It always kept me updated with cat pix!<br>
+  <input type="checkbox" name="reasons" value="cats are fav" checked>Cats are just my FAVORITE!!<br>
+  <input type="checkbox" name="reasons" value="cool idea" checked>CAT FACTS™ is just a cool idea!<br>
+
+  
+  
 </main>
   
   <nav>
@@ -54,17 +90,37 @@ Do any of these reasons apply to your unsubscription?
 <p id="demo"></p>
 </nav>
 
-<script>
-function myFunction() {
-  document.getElementById("submit").innerHTML = "Thank you, we will take 4-6 weeks to consider your request.;"
-}
-</script>
+  <script>
+    var x;
+    function myFunction1()
+    {
+        alert('You will receive 100 more facts per week.')
+    }
+
+    function myFunction2()
+    {
+        x=1;
+    }
+
+    function myFunction3()
+    {
+    if (x=1)
+    {
+        alert('We will send you one less fact a week.')
+    }
+    else
+    {
+        alert('You will be subscribed to CAT FACTS™ forever')
+    }
+    }
+
+    </script>
+
   
 </form>
 
 <footer>
-<p>If you click the "Submit" button, a CAT FACTS™ representative will peruse your answers to see if youy qualify </p>
+<p>You may now click the "Submit" button to "submit" your answers, we will give you another chance as well to rethink your answers and try again, hoping you will reconsider your unsubscription. </p>
 </footer>
 </body>
-</html>
-
+</html>Can you t

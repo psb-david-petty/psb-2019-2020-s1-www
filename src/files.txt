@@ -21,9 +21,14 @@
 ../2019-2020-s1-www-c-avinr/Paralax/code.js
 ../2019-2020-s1-www-c-avinr/Paralax/index.html
 ../2019-2020-s1-www-c-avinr/Paralax/style.css
-../2019-2020-s1-www-c-avinr/final/aaa.html
-../2019-2020-s1-www-c-avinr/final/bbb.html
-../2019-2020-s1-www-c-avinr/final/ccc.html
+../2019-2020-s1-www-c-avinr/final/720s.html
+../2019-2020-s1-www-c-avinr/final/Aventador.html
+../2019-2020-s1-www-c-avinr/final/Ghost (1).html
+../2019-2020-s1-www-c-avinr/final/Ghost.html
+../2019-2020-s1-www-c-avinr/final/P1.html
+../2019-2020-s1-www-c-avinr/final/Phantom.html
+../2019-2020-s1-www-c-avinr/final/Uras.html
+../2019-2020-s1-www-c-avinr/final/Wraith.html
 ../2019-2020-s1-www-c-avinr/final/index.html
 ../2019-2020-s1-www-c-avinr/final/style.css
 ../2019-2020-s1-www-c-avinr/form-website/code.js
@@ -32,6 +37,9 @@
 ../2019-2020-s1-www-c-avinr/news-again/code.js
 ../2019-2020-s1-www-c-avinr/news-again/index.html
 ../2019-2020-s1-www-c-avinr/news-again/style.css
+../2019-2020-s1-www-c-brendanc/Final Project/Blank/code.js
+../2019-2020-s1-www-c-brendanc/Final Project/Blank/index.html
+../2019-2020-s1-www-c-brendanc/Final Project/Blank/style.css
 ../2019-2020-s1-www-c-brendanc/fifth/1.html
 ../2019-2020-s1-www-c-brendanc/fifth/2.html
 ../2019-2020-s1-www-c-brendanc/fifth/3.html
@@ -72,6 +80,11 @@
 ../2019-2020-s1-www-c-dusting/dropdown/code.js
 ../2019-2020-s1-www-c-dusting/dropdown/index.html
 ../2019-2020-s1-www-c-dusting/dropdown/style.css
+../2019-2020-s1-www-c-dusting/dustin's-final/code.js
+../2019-2020-s1-www-c-dusting/dustin's-final/index (1).html
+../2019-2020-s1-www-c-dusting/dustin's-final/index.html
+../2019-2020-s1-www-c-dusting/dustin's-final/skorpion.png
+../2019-2020-s1-www-c-dusting/dustin's-final/style.css
 ../2019-2020-s1-www-c-dusting/first-web-page/code.js
 ../2019-2020-s1-www-c-dusting/first-web-page/index.html
 ../2019-2020-s1-www-c-dusting/first-web-page/style.css
@@ -92,6 +105,9 @@
 ../2019-2020-s1-www-c-dusting/youtube-table/index.html
 ../2019-2020-s1-www-c-dusting/youtube-table/style.css
 ../2019-2020-s1-www-c-dusting/youtube-table/youtube.html
+../2019-2020-s1-www-c-elijahi/Final/code.js
+../2019-2020-s1-www-c-elijahi/Final/index.html
+../2019-2020-s1-www-c-elijahi/Final/style.css
 ../2019-2020-s1-www-c-elijahi/first/index.html
 ../2019-2020-s1-www-c-elijahi/first/index.md
 ../2019-2020-s1-www-c-elijahi/fourth/code.js
@@ -112,6 +128,13 @@
 ../2019-2020-s1-www-c-fatimaha/fifth/prices2.html
 ../2019-2020-s1-www-c-fatimaha/fifth/style.css
 ../2019-2020-s1-www-c-fatimaha/fifth/type.html
+../2019-2020-s1-www-c-fatimaha/finals (1)/index.html
+../2019-2020-s1-www-c-fatimaha/finals (1)/prices.html
+../2019-2020-s1-www-c-fatimaha/finals (1)/prices1.html
+../2019-2020-s1-www-c-fatimaha/finals (1)/prices2.html
+../2019-2020-s1-www-c-fatimaha/finals (1)/style.css
+../2019-2020-s1-www-c-fatimaha/finals (1)/table.html
+../2019-2020-s1-www-c-fatimaha/finals (1)/type.html
 ../2019-2020-s1-www-c-fatimaha/first/index.html
 ../2019-2020-s1-www-c-fatimaha/fourth/IMG_0939.jpg
 ../2019-2020-s1-www-c-fatimaha/fourth/Screen Shot 2019-10-26 at 6.14.42 PM.png
@@ -122,12 +145,17 @@
 ../2019-2020-s1-www-c-fatimaha/second/index.html
 ../2019-2020-s1-www-c-fatimaha/seventh/index.html
 ../2019-2020-s1-www-c-fatimaha/seventh/style.css
+../2019-2020-s1-www-c-fatimaha/sixth/code.js
+../2019-2020-s1-www-c-fatimaha/sixth/gift.html
 ../2019-2020-s1-www-c-fatimaha/sixth/index.html
 ../2019-2020-s1-www-c-fatimaha/sixth/prices.html
 ../2019-2020-s1-www-c-fatimaha/sixth/prices1.html
 ../2019-2020-s1-www-c-fatimaha/sixth/prices2.html
+../2019-2020-s1-www-c-fatimaha/sixth/seek.html
 ../2019-2020-s1-www-c-fatimaha/sixth/style.css
+../2019-2020-s1-www-c-fatimaha/sixth/table.html
 ../2019-2020-s1-www-c-fatimaha/sixth/type.html
+../2019-2020-s1-www-c-fatimaha/sixth/win.html
 ../2019-2020-s1-www-c-fatimaha/third/index.html
 ../2019-2020-s1-www-c-haofengl/fifth/DB/ICE.css
 ../2019-2020-s1-www-c-haofengl/fifth/DB/ICE.html
@@ -149,11 +177,12 @@
 ../2019-2020-s1-www-c-haofengl/second/Obsolete-Blank/index.html
 ../2019-2020-s1-www-c-haofengl/second/Obsolete-Blank/style.css
 ../2019-2020-s1-www-c-haofengl/second/index.html
-../2019-2020-s1-www-c-haofengl/sixth/Double Decker bus/code (1).js
+../2019-2020-s1-www-c-haofengl/sixth/Double Decker bus/Hongkong.metro.html
 ../2019-2020-s1-www-c-haofengl/sixth/Double Decker bus/code.js
 ../2019-2020-s1-www-c-haofengl/sixth/Double Decker bus/double decker bus 2.css
 ../2019-2020-s1-www-c-haofengl/sixth/Double Decker bus/double decker bus 2.html
 ../2019-2020-s1-www-c-haofengl/sixth/Double Decker bus/index.html
+../2019-2020-s1-www-c-haofengl/sixth/Double Decker bus/page.3.css
 ../2019-2020-s1-www-c-haofengl/sixth/Double Decker bus/page2.css
 ../2019-2020-s1-www-c-haofengl/sixth/Double Decker bus/style.css
 ../2019-2020-s1-www-c-haofengl/third/Blank/code.js
@@ -164,9 +193,13 @@
 ../2019-2020-s1-www-c-isabellaa/fifth/fifth/style.css
 ../2019-2020-s1-www-c-isabellaa/fifth/fifth/tree-species.html
 ../2019-2020-s1-www-c-isabellaa/final/final/code.js
+../2019-2020-s1-www-c-isabellaa/final/final/dark-side.html
+../2019-2020-s1-www-c-isabellaa/final/final/galaxy (1).html
+../2019-2020-s1-www-c-isabellaa/final/final/galaxy.html
 ../2019-2020-s1-www-c-isabellaa/final/final/index.html
-../2019-2020-s1-www-c-isabellaa/final/final/main.html
+../2019-2020-s1-www-c-isabellaa/final/final/light-side.html
 ../2019-2020-s1-www-c-isabellaa/final/final/photo-refs.html
+../2019-2020-s1-www-c-isabellaa/final/final/quiz.html
 ../2019-2020-s1-www-c-isabellaa/final/final/style.css
 ../2019-2020-s1-www-c-isabellaa/first/index.html
 ../2019-2020-s1-www-c-isabellaa/fourth/index.html
@@ -190,6 +223,23 @@
 ../2019-2020-s1-www-c-josephv/Fourth/code.js
 ../2019-2020-s1-www-c-josephv/Fourth/index.html
 ../2019-2020-s1-www-c-josephv/Fourth/style.css
+../2019-2020-s1-www-c-josephv/Ninth/Cosmo Pix/IMG_0014.jpg
+../2019-2020-s1-www-c-josephv/Ninth/Cosmo Pix/IMG_0294.jpg
+../2019-2020-s1-www-c-josephv/Ninth/Cosmo Pix/IMG_1111.jpg
+../2019-2020-s1-www-c-josephv/Ninth/Cosmo Pix/IMG_1177.jpg
+../2019-2020-s1-www-c-josephv/Ninth/Cosmo Pix/IMG_1533.jpg
+../2019-2020-s1-www-c-josephv/Ninth/Cosmo Pix/IMG_1537.jpg
+../2019-2020-s1-www-c-josephv/Ninth/Cosmo Pix/IMG_1538.jpg
+../2019-2020-s1-www-c-josephv/Ninth/Cosmo Pix/IMG_1577.jpg
+../2019-2020-s1-www-c-josephv/Ninth/Cosmo Pix/IMG_1582.jpg
+../2019-2020-s1-www-c-josephv/Ninth/Cosmo Pix/IMG_1592.jpg
+../2019-2020-s1-www-c-josephv/Ninth/Cosmo Pix/IMG_2668.jpg
+../2019-2020-s1-www-c-josephv/Ninth/Cosmo Pix/IMG_2683.jpg
+../2019-2020-s1-www-c-josephv/Ninth/Cosmo Pix/IMG_2722.jpg
+../2019-2020-s1-www-c-josephv/Ninth/Cosmo Pix/IMG_2967.jpg
+../2019-2020-s1-www-c-josephv/Ninth/code.js
+../2019-2020-s1-www-c-josephv/Ninth/index.html
+../2019-2020-s1-www-c-josephv/Ninth/style.css
 ../2019-2020-s1-www-c-josephv/Second/code.js
 ../2019-2020-s1-www-c-josephv/Second/index.html
 ../2019-2020-s1-www-c-josephv/Second/style.css
@@ -231,6 +281,9 @@
 ../2019-2020-s1-www-c-kaitlynh/fourth/scout.js
 ../2019-2020-s1-www-c-kaitlynh/second/index.html
 ../2019-2020-s1-www-c-kaitlynh/third/index.html
+../2019-2020-s1-www-c-natem/eighth/code.js
+../2019-2020-s1-www-c-natem/eighth/index.html
+../2019-2020-s1-www-c-natem/eighth/style.css
 ../2019-2020-s1-www-c-natem/fifth/code.js
 ../2019-2020-s1-www-c-natem/fifth/index.html
 ../2019-2020-s1-www-c-natem/fifth/style.css
@@ -247,6 +300,9 @@
 ../2019-2020-s1-www-c-natem/sixth/index.html
 ../2019-2020-s1-www-c-natem/sixth/style.css
 ../2019-2020-s1-www-c-natem/third/index.html
+../2019-2020-s1-www-c-oliverg/Paralax/Blank/code.js
+../2019-2020-s1-www-c-oliverg/Paralax/Blank/index.html
+../2019-2020-s1-www-c-oliverg/Paralax/Blank/style.css
 ../2019-2020-s1-www-c-oliverg/fifth/fifth/code.js
 ../2019-2020-s1-www-c-oliverg/fifth/fifth/index.html
 ../2019-2020-s1-www-c-oliverg/fifth/fifth/nike.html
@@ -254,13 +310,22 @@
 ../2019-2020-s1-www-c-oliverg/first/index.html
 ../2019-2020-s1-www-c-oliverg/fourth/index.html
 ../2019-2020-s1-www-c-oliverg/second/index.html
+../2019-2020-s1-www-c-oliverg/sixth/Blank/Action.html
+../2019-2020-s1-www-c-oliverg/sixth/Blank/Drama.html
+../2019-2020-s1-www-c-oliverg/sixth/Blank/Street (1).html
+../2019-2020-s1-www-c-oliverg/sixth/Blank/Street.html
+../2019-2020-s1-www-c-oliverg/sixth/Blank/Warfare (1).html
+../2019-2020-s1-www-c-oliverg/sixth/Blank/Warfare.html
 ../2019-2020-s1-www-c-oliverg/sixth/Blank/code.js
 ../2019-2020-s1-www-c-oliverg/sixth/Blank/index.html
 ../2019-2020-s1-www-c-oliverg/sixth/Blank/style.css
 ../2019-2020-s1-www-c-oliverg/third/index.html
 ../2019-2020-s1-www-c-tristanl/FinalProject/code.js
 ../2019-2020-s1-www-c-tristanl/FinalProject/index.html
+../2019-2020-s1-www-c-tristanl/FinalProject/mainPage/code.js
 ../2019-2020-s1-www-c-tristanl/FinalProject/mainPage/downloadMemory.html
+../2019-2020-s1-www-c-tristanl/FinalProject/mainPage/downloadSpeed.html
+../2019-2020-s1-www-c-tristanl/FinalProject/mainPage/downloadStorage.html
 ../2019-2020-s1-www-c-tristanl/FinalProject/mainPage/logo.png
 ../2019-2020-s1-www-c-tristanl/FinalProject/mainPage/style.css
 ../2019-2020-s1-www-c-tristanl/FinalProject/style.css
@@ -301,42 +366,12 @@
 ../2019-2020-s1-www-c-tristanl/csgoWebsiteCopy(Fourth)/images/valveLogo.png
 ../2019-2020-s1-www-c-tristanl/csgoWebsiteCopy(Fourth)/index.html
 ../2019-2020-s1-www-c-tristanl/csgoWebsiteCopy(Fourth)/style.css
-../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/code.js
-../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/StarJediSpecial/StarJediSpecial.ttf
-../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/StarJediSpecial/StarJediSpecial.woff
-../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/StarJediSpecial/StarJediSpecial.woff2
-../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/StarJediSpecial/demo.html
-../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/StarJediSpecial/stylesheet.css
-../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/gerry/Gerry.otf
-../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/gerry/Gerry.ttf
-../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/gerry/Gerry.woff
-../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/gerry/Gerry.woff2
-../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/gerry/demo.html
-../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/gerry/stylesheet.css
-../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/matrix/demo.html
-../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/matrix/matrix.ttf
-../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/matrix/matrix.woff
-../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/matrix/matrix.woff2
-../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/matrix/stylesheet.css
-../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/gerry.html
-../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/index.html
-../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/pageSpecificCSS/gerry.css
-../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/pageSpecificCSS/matrix.css
-../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/pageSpecificCSS/starJedi.css
-../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/starWars.html
-../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/style.css
-../2019-2020-s1-www-c-tristanl/form(seventh)/code.js
-../2019-2020-s1-www-c-tristanl/form(seventh)/index.html
-../2019-2020-s1-www-c-tristanl/form(seventh)/style.css
+../2019-2020-s1-www-c-tristanl/form(eigth)/code.js
+../2019-2020-s1-www-c-tristanl/form(eigth)/index.html
+../2019-2020-s1-www-c-tristanl/form(eigth)/style.css
 ../2019-2020-s1-www-c-tristanl/helloWorld/index.html
 ../2019-2020-s1-www-c-tristanl/introductionWebsite(First)/hubble25thanniversaryimage.jpg
 ../2019-2020-s1-www-c-tristanl/introductionWebsite(First)/index.html
-../2019-2020-s1-www-c-tristanl/parallax(seventh)/code.js
-../2019-2020-s1-www-c-tristanl/parallax(seventh)/images/blackCat.jpg
-../2019-2020-s1-www-c-tristanl/parallax(seventh)/images/nyanCat.jpg
-../2019-2020-s1-www-c-tristanl/parallax(seventh)/images/orangeCat.jpg
-../2019-2020-s1-www-c-tristanl/parallax(seventh)/index.html
-../2019-2020-s1-www-c-tristanl/parallax(seventh)/style.css
 ../2019-2020-s1-www-c-tristanl/rowspawnColspan(Third)/index.html
 ../2019-2020-s1-www-c-tristanl/rowspawnColspan(Third)/style.css
 ../2019-2020-s1-www-c-yassinm/fifth/code.js
@@ -362,8 +397,11 @@
 ../2019-2020-s1-www-c-yudais/fifth/fifth/obsolete.html
 ../2019-2020-s1-www-c-yudais/fifth/fifth/private.html
 ../2019-2020-s1-www-c-yudais/fifth/fifth/style.css
+../2019-2020-s1-www-c-yudais/final/amazon.html
 ../2019-2020-s1-www-c-yudais/final/code.js
+../2019-2020-s1-www-c-yudais/final/common.html
 ../2019-2020-s1-www-c-yudais/final/index.html
+../2019-2020-s1-www-c-yudais/final/killer.html
 ../2019-2020-s1-www-c-yudais/final/style.css
 ../2019-2020-s1-www-c-yudais/first/index.html
 ../2019-2020-s1-www-c-yudais/fourth/index.html

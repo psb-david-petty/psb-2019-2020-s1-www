@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Electric Cars</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="code.js"></script>
+  </head>
+  
+  <body onload="return hideShow('#output', '#input');">
+    <header>
+        <h1 style="text-align:center;"> Electric Vehicles</h1>
+    </header>
+    
+    <div class="navbar">
+       <a href="index.html">Home</a>
+       <a href="type.html">Prices</a>
+       <a href="table.html">Charging Stations</a>
+  
+             <div class="dropdown">
+                 <button class="dropbtn">Types 
+          <i class="fa fa-caret-down"></i>
+              </button>
+             <div class="dropdown-content">
+               <a href="prices.html">BEV</a>
+             <a href="prices2.html">PHEV</a>
+           <a href="prices1.html">HEV</a>
+       </div>
+        </div> 
+         </div>
+    <br>
+    
+    <div class="bgimg-1"></div>
+      
+               
+    <main>
+      <section>
+        <h2>What are Electric Vehicles?</h2>
+        <article>
+          <p>Electric vehicles (EV's) have an electric motor instead of an internal combustion engine. 
+          The vehicle uses a large traction battery pack to power the electric motor and must be plugged
+          in to a charging station or wall outlet to charge. Because it runs on electricity, the vehicle
+          emits no exhaust from a tailpipe and does not con-tain the typical liquid fuel components, such
+          as a fuel pump, fuel line, or fuel tank. </p>
+        </article>
+      </section>
+      <section>
+           <h2> Why Electric Cars?</h2>
+          <article>
+              <p> Electric vehicles reduce emissions and even save you money.
+
+          Fueling with electricity offers some advantages not available in conventional internal combustion engine vehicles.
+          Because electric motors react quickly, EVs are very responsive and have very good torque.  EVs are often more digitally
+          connected than conventional vehicles, with many EV charging stations providing the option to control charging from a
+          smartphone app. 
+          <br><br>
+          Just like a smartphone, you can plug in your EV when you get home and have it ready for you to use the next morning.
+          Since the electric grid is available almost anywhere, there are a variety of options for charging: at home, at work
+          or on the road. By charging often, you may never need to go to a gas station again! 
+          <br><br>
+          But EVs provide more than just individual benefits.  EVs can help the United States have a greater diversity of fuel
+          choices available for transportation. The U.S. used nearly nine billion barrels of petroleum last year, two-thirds
+          of which went towards transportation. Our reliance on petroleum makes us vulnerable to price spikes and supply
+          disruptions. EVs help reduce this threat because almost all U.S. electricity is produced from domestic sources,
+          including coal, nuclear, natural gas, and renewable sources. 
+          <br><br>
+          EVs can also reduce the emissions that contribute to climate change and smog, improving public health and reducing
+          ecological damage. Charging your EV on renewable energy such as solar or wind minimizes these emissions even more.
+          See the difference  in emissions between a conventional vehicle and an EV using the calculator on the right.</p>
+         
+         <br> <br>
+         <hr>
+         
+         <aside>
+      <section>
+        <h2>WIN A TESLA!</h2>
+        <p>This year, Tesla is collaborating with Electric Vehicles.co and by filling out the boxes below, you'll automatically enter the winning contest!  </p>
+        <article id="input">
+        <form onsubmit="return show('#input', '#output');" data-valid="gender agree">
+        First name:<br>
+        <input type="text" name="firstname">
+        <br><br>
+        Last name:<br>
+        <input type="text" name="lastname">
+        <br><br>
+        Gender:<br>
+        <input type="radio" name="gender" value="male" class="gender" checked> Male<br>
+        <input type="radio" name="gender" value="female" class="gender" > Female<br>
+        <input type="radio" name="gender" value="other" class="gender" > Other<br><br>
+           
+        Phone #:<br>
+        <input type="tel" name="phone">
+        <br><br>
+        E-mail address:<br>
+        <input type="email" name="email">
+        <br><br>
+        <input type="checkbox" name="agree" class="agree" value="#" required>I agree to the <a href="#">terms and conditions. </a>
+        <br><br>
+        <input type="submit" value="submit">
+        </form> 
+        </article>
+        
+         <article id="output">
+          <h1>JavaScript Template (outputs)</h1>
+            <p>This is your last name: <span id="lastname"></span></p>
+            <p>This is your first name: <span id="firstname"></span></p>
+            <p>This is your pg#1: <span id="phone"></span></p>
+            <p>This is your pg@1: <span id="email"></span></p>
+            <p>This is your gender: <span id="gender"></span></p>
+            <p>This is your consent: <span id="agree"></span></p>
+            <p><input type="button" name="reset" value="Reset" onClick="return hideShow('#output', '#input');"></p>
+        </article>
+      </section>
+    </aside>
+    
+    <hr>
+    <footer>
+      <section>
+        <article>
+          <h5><b>Websites</b></h5>
+          <ul style="font-size:12px">
+              <li> <a href="https://www.energysage.com/electric-vehicles/costs-and-benefits-evs/evs-vs-fossil-fuel-vehicles/"> energysage </a></li>
+              <li><a href="https://www.evgo.com/why-evs/types-of-electric-vehicles/"> EVgo </a></li>
+              <li><a href="https://www.ergon.com.au/network/smarter-energy/electric-vehicles/benefits-of-electric-vehicles"> Ergon </a></li>
+              <li><a href="https://www.energy.gov/eere/electricvehicles/electric-vehicle-benefits"> Energy.gov </a></li>
+              <li><a href="https://www.canstarblue.com.au/electricity/whats-cheaper-electricity-or-gas/"> canstarblue </a></li>
+              <li><a href="https://www.energy.gov/eere/electricvehicles/saving-fuel-and-vehicle-costs">Energy.gov 2</a></li>
+          </ul>
+        </article>
+      </section>
+    </footer>
+  </body>
+</html>

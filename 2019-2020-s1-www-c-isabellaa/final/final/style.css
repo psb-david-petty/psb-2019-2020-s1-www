@@ -37,25 +37,25 @@ section img {
 
 /* OTHER PAGES */
 .galaxy {
-  background-image: url('https://thenypost.files.wordpress.com/2019/09/killing-galaxy.jpg?quality=80&strip=all&strip=all');
+  background-image: url('https://vignette.wikia.nocookie.net/starwars/images/1/1d/Endor_BF2.png/revision/latest?cb=20171014232605');
   height: 100vh;
   background-position: center;
   background-size: cover;
 }
 .light-side {
-  background-image: url('https://thenypost.files.wordpress.com/2019/09/killing-galaxy.jpg?quality=80&strip=all&strip=all');
+  background-image: url('https://vignette.wikia.nocookie.net/starwars/images/f/f4/ProcessionalWay-Deceived.png/revision/latest?cb=20121119202111');
   height: 100vh;
   background-position: center;
   background-size: cover;
 }
 .dark-side {
-  background-image: url('https://thenypost.files.wordpress.com/2019/09/killing-galaxy.jpg?quality=80&strip=all&strip=all');
+  background-image: url('https://www.syfy.com/sites/syfy/files/styles/1200x680/public/2019/10/screen-shot-2019-10-22-at-10.08.32-am.png');
   height: 100vh;
   background-position: center;
   background-size: cover;
 }
 .quiz {
-  background-image: url('https://thenypost.files.wordpress.com/2019/09/killing-galaxy.jpg?quality=80&strip=all&strip=all');
+  background-image: url('https://wallpapercave.com/wp/wp2903046.jpg');
   height: 100vh;
   background-position: center;
   background-size: cover;
@@ -123,10 +123,39 @@ nav>ul>li:hover>ul>li:hover ul {
   background: white;
   margin-left: 20%;
   margin-right: 20%;
-  top: 0;
   bottom: 0;
-  border: thin white solid;
-  height: 100%;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+article {
+  border: thin solid;
+  display: inline-flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+figure {
+  padding: 0;
+  margin: .5em;
+}
+figure img {
+  max-height: 200px;
+  max-width: 100%;
+}
+figcaption {
+  color: darkgray;
+  font-size: 12px;
+}
+figcaption a {
+  color: darkgray;
+  font-style: italic;
+  text-decoration: none;
+}
+figcaption a:hover {
+  color: gray;
+  font-weight: bold;
+  font-style: italic;
 }
 
 /* PARALLAX SCROLLING */ 
@@ -165,7 +194,10 @@ nav>ul>li:hover>ul>li:hover ul {
 }
 .static1 {
   background-image: url('https://vignette.wikia.nocookie.net/starwars/images/f/f4/ProcessionalWay-Deceived.png/revision/latest?cb=20121119202111');
-  border: thick black solid;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .bg2::after {
   background-image: url('https://www.syfy.com/sites/syfy/files/styles/1200x680/public/2019/10/screen-shot-2019-10-22-at-10.08.32-am.png');
@@ -176,5 +208,8 @@ nav>ul>li:hover>ul>li:hover ul {
 }
 .static2 {
   background-image: url('https://vignette.wikia.nocookie.net/starwars/images/1/1d/Endor_BF2.png/revision/latest?cb=20171014232605');
-  border: thick black solid;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }

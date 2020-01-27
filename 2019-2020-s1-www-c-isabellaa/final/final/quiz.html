@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>galaxy</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&amp;display=swap" rel="stylesheet">
+</head>
+
+<body class="quiz">
+
+  <header>
+    <h1>STAR WARS</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="./galaxy.html">The Galaxy</a>
+        <ul>
+          <li><a href="#planets">Planets</a></li>
+          <li><a href="#inhabitants">Inhabitants</a></li>
+        </ul>
+      </li>
+      <li><a href="./light-side.html">The Light Side</a></li>
+      <li><a href="./dark-side.html">The Dark Side</a></li>
+      <li><a href="./quiz.html">Quiz</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h2>Which Star Wars character are you?</h2>
+    <form id="valid" data-valid="han-solo darth-vader luke-skywalker princess-leia">
+      <p>1. The Light Side or Dark Side?</p>
+      <input type="radio" name="1" value="han-solo"><label>I work for no one except myself - and the princess</label><br>
+      <input type="radio" name="1" value="darth-vader"><label>The Dark Side</label><br>
+      <input type="radio" name="1" value="luke-skywalker"><label>The Light Side</label><br>
+      <input type="radio" name="1" value="princess-leia"><label>I train in the ways of the Force and the Light Side is far more peaceful</label><br>
+      
+      <p>2. Who do you look up to?</p>
+      <input type="radio" name="2" value="darth-vader"><label>The Emperor</label><br>
+      <input type="radio" name="2" value="luke-skywalker"><label>All of the Jedi that came before me</label><br>
+      <input type="radio" name="2" value="princess-leia"><label>My parents</label><br>
+      <input type="radio" name="2" value="han-solo"><label>I dunno</label><br>
+      
+      <p>3. What color lightsaber would you have?</p>
+      <input type="radio" name="3" value="luke-skywalker"><label>Green</label><br>
+      <input type="radio" name="3" value=""><label>Blue</label><br>
+      <input type="radio" name="3" value="han-solo"><label>I'll stick to my blaster, thanks</label><br>
+      <input type="radio" name="3" value="darth-vader"><label>Red</label><br>
+      
+      <p>4. What's your favourite planet?</p>
+      <input type="radio" name="4" value="han-solo"><label>I don't really like staying in any one place at a time - I'll stick to my trusty ship</label><br>
+      <input type="radio" name="4" value="princess-leia"><label>Alderaan</label><br>
+      <input type="radio" name="4" value="luke-skywalker"><label>Ahch-to</label><br>
+      <input type="radio" name="4" value="darth-vader"><label>I hate Tattoine. I hate Mustafar. I hate everywhere. I'll stay on my star destroyer</label><br>
+      
+      <p>5. What do you hate the most in this world?</p>
+      <input type="radio" name="5" value="darth-vader"><label>Sand</label><br>
+      <input type="radio" name="5" value="luke-skywalker"><label>Imbalance in the Force</label><br>
+      <input type="radio" name="5" value="princess-leia"><label>Seeing people suffering</label><br>
+      <input type="radio" name="5" value="han-solo"><label>Losing a bet, and seeing my friends get hurt</label><br>
+    </form>
+
+    <input type="submit" onclick="return showAnswers();">
+    <p><strong>Your answers:</strong>
+      <span id="han-solo"></span>
+      <span id="darth-vader"></span>
+      <span id="luke-skywalker"></span>
+      <span id="princess-leia"></span>
+      You are a: &quot;<span id="answer"></span>&quot;
+    </p>
+
+    <article>
+      <figure data-key="han-solo">
+        <img src="https://lumiere-a.akamaihd.net/v1/images/open-uri20150608-27674-nfid8t_2aab8189.jpeg?region=0%2C0%2C1200%2C674" alt="Han Solo">
+        <figcaption>Image from <a href="https://www.starwars.com/databank/han-solo">Star Wars</a></figcaption>
+      </figure>
+      <figure data-key="darth-vader">
+        <img src="https://lumiere-a.akamaihd.net/v1/images/Darth-Vader_6bda9114.jpeg?region=0%2C23%2C1400%2C785&amp;width=960" alt="Darth Vader">
+        <figcaption>Image from <a href="https://www.starwars.com/databank/darth-vader">Star Wars</a></figcaption>
+      </figure>
+      <figure data-key="luke-skywalker">
+        <img src="https://lumiere-a.akamaihd.net/v1/images/luke-skywalker-i-am-a-jedi_fce1d84d.jpeg?region=204%2C0%2C414%2C413" alt="Luke Skywalker">
+        <figcaption>Image from <a href="https://www.starwars.com/databank/luke-skywalker"></a>Star Wars</figcaption>
+      </figure>
+      <figure data-key="princess-leia">
+        <img src="https://lumiere-a.akamaihd.net/v1/images/leia_6d2292da.jpeg?region=97%2C107%2C1652%2C827&amp;width=600" alt="Princess Leia">
+        <figcaption>Image from <a href="https://www.starwars.com/databank/leia-organa">Star Wars</a>S</figcaption>
+      </figure>
+    </article>
+    
+    <br><br><br>
+  </main>
+
+  <aside></aside>
+
+  <footer></footer>
+</body>.1

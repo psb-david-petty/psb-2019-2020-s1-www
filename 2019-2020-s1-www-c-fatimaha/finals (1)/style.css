@@ -1,0 +1,179 @@
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  text-align:left;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family:'Abel', sans-serif;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family:'Abel', sans-serif;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-family:'Abel', sans-serif;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.center {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+        
+.content-table {
+  border-collapse:collapse;
+  margin:25px;
+  font-size:0.9em;
+  min-width:400px;
+  border-radius:5px 5px 0 0;
+  overflow:hidden;
+  box-shadow:0 0 20px rgba(0, 0, 0, 0.15);
+}
+    
+.content-table th {
+  background-color:#383838;
+  color: #ffffff;
+  text-align:left;
+  font-weight:bold;
+}    
+        
+.content-table th,
+.content-table td{
+  padding:12px 15px;
+}
+        
+.content-table tbody tr{
+  border-bottom:1px solid #cccccc;
+            
+}
+        
+.content-table tbody tr:nth-of-type(even){
+  background-color:#e6e6e6;
+}
+        
+.content-table tbody tr:last-of-type{
+  border-bottom:2px solid #383838;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: black;
+}
+
+.bgimg-1{
+  position: relative;
+  opacity: 0.9;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform:scaleY(1.04);
+  perspective:800px;
+}
+
+.bgimg-1 {
+  background-image: url("https://image.cnbcfm.com/api/v1/image/106141453-1569002923097evporsche_taycan_turbo_2019_porsche_ag.jpg?v=1569003053&w=1400&h=950");
+  min-height: 100%;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: black;
+}
+
+.caption .border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: black;
+}
+
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
+
+p {
+    font-family: 'Abel', sans-serif; 
+    text-align:justify;
+}
+
+Header {
+    font-family: 'Orbitron', sans-serif;
+}
+
+h2 {
+     font-family: 'Abel', sans-serif; 
+}
+
+ul {
+     font-family:'Bebas Neue', cursive;
+}
+
+figcaption {
+    font-family: 'Exo 2', sans-serif;
+}
+
+
