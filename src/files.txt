@@ -37,6 +37,10 @@
 ../2019-2020-s1-www-c-avinr/news-again/code.js
 ../2019-2020-s1-www-c-avinr/news-again/index.html
 ../2019-2020-s1-www-c-avinr/news-again/style.css
+../2019-2020-s1-www-c-brendanc/Final Project/Blank/1.html
+../2019-2020-s1-www-c-brendanc/Final Project/Blank/2.html
+../2019-2020-s1-www-c-brendanc/Final Project/Blank/3.html
+../2019-2020-s1-www-c-brendanc/Final Project/Blank/Untitled document.html
 ../2019-2020-s1-www-c-brendanc/Final Project/Blank/code.js
 ../2019-2020-s1-www-c-brendanc/Final Project/Blank/index.html
 ../2019-2020-s1-www-c-brendanc/Final Project/Blank/style.css
@@ -45,6 +49,7 @@
 ../2019-2020-s1-www-c-brendanc/fifth/3.html
 ../2019-2020-s1-www-c-brendanc/fifth/4.html
 ../2019-2020-s1-www-c-brendanc/fifth/5.html
+../2019-2020-s1-www-c-brendanc/fifth/6.html
 ../2019-2020-s1-www-c-brendanc/fifth/code.js
 ../2019-2020-s1-www-c-brendanc/fifth/index.html
 ../2019-2020-s1-www-c-brendanc/fifth/style.css
@@ -127,6 +132,7 @@
 ../2019-2020-s1-www-c-fatimaha/fifth/prices2.html
 ../2019-2020-s1-www-c-fatimaha/fifth/style.css
 ../2019-2020-s1-www-c-fatimaha/fifth/type.html
+../2019-2020-s1-www-c-fatimaha/finals/code.js
 ../2019-2020-s1-www-c-fatimaha/finals/index.html
 ../2019-2020-s1-www-c-fatimaha/finals/prices.html
 ../2019-2020-s1-www-c-fatimaha/finals/prices1.html

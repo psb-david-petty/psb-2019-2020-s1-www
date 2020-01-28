@@ -22,9 +22,9 @@
                     <th><div class="dropdown">
   <button class="dropbtn">Season 1</button>
   <div class="dropdown-content">
-  <a href="#">Episode 1</a>
-  <a href="#">Episode 2</a>
-  <a href="#">Episode 3</a>
+  <a href="1.html">Episode 1</a>
+  <a href="2.html">Episode 2</a>
+  <a href="3.html">Episode 3</a>
   </div>
 </div></th>
               <th><div class="dropdown">
@@ -60,6 +60,27 @@
                     <h1></h1>
                 </section>
             </main>
+            <article id="input">
+      <h1>Please Answer this One Questions</h1>
+      <p>Add form below&hellip;</p>
+      <form id="form" onsubmit="return show('#input', '#output');" data-valid="mood color">
+      <fieldset>
+
+            <form>
+    <p>Are You Interested In Listening to a Podcast?</p>
+      <input type="radio" name="1" value="0" class="color"> Yes<br>
+      <input type="radio" name="1" value="0" class="color"> No<br>
+      
+      <input type="submit">
+        </fieldset>
+      </form>
+    </article>
+      <article id="output">
+      <h1>Thanks</h1>
+      
+
+      <p><input type="button" name="reset" value="Reset" onClick="return hideShow('#output', '#input');"></p>
+    </article>
         </main>    
         <footer>
             <h1></h1>
@@ -72,7 +93,3 @@
 
 
 
-
-
-
-/th

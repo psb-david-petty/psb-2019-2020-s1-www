@@ -93,10 +93,8 @@ function showMaps(maps) {
         if (node) {
             for (let key of map.keys()) {
                 /* ADD CHECKBOX / RADIO MAP PROCESSING HERE */
-                // node.innerHTML = `${mapsKey}=${Array.from(map)}`
+                node.innerHTML = `${mapsKey}=${Array.from(map)}`
                     + ' /* DO SOMETHING WITH THESE VALUES */';
-                //
-                node.innerHTML = `${map.get('1')} / ${map.get('1') + map.get('0')}`;
             }
             logHTML(selector);
         }
