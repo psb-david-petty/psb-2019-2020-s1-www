@@ -1,0 +1,45 @@
+body {
+  font-family: Verdanatomic Age;
+  margin: 0;
+}
+
+.bold {font-weight: bold;}
+
+h1 {
+  background-color: MidnightBLue;
+}
+
+.header {
+  padding: 50px;
+  text-align: center;
+  background: MidnightBLue;
+  color: #ccffff;
+  font-size: 25px;
+}
+
+a { color: #ccffff;}
+
+
+.content {
+    font-family: sans-serif;
+    color: black;
+    background-color: azurezur;
+    padding:20px;}
+    
+    .foot
+     {background-color: black}
+    
+    .SPECIAL {
+         padding: 50px;
+  text-align: left;
+  background: FloralWhite;
+  font-family: "verdana";
+  font-size: 15px;
+        background-color: gainsboro;
+    }
+    
+    .packages {
+    font-family: sans-serif;
+    color: #ccffff;
+    background-color: MidnightBLue;
+    padding:20px;}

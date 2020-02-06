@@ -216,6 +216,8 @@
 ../2019-2020-s1-www-c-isabellaa/sixth/sixth/index.html
 ../2019-2020-s1-www-c-isabellaa/sixth/sixth/style.css
 ../2019-2020-s1-www-c-isabellaa/third/index.html
+../2019-2020-s1-www-c-josephv/Commercial/index.html
+../2019-2020-s1-www-c-josephv/Commercial/style.css
 ../2019-2020-s1-www-c-josephv/Eighth/code.js
 ../2019-2020-s1-www-c-josephv/Eighth/index.html
 ../2019-2020-s1-www-c-josephv/Eighth/style.css
