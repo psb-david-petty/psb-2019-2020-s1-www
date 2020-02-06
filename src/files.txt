@@ -275,6 +275,16 @@
 ../2019-2020-s1-www-c-kaitlynh/fifth/womens.css
 ../2019-2020-s1-www-c-kaitlynh/final/Tranquility .html
 ../2019-2020-s1-www-c-kaitlynh/final/code.js
+../2019-2020-s1-www-c-kaitlynh/final/final images/567A6ED9-9524-4248-98A7-5E37E2DDC98F.jpg
+../2019-2020-s1-www-c-kaitlynh/final/final images/IMG_0012 (1).jpg
+../2019-2020-s1-www-c-kaitlynh/final/final images/IMG_1122.jpg
+../2019-2020-s1-www-c-kaitlynh/final/final images/IMG_1669.png
+../2019-2020-s1-www-c-kaitlynh/final/final images/IMG_1674.jpg
+../2019-2020-s1-www-c-kaitlynh/final/final images/IMG_1675.jpg
+../2019-2020-s1-www-c-kaitlynh/final/final images/IMG_1676.jpg
+../2019-2020-s1-www-c-kaitlynh/final/final images/IMG_1677.jpg
+../2019-2020-s1-www-c-kaitlynh/final/final images/IMG_1678.jpg
+../2019-2020-s1-www-c-kaitlynh/final/final images/IMG_2555.jpg
 ../2019-2020-s1-www-c-kaitlynh/final/form.css
 ../2019-2020-s1-www-c-kaitlynh/final/form.html
 ../2019-2020-s1-www-c-kaitlynh/final/index.html
@@ -429,7 +439,7 @@
 ../2019-2020-s1-www-c-yudais/final/code.js
 ../2019-2020-s1-www-c-yudais/final/common.html
 ../2019-2020-s1-www-c-yudais/final/index.html
-../2019-2020-s1-www-c-yudais/final/killer.html
+../2019-2020-s1-www-c-yudais/final/killerwhale.html
 ../2019-2020-s1-www-c-yudais/final/style.css
 ../2019-2020-s1-www-c-yudais/first/index.html
 ../2019-2020-s1-www-c-yudais/fourth/index.html
