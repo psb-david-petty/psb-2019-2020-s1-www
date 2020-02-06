@@ -305,6 +305,9 @@
 ../2019-2020-s1-www-c-natem/sixth/index.html
 ../2019-2020-s1-www-c-natem/sixth/style.css
 ../2019-2020-s1-www-c-natem/third/index.html
+../2019-2020-s1-www-c-oliverg/Descriptive/Blank/code.js
+../2019-2020-s1-www-c-oliverg/Descriptive/Blank/index.html
+../2019-2020-s1-www-c-oliverg/Descriptive/Blank/style.css
 ../2019-2020-s1-www-c-oliverg/Paralax/Blank/code.js
 ../2019-2020-s1-www-c-oliverg/Paralax/Blank/index.html
 ../2019-2020-s1-www-c-oliverg/Paralax/Blank/style.css
