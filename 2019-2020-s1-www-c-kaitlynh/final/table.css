@@ -1,0 +1,126 @@
+body {
+    background-color: white;
+}
+
+.left {
+
+    background-image:url("https://wallpapercave.com/wp/Uf4wzuy.jpg");
+    background-repeat:no-repeat;
+    width:1600px;
+
+}
+.cont {
+
+    font-size: 60px;
+    letter-spacing: 15px;
+    position: relative;
+    top: 70px;
+    line-height: 0px;
+    font-stretch:semi-condensed;
+    left:95px;
+
+
+}
+.ents {
+        font-size: 70px;
+    letter-spacing: 10px;
+    position: relative;
+    top: 80px;
+    line-height: 0px;
+    font-stretch:semi-condensed;
+    text-align:center;
+    right:250px;
+}
+
+main {
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    
+
+
+}
+
+.content {
+
+padding-left:5%;
+
+}
+
+.cover {
+    width: 60%;
+}
+
+.table {
+    width: 60%;
+}
+
+.letter {
+    width: 60%;
+}
+
+.tranquility {
+    width: 60%;
+}
+
+.yoga {
+    width: 60%;
+}
+
+.influence {
+    width: 60%;
+}
+
+.self {
+    width: 60%;
+}
+
+.blogging {
+    width: 60%;
+}
+
+.post {
+    width: 40%;
+}
+
+.back {
+    width: 60%;
+}
+
+#title {
+    font-size: 60%;
+}
+
+#info {
+    font-weight: lighter;
+    font-size: 80%;
+}
+#island {
+    position:absolute;
+    top:25%;
+}
+footer {
+    display: flex;
+    background-color: black;
+ 
+
+}
+
+footer li {
+    display: inline-flex;
+    justify-content:center;
+    flex-direction:row;
+    width: 100%;
+    font-size: 13px;
+    background-color: black;
+    color: white;
+    letter-spacing: .9px;
+
+}
+footer li {
+    display: inline;
+    font-size: 13px;
+    background-color: black;
+    color: white;
+    letter-spacing: .9px;
+}

@@ -1,0 +1,62 @@
+header {
+    font-size: 70px;
+    letter-spacing: 10px;
+    text-align: center;
+    position: relative;
+    top: 80px;
+    line-height: 0px;
+    font-stretch:semi-condensed;
+}
+
+main {
+    background-image: url("https://s27135.pcdn.co/wp-content/uploads/2019/01/Phuket-island-hopping-islands-you-can-visit-as-a-day-tip-from-Phuket-Thailand-878x585.jpg.optimal.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+    background-size:cover;
+    height: 125vh;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    background-position: center top;
+
+}
+#top-text {
+    position: absolute;
+    top: 30%;
+    letter-spacing:3px;
+}
+#body-spirit-mind {
+    position:absolute;
+    top:125%;
+    left:3%;
+    width:30%;
+}
+#voicing-your-significance {
+    position:absolute;
+    top:125%;
+    left:35%;
+    width:30%;
+}
+#creating-a-culture {
+    position:absolute;
+    top:125%;
+    left:67%;
+    width:30%;
+}
+#icon {
+    position:absolute;
+    top:142%;
+    right:2%;
+    font-size:40px;
+    text-decoration: none;
+}
+a:link {
+  color: white;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+    color:grey;
+}

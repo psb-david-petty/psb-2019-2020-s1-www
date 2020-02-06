@@ -273,6 +273,20 @@
 ../2019-2020-s1-www-c-kaitlynh/fifth/sale.html
 ../2019-2020-s1-www-c-kaitlynh/fifth/style.css
 ../2019-2020-s1-www-c-kaitlynh/fifth/womens.css
+../2019-2020-s1-www-c-kaitlynh/final/Tranquility .html
+../2019-2020-s1-www-c-kaitlynh/final/code.js
+../2019-2020-s1-www-c-kaitlynh/final/form.css
+../2019-2020-s1-www-c-kaitlynh/final/form.html
+../2019-2020-s1-www-c-kaitlynh/final/index.html
+../2019-2020-s1-www-c-kaitlynh/final/letter.css
+../2019-2020-s1-www-c-kaitlynh/final/letter.html
+../2019-2020-s1-www-c-kaitlynh/final/style.css
+../2019-2020-s1-www-c-kaitlynh/final/table.css
+../2019-2020-s1-www-c-kaitlynh/final/table.html
+../2019-2020-s1-www-c-kaitlynh/final/tranquility.css
+../2019-2020-s1-www-c-kaitlynh/final/tranquility.html
+../2019-2020-s1-www-c-kaitlynh/final/yoga.css
+../2019-2020-s1-www-c-kaitlynh/final/yoga.html
 ../2019-2020-s1-www-c-kaitlynh/first/index.html
 ../2019-2020-s1-www-c-kaitlynh/fourth/images/Lifestyle-Blogger-Sai-De-Silva-Shares-How-To-Work-Through-Creative-Blocks-And-Prevent-Burnout-.jpg
 ../2019-2020-s1-www-c-kaitlynh/fourth/images/iconfinder-blog-24x24.png

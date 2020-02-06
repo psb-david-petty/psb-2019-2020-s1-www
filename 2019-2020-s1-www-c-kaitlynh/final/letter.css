@@ -1,0 +1,42 @@
+
+
+header {
+    position: absolute;
+    top: 90;
+    font-size: 22px;
+
+    letter-spacing: 5px;
+}
+
+main {
+
+    display: flex;
+    height: 500px;
+    flex-flow: row wrap;
+    justify-content: space-around; 
+}
+
+.letter {
+    font-size: 13px;
+    width: 350px;
+    height: 0px;
+    margin: auto;
+
+}
+
+footer {
+    display: flex;
+    background-color: black;
+    text-decoration: none;
+
+}
+
+
+
+footer li {
+    display: inline;
+    font-size: 13px;
+    background-color: black;
+    color: white;
+    letter-spacing: .9px;
+}

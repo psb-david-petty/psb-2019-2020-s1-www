@@ -1,0 +1,6 @@
+main {
+    display:flex;
+}
+#form {
+    justify-content:center;
+}
