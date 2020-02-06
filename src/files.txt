@@ -222,9 +222,7 @@
 ../2019-2020-s1-www-c-josephv/Fifth/code.js
 ../2019-2020-s1-www-c-josephv/Fifth/index.html
 ../2019-2020-s1-www-c-josephv/Fifth/style.css
-../2019-2020-s1-www-c-josephv/First/code.js
 ../2019-2020-s1-www-c-josephv/First/index.html
-../2019-2020-s1-www-c-josephv/First/style.css
 ../2019-2020-s1-www-c-josephv/Fourth/code.js
 ../2019-2020-s1-www-c-josephv/Fourth/index.html
 ../2019-2020-s1-www-c-josephv/Fourth/style.css
