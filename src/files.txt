@@ -380,6 +380,12 @@
 ../2019-2020-s1-www-c-tristanl/helloWorld/index.html
 ../2019-2020-s1-www-c-tristanl/introductionWebsite(First)/hubble25thanniversaryimage.jpg
 ../2019-2020-s1-www-c-tristanl/introductionWebsite(First)/index.html
+../2019-2020-s1-www-c-tristanl/parallax(seventh)/code.js
+../2019-2020-s1-www-c-tristanl/parallax(seventh)/images/blackCat.jpg
+../2019-2020-s1-www-c-tristanl/parallax(seventh)/images/nyanCat.jpg
+../2019-2020-s1-www-c-tristanl/parallax(seventh)/images/orangeCat.jpg
+../2019-2020-s1-www-c-tristanl/parallax(seventh)/index.html
+../2019-2020-s1-www-c-tristanl/parallax(seventh)/style.css
 ../2019-2020-s1-www-c-tristanl/rowspawnColspan(Third)/index.html
 ../2019-2020-s1-www-c-tristanl/rowspawnColspan(Third)/style.css
 ../2019-2020-s1-www-c-yassinm/fifth/code.js
