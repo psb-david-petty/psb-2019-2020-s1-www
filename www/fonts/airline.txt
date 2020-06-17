@@ -1,0 +1,507 @@
+1 2002-4 Airline.pdf
+
+
+
+
+
+Airline
+(2002
+A4/AB1
+–
+ported)
+Consider the problem of assigning passengers to
+seats on airline flights. Three types of
+information are needed – passenger information, seat
+information, and flight information. Three
+classes will be used to represent this information, respectively:
+Passenger
+,
+Seat
+,
+and
+Flight
+.
+You will write three methods for the
+Flight
+class:
+(a)
+emptySeatCount
+that returns the number of empty seats of a specified type,
+(b)
+findBlock
+that returns information about the location of an empty block of seats, and
+(c)
+assignGroup
+that attempts to assign a group of passengers to adjacent seats.
+Passenger information is contained in objects of the
+Passenger
+class which includes a name
+and other information. A default passenger, used to indicate “no passenger” in a seat, has the
+empty string
+""
+as its name. The declaration for class
+Passenger
+is as follows.
+public class Passenger
+{
+/** Constructs a default passenger with name "" */
+public Passenger() { ... }
+/** @returns passenger's name */
+public String getName() { ... }
+//
+There may be instance variables, constr
+uctors, and methods that are not shown.
+}
+Seat information includes the passenger assigned to the seat and the type of the seat
+(“window”, “aisle”, “middle”). The
+Seat
+method
+getPassenger
+returns the passenger
+assigned to the seat; if the seat is empty,
+getPassenger
+returns a default passenger. The
+declaration for the class
+Seat
+is as follows.
+public class Seat
+{
+/** @return the passenger in this seat */
+public Passenger getPassenger() { ... }
+/** @return the type of this seat */
+public String getType() { ... }
+/** Assigns a passenger
+* Postcondition: GetPassenger() == passenger
+* @param passenger the passenger to be assigned to this seat
+*/
+public void setPassenger(Passenger passenger) { ... }
+//
+There may be instance variables, constr
+uctors, and methods that are not shown.
+}
+©
+2002
+The
+College
+Board
+Page
+1
+
+
+
+1 2002-4 Airline.pdf
+Details
+Size
+645.69 KB
+View all details
+
+1 2002-4 Airline.pdf
+
+
+
+
+
+Seat assignments are processed by the public methods of the class
+Flight
+. The seating
+arrangement is represented internally
+by a matrix of seats in the class
+Flight
+. The declaration
+for the class
+Flight
+is as follows.
+public class Flight
+{
+/** The seats on a flight */
+private Seat[][] mySeats;
+/** Gets the empty seat count
+* @param seatType the type of empty seat to count
+* @return the number of empty seats whose type is seatType;
+* if seatType is "any", returns the total number
+* of all empty seats
+*/
+public int emptySeatCount(String seatType)
+{
+/*
+to be implemented in part (a)
+*/
+}
+/** Finds a block of adjacent empty seats
+* @param row the row to be searched for empty seats
+* @param seatsNeeded the number of empty adjacent seats needed
+* @return the column index of the first (lowest index) seat
+* in a block of seatsNeeded adjacent empty seats
+* in the specified row;
+* -1 if no such block exists.
+*/
+public int findBlock(int row, int seatsNeeded)
+{
+/*
+to be implemented in part (b)
+*/
+}
+/** Assigns adjacent empty seats for a group of passengers
+* Postcondition: if possible, assigns the group.size() Passengers
+* from group to adjacent empty seats in a single row;
+* Otherwise no changes are made.
+* @return true if the group was assigned seats;
+* false otherwise.
+*/
+public boolean assignGroup(List<Passenger> group)
+{
+/*
+to be implemented in part (c)
+*/
+}
+//
+There may be instance variables, constr
+uctors, and methods that are not shown.
+}
+©
+2002
+The
+College
+Board
+Page
+2
+
+
+
+1 2002-4 Airline.pdf
+Details
+Size
+645.69 KB
+View all details
+
+1 2002-4 Airline.pdf
+
+
+
+
+
+(a) You will write the
+Flight
+method
+emptySeatCount
+, which is described as follows.
+emptySeatCount
+returns the number of empty seats of the specified type
+seatType
+.
+Recall that an empty seat holds a default passenger whose name is
+""
+.
+If
+seatType
+is
+"any"
+, then every empty seat should be counted in determining the number of empty seats.
+Otherwise, only seats whose type is the same as
+seatType
+are counted in determining the
+number of empty seats.
+For example, consider the diagram of passengers assigned to seats as stored in
+mySeats
+for
+Flight ap2002
+as shown below.
+The following table shows several examples of calling
+emptySeatCount
+for this flight.
+Method Call Value Returned
+ap2002.emptySeatCount("aisle") 3
+ap2002.emptySeatCount("window") 0
+ap2002.emptySeatCount("middle") 1
+ap2002.emptySeatCount("any")
+4
+Complete method
+emptySeatCount
+on the next page.
+©
+2002
+The
+College
+Board
+Page
+3
+
+
+
+1 2002-4 Airline.pdf
+Details
+Size
+645.69 KB
+View all details
+
+1 2002-4 Airline.pdf
+
+
+
+
+
+Complete method
+emptySeatCount
+below.
+/** Gets the empty seat count
+* @param seatType the type of empty seat to count
+* @return the number of empty seats whose type is seatType;
+* if seatType is "any", returns the total number
+* of all empty seats
+*/
+public int emptySeatCount(String seatType)
+©
+2002
+The
+College
+Board
+Page
+4
+
+
+
+1 2002-4 Airline.pdf
+Details
+Size
+645.69 KB
+View all details
+
+1 2002-4 Airline.pdf
+
+
+
+
+
+(b) You will write the
+Flight
+method
+findBlock
+, which is described as follows.
+findBlock
+searches for a block of
+seatsNeeded
+adjacent empty seats in the specified
+row
+. If such a block of seats is found,
+findBlock
+returns the column index of the first (i.e.,
+the lowest index) seat in the block; otherwise, it returns
+-1
+.
+The seating diagram for passengers of
+Flight ap2002
+is repeated here for your
+convenience.
+The following table shows several examples of calling
+findBlock
+for
+Flight ap2002
+as shown.
+Method Call Value Returned
+ap2002.findBlock(0, 1) 2
+or
+4
+ap2002.findBlock(0, 2) -1
+ap2002.findBlock(1, 2) 2
+Complete method
+findBlock
+on the next page.
+©
+2002
+The
+College
+Board
+Page
+5
+
+
+
+1 2002-4 Airline.pdf
+Details
+Size
+645.69 KB
+View all details
+
+1 2002-4 Airline.pdf
+
+
+
+
+
+
+
+
+Complete method
+findBlock
+below.
+/** Finds a block of adjacent empty seats
+* @param row the row to be searched for empty seats
+* @param seatsNeeded the number of empty adjacent seats needed
+* @return the column index of the first (lowest index) seat
+* in a block of seatsNeeded adjacent empty seats
+* in the specified row;
+* -1 if no such block exists.
+*/
+public int findBlock(int row, int seatsNeeded)
+©
+2002
+The
+College
+Board
+Page
+6
+
+
+
+1 2002-4 Airline.pdf
+Details
+Size
+645.69 KB
+View all details
+
+1 2002-4 Airline.pdf
+
+
+
+
+
+
+
+
+(c) You will write the
+Flight
+method
+assignGroup
+, which is described as follows. The
+parameter to the
+Flight
+method
+assignGroup
+is a list of passengers,
+group
+.
+These
+passengers require a block of adjacent seats in a single row.
+assignGroup
+searches for
+group.size()
+adjacent empty seats in some row. If such a block of seats is found, the
+passengers in
+group
+will be assigned to those seats, and
+assignGroup
+returns
+true
+.
+Otherwise, no passengers are assigned to seats, and
+assignGroup
+returns
+false
+.
+For example, the seats in
+Flight ap314
+are as shown in the first diagram below. If the
+array
+adults
+contains three passengers, the call
+ap314.assignGroup(adults)
+makes
+no changes to
+ap314
+and returns
+false
+,
+because there is no block of three adjacent
+empty seats in a single row. On the other hand, suppose the array
+kids
+contains
+passengers
+"Sam"
+and
+"Alex"
+. The call
+ap314.assignGroup(kids)
+will assign
+"Sam"
+and
+"Alex"
+to the seats shown in the second diagram below and return
+true
+.
+Contents
+of
+mySeats
+for
+ap314
+before any call to
+assignGroup
+Contents
+of
+mySeats
+for
+ap314
+after call to
+ap314.assignGroup(kids)
+In writing
+assignGroup
+,
+you may call
+findBlock
+specified in part (b). Assume that
+findBlock
+works as specified, regardless of what you wrote in part (b).
+Complete method
+assignGroup
+on the next page.
+©
+2002
+The
+College
+Board
+Page
+7
+
+
+
+1 2002-4 Airline.pdf
+Details
+Size
+645.69 KB
+View all details
+
+1 2002-4 Airline.pdf
+
+
+
+
+
+
+
+
+Complete method
+assignGroup
+below.
+/** Assigns adjacent empty seats for a group of passengers
+* Postcondition: if possible, assigns the group.size() Passengers
+* from group to adjacent empty seats in a single row;
+* Otherwise no changes are made.
+* @return true if the group was assigned seats;
+* false otherwise.
+*/
+public boolean assignGroup(List<Passenger> group)
+©
+2002
+The
+College
+Board
+Page
+8
+
+
+
+1 2002-4 Airline.pdf
+Details
+Size
+645.69 KB
+View all details
+

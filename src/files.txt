@@ -86,6 +86,7 @@
 ../2019-2020-s1-www-c-dusting/dropdown/index.html
 ../2019-2020-s1-www-c-dusting/dropdown/style.css
 ../2019-2020-s1-www-c-dusting/dustin's-final/code.js
+../2019-2020-s1-www-c-dusting/dustin's-final/final.html
 ../2019-2020-s1-www-c-dusting/dustin's-final/index.html
 ../2019-2020-s1-www-c-dusting/dustin's-final/skorpion.png
 ../2019-2020-s1-www-c-dusting/dustin's-final/style.css
@@ -276,7 +277,7 @@
 ../2019-2020-s1-www-c-kaitlynh/final/Tranquility .html
 ../2019-2020-s1-www-c-kaitlynh/final/code.js
 ../2019-2020-s1-www-c-kaitlynh/final/final images/567A6ED9-9524-4248-98A7-5E37E2DDC98F.jpg
-../2019-2020-s1-www-c-kaitlynh/final/final images/IMG_0012 (1).jpg
+../2019-2020-s1-www-c-kaitlynh/final/final images/IMG_0012.jpg
 ../2019-2020-s1-www-c-kaitlynh/final/final images/IMG_1122.jpg
 ../2019-2020-s1-www-c-kaitlynh/final/final images/IMG_1669.png
 ../2019-2020-s1-www-c-kaitlynh/final/final images/IMG_1674.jpg
@@ -329,6 +330,9 @@
 ../2019-2020-s1-www-c-natem/sixth/index.html
 ../2019-2020-s1-www-c-natem/sixth/style.css
 ../2019-2020-s1-www-c-natem/third/index.html
+../2019-2020-s1-www-c-oliverg/8th own webpage/Blank/code.js
+../2019-2020-s1-www-c-oliverg/8th own webpage/Blank/index.html
+../2019-2020-s1-www-c-oliverg/8th own webpage/Blank/style.css
 ../2019-2020-s1-www-c-oliverg/Descriptive/Blank/code.js
 ../2019-2020-s1-www-c-oliverg/Descriptive/Blank/index.html
 ../2019-2020-s1-www-c-oliverg/Descriptive/Blank/style.css
@@ -398,6 +402,30 @@
 ../2019-2020-s1-www-c-tristanl/csgoWebsiteCopy(Fourth)/images/valveLogo.png
 ../2019-2020-s1-www-c-tristanl/csgoWebsiteCopy(Fourth)/index.html
 ../2019-2020-s1-www-c-tristanl/csgoWebsiteCopy(Fourth)/style.css
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/code.js
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/StarJediSpecial/StarJediSpecial.ttf
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/StarJediSpecial/StarJediSpecial.woff
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/StarJediSpecial/StarJediSpecial.woff2
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/StarJediSpecial/demo.html
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/StarJediSpecial/stylesheet.css
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/gerry/Gerry.otf
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/gerry/Gerry.ttf
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/gerry/Gerry.woff
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/gerry/Gerry.woff2
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/gerry/demo.html
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/gerry/stylesheet.css
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/matrix/demo.html
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/matrix/matrix.ttf
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/matrix/matrix.woff
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/matrix/matrix.woff2
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/fonts/matrix/stylesheet.css
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/gerry.html
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/index.html
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/pageSpecificCSS/gerry.css
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/pageSpecificCSS/matrix.css
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/pageSpecificCSS/starJedi.css
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/starWars.html
+../2019-2020-s1-www-c-tristanl/descriptiveWebsiteAssignment(sixth)/style.css
 ../2019-2020-s1-www-c-tristanl/form(eigth)/code.js
 ../2019-2020-s1-www-c-tristanl/form(eigth)/index.html
 ../2019-2020-s1-www-c-tristanl/form(eigth)/style.css
@@ -412,14 +440,6 @@
 ../2019-2020-s1-www-c-tristanl/parallax(seventh)/style.css
 ../2019-2020-s1-www-c-tristanl/rowspawnColspan(Third)/index.html
 ../2019-2020-s1-www-c-tristanl/rowspawnColspan(Third)/style.css
-../2019-2020-s1-www-c-yassinm/fifth/code.js
-../2019-2020-s1-www-c-yassinm/fifth/index.html
-../2019-2020-s1-www-c-yassinm/fifth/sports.html
-../2019-2020-s1-www-c-yassinm/fifth/style.css
-../2019-2020-s1-www-c-yassinm/first/index.html
-../2019-2020-s1-www-c-yassinm/fourth/index.html
-../2019-2020-s1-www-c-yassinm/second/index.html
-../2019-2020-s1-www-c-yassinm/third/index.html
 ../2019-2020-s1-www-c-yudais/eighth/Blank/code.js
 ../2019-2020-s1-www-c-yudais/eighth/Blank/index.html
 ../2019-2020-s1-www-c-yudais/eighth/Blank/style.css
@@ -505,6 +525,7 @@
 ../www/first/first.md
 ../www/first/index.html
 ../www/first/monty-70x70.png
+../www/fonts/airline.txt
 ../www/fonts/fonts/Blueprint/BlueprintRegularSWFTE.woff
 ../www/fonts/fonts/Blueprint/BlueprintRegularSWFTE.woff2
 ../www/fonts/fonts/Blueprint/blueprint.ttf
@@ -665,6 +686,7 @@
 ../www/index.md
 ../www/news/index.html
 ../www/news/semantic.css
+../www/pride-flag.html
 ../www/second/index.html
 ../www/tables/colspanrowspan.html
 ../www/tables/colspanrowspanhint.html

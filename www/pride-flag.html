@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Pride</title>
+  </head>
+  <body>
+    <!-- design &amp; code by Maya - formatting by dcp -->
+    <main>
+      <canvas id="canvas" width="500" height="400"></canvas>
+      <script>
+        const canvas = document.getElementById("canvas");
+        const ctx = canvas.getContext("2d");
+        const amplitude = 10;
+        const frequency = 0.05;
+        const colors = ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Purple'];
+        const stripeHeight = (canvas.height - 2 * amplitude) / colors.length;
+        let currentCycle = 0;
+        drawFlag = function () {
+          ctx.clearRect(0, 0, canvas.width, canvas.height);
+          for (let i = 0; i < colors.length; i++) {
+            ctx.fillStyle = colors[i];
+            for (let j = 0; j < canvas.width; j++) {
+              yCoordinate = i * stripeHeight + amplitude * Math.sin(frequency * (j + currentCycle)) + amplitude;
+              ctx.fillRect(j, yCoordinate, 1, stripeHeight);
+            }
+          }
+          currentCycle++;
+        }; 
+        var intervalID = setInterval(drawFlag, 10);
+      </script>
+    </main>
+  </body>
+</html>
+
